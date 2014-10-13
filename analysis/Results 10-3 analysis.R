@@ -16,6 +16,7 @@ judgment.mean.rt= mean(judgments$rt)
 judgment.sd.rt = sd(judgments$rt)
 judgments = subset(judgments, (judgments$rt - judgment.mean.rt) < abs(2 * judgment.sd.rt))
 judgments$ratings = as.numeric(judgments$response) - 11 # ????
+### 'Respone' column of original CSV includes both strings for part 1 of experiment and integers for part 2. `Ratings' column is inteded to only include integers from part 2. When converting these to numeric, R added 11 to each number for unclear reasons. 
 
 ### HISTOGRAMS
 qplot(ratings, facets = definiteness ~ number, data=judgments)
