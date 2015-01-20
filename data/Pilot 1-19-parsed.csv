@@ -1,0 +1,201 @@
+WorkerId,SubmitTime,Answer 21,Answer 22,question_number,subject,animacy,number,definiteness,type,image,sentence,response,rt
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",20,football,inanimate,plural,definite,target,match,The footballs were specially designed for professional competition.,2,6198
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",6,butterfly,animate,plural,definite,target,mismatch,The butterflies migrated down to Mexico.,1,6284
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",7,kite,inanimate,singular,indefinite,target,match,A kite flies high in the sky.,1,4288
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",4,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,6950
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",5,camel,animate,plural,indefinite,target,mismatch,Camels drank water in the desert,5,10564
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",2,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,5118
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",3,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,5,4419
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",1,zebra,animate,singular,definite,example,match,The zebra is not extinct.,4,11654
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",8,penguin,animate,singular,definite,target,mismatch,The penguin lived in a cold climate.,1,4014
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",9,panda,animate,singular,indefinite,target,mismatch,A panda looks very cuddly.,2,6848
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",14,penguin,animate,plural,definite,target,mismatch,The penguins are used to cold. ,5,3890
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",15,couch,inanimate,singular,indefinite,target,mismatch,A couch has soft cushions.,1,2833
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",16,squirrel,animate,singular,definite,target,match,The squirrel gathered its nuts for the winter.,1,3367
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",17,turtle,animate,singular,indefinite,target,match,A turtle lives at the zoo,1,4052
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",10,zipper,inanimate,plural,indefinite,target,match,Zippers help hold up my pants,5,3969
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",11,tire,inanimate,plural,definite,target,match,The tires are round,5,3548
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",12,cheetah,animate,singular,definite,target,mismatch,The cheetah runs really fast.,5,3018
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",13,fence,inanimate,plural,indefinite,target,match,Fences make the yards in town look nicer.,5,4568
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",18,piano,inanimate,plural,indefinite,target,mismatch,Pianos are well tuned.,5,2833
+A1BQCRF5Q76YFY,Mon Jan 19 14:11:10 PST 2015,"""english""","""""",19,kangaroo,animate,singular,definite,target,match,The kangaroo likes to jump.,2,4120
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",20,kite,inanimate,plural,indefinite,target,mismatch,Kites Soared above,1,3379
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",6,lamp,inanimate,singular,indefinite,target,mismatch,A lamp gives a soft glow.,5,2549
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",7,cheetah,animate,plural,definite,target,mismatch,The cheetahs enjoy the kill,2,6224
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",4,zebra,animate,singular,definite,example,match,The zebra is not extinct.,5,2574
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",5,bed,inanimate,plural,indefinite,target,mismatch,Beds were slept in,1,7673
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",2,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,5,3053
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",3,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,5055
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",1,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,9811
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",8,lion,animate,singular,definite,target,mismatch,The lion stalks its prey.,2,3480
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",9,shirt,inanimate,singular,indefinite,target,match,A shirt needs to be ironed. ,1,4486
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",14,squirrel,animate,plural,indefinite,target,match,Squirrels keep stealing the bird seed from the feeders. ,1,3628
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",15,camel,animate,singular,definite,target,mismatch,The camel is in the desert.,2,3908
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",16,bear,animate,singular,indefinite,target,mismatch,A bear looks for food in garbage cans.,2,3621
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",17,elephant,animate,plural,definite,target,match,The elephants have long trunks.,5,2797
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",10,piano,inanimate,plural,definite,target,match,The pianos are hard to play.,4,6261
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",11,pig,animate,singular,definite,target,match,The pig sleeps in the mud.,4,5105
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",12,chair,inanimate,plural,indefinite,target,match,Chairs are needed for the cafeteria.,1,4160
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",13,knife,inanimate,plural,definite,target,mismatch,The knives are very sharp.,1,3371
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",18,cow,animate,singular,definite,target,match,The cow eats grass.,4,4179
+A2W3QPD493MHEI,Mon Jan 19 14:11:14 PST 2015,"""English""","""""",19,dog,animate,singular,indefinite,target,match,A dog likes to eat a bone.,5,2598
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",20,piano,inanimate,singular,definite,target,match,The piano sounds beautiful.,2,2693
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",6,pigeon,animate,singular,indefinite,target,match,A pigeon lives in the city,2,4594
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",7,lion,animate,plural,indefinite,target,match,Lions proweled the lands.,4,2830
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",4,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,5,3617
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",5,turtle,animate,singular,definite,target,mismatch,The turtle swims in the ocean.,5,4459
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",2,zebra,animate,singular,definite,example,match,The zebra is not extinct.,5,7240
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",3,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,2,3655
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",1,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,54297
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",8,panda,animate,plural,definite,target,match,The pandas are fun to watch.,5,2246
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",9,dolphin,animate,singular,definite,target,match,The dolphin can swim.,2,3552
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",14,owl,animate,singular,definite,target,mismatch,The owl hoots at night.,5,1980
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",15,knife,inanimate,singular,indefinite,target,mismatch,A knife is sharp.,3,2646
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",16,kangaroo,animate,plural,definite,target,mismatch,The kangaroos jump a lot,4,2326
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",17,car,inanimate,plural,indefinite,target,match,Cars moved noisily in the night.,4,2947
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",10,gorilla,animate,plural,indefinite,target,mismatch,Gorillas swing in trees.,4,2205
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",11,cow,animate,singular,indefinite,target,match,A cow chews its cud.,2,2504
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",12,bear,animate,plural,definite,target,match,The bears hibernated for the winter.,5,3261
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",13,towel,inanimate,plural,indefinite,target,mismatch,Towels are clean.,5,2605
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",18,zipper,inanimate,singular,indefinite,target,mismatch,A zipper closes the jacket.,1,3129
+A166A2M31CW2C7,Mon Jan 19 14:11:42 PST 2015,"""English""","""""",19,skunk,animate,plural,definite,target,mismatch,The skunks sometimes stink,5,6301
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",20,peacock,animate,singular,definite,target,mismatch,The peacock has beautiful feathers.,4,2689
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",6,television,inanimate,plural,indefinite,target,match,Televisions are on sale.,2,4928
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",7,lion,animate,plural,definite,target,mismatch,The lions roar.,4,3297
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",4,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,8803
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",5,cat,animate,singular,definite,target,mismatch,The cat purrs when it is content.,2,5284
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",2,zebra,animate,singular,definite,example,match,The zebra is not extinct.,4,3598
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",3,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,5267
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",1,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,4,36384
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",8,clock,inanimate,singular,indefinite,target,mismatch,A clock is well needed.,2,3289
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",9,gorilla,animate,singular,definite,target,match,The gorilla beats his chest.,2,3054
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",14,camel,animate,plural,definite,target,mismatch,The camels don't need as much water.,2,7136
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",15,boat,inanimate,plural,indefinite,target,mismatch,Boats sailed through the bay.,2,2609
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",16,owl,animate,singular,indefinite,target,mismatch,An owl is awake at night,4,3658
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",17,turtle,animate,plural,definite,target,match,The turtles are well-liked by some.,4,3391
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",10,pigeon,animate,plural,indefinite,target,mismatch,Pigeons eat bread in the park.,2,4182
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",11,toilet,inanimate,singular,indefinite,target,match,A toilet is in the bathroom.,1,4904
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",12,dog,animate,plural,definite,target,match,The dogs like to chase cats,1,4095
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",13,zipper,inanimate,singular,definite,target,match,The zipper fastens clothing.,4,6211
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",18,cow,animate,plural,indefinite,target,match,Cows were everywhere in the country.,4,2452
+A1FKZ2HY4XKMG1,Mon Jan 19 14:12:06 PST 2015,"""english""","""""",19,kangaroo,animate,singular,indefinite,target,match,A kangaroo jumps around.,2,2490
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",20,toilet,inanimate,singular,indefinite,target,mismatch,A toilet is in the bathroom.,2,2464
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",6,zipper,inanimate,singular,definite,target,mismatch,The zipper fastens clothing.,1,5823
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",7,owl,animate,singular,indefinite,target,match,An owl is awake at night,1,7528
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",4,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,52800
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",5,lion,animate,plural,definite,target,match,The lions roar.,4,7585
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",2,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,12846
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",3,zebra,animate,singular,definite,example,match,The zebra is not extinct.,4,11087
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",1,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,2,21431
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",8,boat,inanimate,plural,indefinite,target,match,Boats sailed through the bay.,2,5736
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",9,peacock,animate,singular,definite,target,match,The peacock has beautiful feathers.,4,4095
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",14,cow,animate,plural,indefinite,target,mismatch,Cows were everywhere in the country.,4,4136
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",15,clock,inanimate,singular,indefinite,target,match,A clock is well needed.,5,14422
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",16,turtle,animate,plural,definite,target,mismatch,The turtles are well-liked by some.,4,5408
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",17,cat,animate,singular,definite,target,match,The cat purrs when it is content.,1,4495
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",10,kangaroo,animate,singular,indefinite,target,mismatch,A kangaroo jumps around.,1,4904
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",11,camel,animate,plural,definite,target,match,The camels don't need as much water.,1,5840
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",12,pigeon,animate,plural,indefinite,target,match,Pigeons eat bread in the park.,4,5944
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",13,gorilla,animate,singular,definite,target,mismatch,The gorilla beats his chest.,2,7480
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",18,television,inanimate,plural,indefinite,target,mismatch,Televisions are on sale.,2,2344
+A3JENDY17M92H7,Mon Jan 19 14:12:33 PST 2015,"""English""","""""",19,dog,animate,plural,definite,target,mismatch,The dogs like to chase cats,2,7871
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",20,pig,animate,singular,definite,target,mismatch,The pig sleeps in the mud.,1,2482
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",6,lion,animate,singular,definite,target,match,The lion stalks its prey.,2,8785
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",7,knife,inanimate,plural,definite,target,match,The knives are very sharp.,1,4064
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",4,zebra,animate,singular,definite,example,match,The zebra is not extinct.,5,4360
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",5,chair,inanimate,plural,indefinite,target,mismatch,Chairs are needed for the cafeteria.,1,6042
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",2,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,6087
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",3,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,7965
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",1,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,5,17608
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",8,shirt,inanimate,singular,indefinite,target,mismatch,A shirt needs to be ironed. ,1,3965
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",9,camel,animate,singular,definite,target,match,The camel is in the desert.,1,5525
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",14,squirrel,animate,plural,indefinite,target,mismatch,Squirrels keep stealing the bird seed from the feeders. ,1,3380
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",15,bear,animate,singular,indefinite,target,match,A bear looks for food in garbage cans.,1,3363
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",16,cheetah,animate,plural,definite,target,match,The cheetahs enjoy the kill,1,3189
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",17,lamp,inanimate,singular,indefinite,target,match,A lamp gives a soft glow.,3,16013
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",10,piano,inanimate,plural,definite,target,mismatch,The pianos are hard to play.,2,25794
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",11,dog,animate,singular,indefinite,target,mismatch,A dog likes to eat a bone.,1,6820
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",12,bed,inanimate,plural,indefinite,target,match,Beds were slept in,2,4445
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",13,cow,animate,singular,definite,target,mismatch,The cow eats grass.,1,2098
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",18,elephant,animate,plural,definite,target,mismatch,The elephants have long trunks.,4,10279
+A3A7PGJTOGW6Y,Mon Jan 19 14:13:26 PST 2015,"""English""","""""",19,kite,inanimate,plural,indefinite,target,match,Kites Soared above,1,3105
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",20,gorilla,animate,singular,definite,target,match,The gorilla beats his chest.,4,2900
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",6,camel,animate,plural,definite,target,mismatch,The camels don't need as much water.,2,10808
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",7,peacock,animate,singular,definite,target,mismatch,The peacock has beautiful feathers.,4,3012
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",4,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,2276
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",5,kangaroo,animate,singular,indefinite,target,match,A kangaroo jumps around.,5,4685
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",2,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,5,1759
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",3,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,1802
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",1,zebra,animate,singular,definite,example,match,The zebra is not extinct.,5,4632
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",8,cow,animate,plural,indefinite,target,match,Cows were everywhere in the country.,1,2402
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",9,owl,animate,singular,indefinite,target,mismatch,An owl is awake at night,4,2283
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",14,dog,animate,plural,definite,target,match,The dogs like to chase cats,2,3612
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",15,cat,animate,singular,definite,target,mismatch,The cat purrs when it is content.,4,3844
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",16,pigeon,animate,plural,indefinite,target,mismatch,Pigeons eat bread in the park.,4,3383
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",17,toilet,inanimate,singular,indefinite,target,match,A toilet is in the bathroom.,2,2619
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",10,television,inanimate,plural,indefinite,target,match,Televisions are on sale.,1,2084
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",11,zipper,inanimate,singular,definite,target,match,The zipper fastens clothing.,5,2932
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",12,turtle,animate,plural,definite,target,match,The turtles are well-liked by some.,2,3036
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",13,clock,inanimate,singular,indefinite,target,mismatch,A clock is well needed.,4,3630
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",18,lion,animate,plural,definite,target,mismatch,The lions roar.,1,4519
+A27LGC4MU1R7PQ,Mon Jan 19 14:13:37 PST 2015,"""English""","""""",19,boat,inanimate,plural,indefinite,target,mismatch,Boats sailed through the bay.,1,2083
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",20,zipper,inanimate,plural,indefinite,target,match,Zippers help hold up my pants,4,4891
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",6,couch,inanimate,singular,indefinite,target,mismatch,A couch has soft cushions.,4,7188
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",7,butterfly,animate,plural,definite,target,mismatch,The butterflies migrated down to Mexico.,2,4149
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",4,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,7660
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",5,piano,inanimate,plural,indefinite,target,mismatch,Pianos are well tuned.,5,12398
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",2,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,5,7800
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",3,zebra,animate,singular,definite,example,match,The zebra is not extinct.,5,8275
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",1,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,10820
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",8,kangaroo,animate,singular,definite,target,match,The kangaroo likes to jump.,4,4717
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",9,fence,inanimate,plural,indefinite,target,match,Fences make the yards in town look nicer.,5,4423
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",14,tire,inanimate,plural,definite,target,match,The tires are round,2,5241
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",15,cheetah,animate,singular,definite,target,mismatch,The cheetah runs really fast.,4,4400
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",16,turtle,animate,singular,indefinite,target,match,A turtle lives at the zoo,1,3018
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",17,squirrel,animate,singular,definite,target,match,The squirrel gathered its nuts for the winter.,2,4342
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",10,penguin,animate,singular,definite,target,mismatch,The penguin lived in a cold climate.,4,5756
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",11,penguin,animate,plural,definite,target,mismatch,The penguins are used to cold. ,2,6079
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",12,panda,animate,singular,indefinite,target,mismatch,A panda looks very cuddly.,4,4974
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",13,camel,animate,plural,indefinite,target,mismatch,Camels drank water in the desert,5,36404
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",18,kite,inanimate,singular,indefinite,target,match,A kite flies high in the sky.,2,4191
+AMNWH1GJBI8PG,Mon Jan 19 14:13:38 PST 2015,"""English""","""""",19,football,inanimate,plural,definite,target,match,The footballs were specially designed for professional competition.,2,50215
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",20,fox,animate,singular,definite,target,mismatch,The fox is sly.,2,5904
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",6,bear,animate,singular,definite,target,match,The bear tries to catch salmon.,1,8929
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",7,shirt,inanimate,plural,indefinite,target,mismatch,"Shirts were made cheaply, but were low quality.",2,50110
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",4,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,10105
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",5,cow,animate,plural,definite,target,match,The cows provide milk and meat.,5,10640
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",2,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,1,14103
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",3,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,5,8792
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",1,zebra,animate,singular,definite,example,match,The zebra is not extinct.,4,16521
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",8,camel,animate,singular,indefinite,target,match,A camel is not thirsty.,2,27115
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",9,knife,inanimate,plural,indefinite,target,match,Knives cut the vegetables smoothly,4,6907
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",14,dolphin,animate,plural,definite,target,mismatch,The dolphins always travel together.,5,6822
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",15,television,inanimate,singular,indefinite,target,mismatch,A television hums when it is turned on.,1,8937
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",16,skunk,animate,singular,definite,target,mismatch,The skunk is smelly,5,6504
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",17,light bulb,inanimate,plural,definite,target,match,The light bulbs are expensive.,2,21899
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",10,shark,animate,plural,definite,target,mismatch,The sharks are vicious.,2,9028
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",11,elephant,animate,singular,indefinite,target,mismatch,An elephant is afraid of a mouse.,2,8804
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",12,panda,animate,singular,definite,target,match,The panda is black and white,4,7250
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",13,bicycle,inanimate,plural,indefinite,target,match,Bicycles can be seen on the roadway.,2,4920
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",18,cheetah,animate,plural,indefinite,target,mismatch,Cheetahs ran quickly through the wild,1,14010
+ANQG22MEKC96H,Mon Jan 19 14:13:59 PST 2015,"""english""","""""",19,lion,animate,singular,indefinite,target,match,A lion roars loudly.,2,5473
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",20,lamp,inanimate,singular,indefinite,target,mismatch,A lamp gives a soft glow.,1,10860
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",6,lion,animate,singular,definite,target,mismatch,The lion stalks its prey.,5,13144
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",7,elephant,animate,plural,definite,target,match,The elephants have long trunks.,5,13296
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",4,zebra,animate,singular,definite,example,match,The zebra is not extinct.,4,14950
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",5,bear,animate,singular,indefinite,target,mismatch,A bear looks for food in garbage cans.,2,15766
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",2,sword,inanimate,plural,indefinite,example,match,Swords are weapons.,5,18552
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",3,bus,inanimate,plural,definite,example,match,The buses were blocking traffic.,2,10079
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",1,mouse,animate,singular,indefinite,example,match,A mouse lives in my house.,1,25896
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",8,bed,inanimate,plural,indefinite,target,mismatch,Beds were slept in,2,8097
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",9,cheetah,animate,plural,definite,target,mismatch,The cheetahs enjoy the kill,4,8721
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",14,dog,animate,singular,indefinite,target,match,A dog likes to eat a bone.,4,23697
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",15,camel,animate,singular,definite,target,mismatch,The camel is in the desert.,4,4800
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",16,kite,inanimate,plural,indefinite,target,mismatch,Kites Soared above,2,10723
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",17,knife,inanimate,plural,definite,target,mismatch,The knives are very sharp.,2,6408
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",10,shirt,inanimate,singular,indefinite,target,match,A shirt needs to be ironed. ,1,9629
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",11,squirrel,animate,plural,indefinite,target,match,Squirrels keep stealing the bird seed from the feeders. ,2,8073
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",12,pig,animate,singular,definite,target,match,The pig sleeps in the mud.,4,8262
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",13,piano,inanimate,plural,definite,target,match,The pianos are hard to play.,4,8771
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",18,cow,animate,singular,definite,target,match,The cow eats grass.,2,5763
+A2CDT2Q9AIGV3C,Mon Jan 19 14:18:37 PST 2015,"""English""","""no""",19,chair,inanimate,plural,indefinite,target,match,Chairs are needed for the cafeteria.,2,7552
