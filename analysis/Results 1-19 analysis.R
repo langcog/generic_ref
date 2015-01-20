@@ -17,39 +17,6 @@ targets = subset(targets, (targets$rt - mean.rt) < abs(2 * sd.rt))
 
 ### HISTOGRAMS
 qplot(response, facets = definiteness ~ number, data=targets)
-qplot(response, facets = definiteness ~ animacy, data=targets)
-
-### PLOT WITHOUT ANIMACY
-mss <- ddply(targets, .(definiteness,number,WorkerId), summarise,
-             response = mean(response))
-
-ms <- ddply(mss, .(definiteness,number), summarise,
-            mean = mean(response),
-            cil = ci.low(response),
-            cih = ci.high(response))
-
-qplot(definiteness, mean, fill=number, 
-      group=number, stat="identity",
-      position=position_dodge(width=.9),
-      ymin=mean - cil, ymax=mean + cih,
-      geom=c("bar","linerange"),data=ms)
-
-### NOW WITH ANIMACY
-
-mssa <- ddply(targets, .(definiteness,number,animacy,WorkerId), summarise,
-              response = mean(response))
-
-msa <- ddply(mssa, .(definiteness,number,animacy), summarise,
-             mean = mean(response),
-             cil = ci.low(response),
-             cih = ci.high(response))
-
-qplot(definiteness, mean, fill=number, 
-      facets=.~animacy,
-      group=number, stat="identity",
-      position=position_dodge(width=.9),
-      ymin=mean - cil, ymax=mean + cih,
-      geom=c("bar","linerange"),data=msa)
 
 ### NOW WITH IMAGE AND WITHOUT ANIMACY
 mssa <- ddply(targets, .(definiteness,number,image,WorkerId), summarise,
@@ -60,54 +27,46 @@ msa <- ddply(mssa, .(definiteness,number,image), summarise,
              cil = ci.low(response),
              cih = ci.high(response))
 
-qplot(definiteness, mean, fill=number, 
-      facets=.~image,
-      group=number, stat="identity",
-      position=position_dodge(width=.9),
+qplot(image, mean, col=definiteness, lty=number, 
+      group=interaction(definiteness,number),
       ymin=mean - cil, ymax=mean + cih,
-      geom=c("bar","linerange"),data=msa)
-
-### NOW WITH IMAGE AND ANIMACY
-mssa <- ddply(targets, .(definiteness,number,image,animacy,WorkerId), summarise,
-              response = mean(response))
-
-msa <- ddply(mssa, .(definiteness,number,image,animacy), summarise,
-             mean = mean(response),
-             cil = ci.low(response),
-             cih = ci.high(response))
-
-qplot(definiteness, mean, fill=number, 
-      facets=animacy~image,
-      group=number, stat="identity",
-      position=position_dodge(width=.9),
-      ymin=mean - cil, ymax=mean + cih,
-      geom=c("bar","linerange"),data=msa)
+      geom=c("line", "linerange"),     
+      position=position_dodge(width=.05),
+      data=msa) + 
+  ylim(c(1,5)) + 
+  ylab("Mean Genericity Rating")
 
 ### MODEL WE SHOULD BE FITTING
-mod <- lmer(response ~ animacy * definiteness * number + 
-              (animacy * definiteness * number | WorkerId) + 
-              (definiteness * number | subject), data=targets)
+mod <- lmer(response ~ image * definiteness * number + 
+              (image | WorkerId), 
+            data=targets)
 
-### FASTER MODEL
-mod <- lmer(response ~ animacy * definiteness * number * image + 
-              (animacy + definiteness + number  | WorkerId) + 
-              (definiteness + number | subject), data=targets)
 
-### FASTER MODEL WITHOUT ANIMACY
-mod <- lmer(response ~ definiteness * number * image + 
-              (definiteness + number  | WorkerId) + 
-              (definiteness + number | subject), data=targets)
+mod2 <- lmer(response ~ image + definiteness + number + 
+              (image | WorkerId), 
+            data=targets)
 
-mssa <- ddply(targets, .(definiteness,number,image,WorkerId), summarise,
-              response = mean(response))
+anova(mod,mod2)
 
-msa <- ddply(mssa, .(definiteness,number,image), summarise,
-             mean = mean(response),
-             cil = ci.low(response),
-             cih = ci.high(response))
+mod3 <- lmer(response ~ image + (image | WorkerId), 
+             data=targets)
 
-qplot(image, mean, color=number, 
-      facets=.~definiteness,
-      group=number, stat="identity",
-      ymin=mean - cil, ymax=mean + cih,
-      geom=c("line","linerange"),data=msa)
+anova(mod,mod3)
+
+summary(mod3)
+
+### sentence by sentence
+library(dplyr)
+
+sms <- targets %>% 
+  group_by(sentence, definiteness, number, image) %>%
+  summarise(response = mean(response)) %>%
+  spread(image, response) %>%
+  mutate(mismatch_diff = mismatch - match) 
+  
+qplot(mismatch_diff, facets= number ~ definiteness, 
+      binwidth=.25,
+      data=sms)
+
+as.data.frame(sms %>% top_n(n = 10, wt = mismatch_diff))
+sms %>% top_n(n = 10, wt = -mismatch_diff)

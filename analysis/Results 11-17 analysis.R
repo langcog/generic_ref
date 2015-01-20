@@ -62,12 +62,18 @@ msa <- ddply(mssa, .(definiteness,number,image), summarise,
              cil = ci.low(ratings),
              cih = ci.high(ratings))
 
-qplot(definiteness, mean, fill=number, 
-      facets=.~image,
-      group=number, stat="identity",
-      position=position_dodge(width=.9),
+quartz()
+qplot(image, mean, col=number, lty=definiteness,
+      group=interaction(number,definiteness),
       ymin=mean - cil, ymax=mean + cih,
-      geom=c("bar","linerange"),data=msa)
+      geom=c("line","pointrange"), data=msa) +
+  geom_dl(aes(label=interaction(number, definiteness)), 
+          method=list("last.qp", cex=.8, hjust=-.15)) + 
+  theme(legend.position = "none") +
+  ylim(c(1,5)) + 
+  ylab("Mean Genericity Rating") + 
+  xlab("Picture/Plurality Relationship") + 
+  ggtitle("Participant Ratings on Experiment 2")
 
 ### NOW WITH IMAGE and Animacy
 mssa <- ddply(judgments, .(definiteness,number,image,animacy,WorkerId), summarise,
