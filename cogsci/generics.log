@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  24 JAN 2015 16:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  24 JAN 2015 17:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -138,61 +138,33 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
-
-
-LaTeX Warning: Citation `NewellSimon1972a' undefined on input line 140.
-
-
-LaTeX Warning: Citation `ChalnickBillman1988a' undefined on input line 144.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
-[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
-]
-
-LaTeX Warning: Citation `Feigenbaum1963a' undefined on input line 230.
-
-
-LaTeX Warning: Citation `Hill1983a' undefined on input line 231.
-
-
-LaTeX Warning: Citation `OhlssonLangley1985a' undefined on input line 232.
-
-
-LaTeX Warning: Citation `Matlock2001' undefined on input line 234.
-
-
-LaTeX Warning: Citation `ShragerLangley1990a' undefined on input line 236.
-
-No file generics.bbl.
-[2
-
-] (./generics.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (./generics.bbl)
+[2] (./generics.aux) ) 
 Here is how much of TeX's memory you used:
- 957 strings out of 493488
- 12046 string characters out of 3141325
- 70144 words of memory out of 3000000
- 4301 multiletter control sequences out of 15000+200000
- 35490 words of font info for 72 fonts, out of 3000000 for 9000
+ 974 strings out of 493488
+ 12376 string characters out of 3141325
+ 69144 words of memory out of 3000000
+ 4315 multiletter control sequences out of 15000+200000
+ 36626 words of font info for 73 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 26i,9n,21p,139b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-
-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on generics.pdf (2 pages, 47367 bytes).
+ 26i,9n,21p,768b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/
+8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on generics.pdf (2 pages, 61709 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 28 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
