@@ -82,4 +82,80 @@ Gelman, S\BPBI A.%
 \APACjournalVolNumPages{Child Development}{74}{1}{308--325}.
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Krifka%
+\ \protect \BOthers {.}}{%
+Krifka%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+Krifka:1995}
+\APACinsertmetastar {%
+Krifka:1995}%
+\begin{APACrefauthors}%
+Krifka, M.%
+, Pelletier, F\BPBI J.%
+, Carlson, G\BPBI N.%
+, ter Meulen, A.%
+, Link, G.%
+\BCBL {}\ \BBA {} Chierchia, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Genericity: An Introduction} {Genericity: An
+  introduction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {The {G}eneric {B}ook} {The {G}eneric {B}ook}\ (\BPGS\
+  1--124).
+\newblock
+\APACaddressPublisher{Chicago}{The University of Chicago Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lyons%
+}{%
+Lyons%
+}{%
+{\protect \APACyear {1977}}%
+}]{%
+Lyons:1977}
+\APACinsertmetastar {%
+Lyons:1977}%
+\begin{APACrefauthors}%
+Lyons, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1977}.
+\newblock
+\APACrefbtitle {Semantics: Volume 1} {Semantics: Volume 1}.
+\newblock
+\APACaddressPublisher{New York}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Prasada%
+}{%
+Prasada%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+Prasada:2000}
+\APACinsertmetastar {%
+Prasada:2000}%
+\begin{APACrefauthors}%
+Prasada, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Acquiring generic knowledge} {Acquiring generic
+  knowledge}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Trends in Cognitive Science}{4}{2}{66--72}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
