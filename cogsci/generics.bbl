@@ -1,187 +1,85 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Chalnick%
-\ \BBA {} Billman%
+Cimpian%
+\ \BBA {} Markman%
 }{%
-Chalnick%
-\ \BBA {} Billman%
+Cimpian%
+\ \BBA {} Markman%
 }{%
-{\protect \APACyear {1988}}%
+{\protect \APACyear {2008}}%
 }]{%
-ChalnickBillman1988a}
+Cimpian:2008}
 \APACinsertmetastar {%
-ChalnickBillman1988a}%
+Cimpian:2008}%
 \begin{APACrefauthors}%
-Chalnick, A.%
-\BCBT {}\ \BBA {} Billman, D.%
+Cimpian, A.%
+\BCBT {}\ \BBA {} Markman, E.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1988}{}{}.
+\APACrefYearMonthDay{2008}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Unsupervised learning of correlational structure}
-  {Unsupervised learning of correlational structure}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Preschool children's use of cues to generic meaning}
+  {Preschool children's use of cues to generic meaning}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the Tenth Annual Conference of the
-  Cognitive Science Society} {Proceedings of the tenth annual conference of the
-  cognitive science society}\ (\BPGS\ 510--516).
-\newblock
-\APACaddressPublisher{Hillsdale, NJ}{Lawrence Erlbaum Associates}.
+\APACjournalVolNumPages{Cognition}{107}{1}{19--53}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Feigenbaum%
+Cimpian%
+, Meltzer%
+\BCBL {}\ \BBA {} Markman%
 }{%
-Feigenbaum%
-}{%
-{\protect \APACyear {1963}}%
+Cimpian%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
 }]{%
-Feigenbaum1963a}
+Cimpian:2011}
 \APACinsertmetastar {%
-Feigenbaum1963a}%
+Cimpian:2011}%
 \begin{APACrefauthors}%
-Feigenbaum, E\BPBI A.%
+Cimpian, A.%
+, Meltzer, T\BPBI J.%
+\BCBL {}\ \BBA {} Markman, E.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1963}{}{}.
+\APACrefYearMonthDay{2011}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The simulation of verbal learning behavior} {The
-  simulation of verbal learning behavior}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Preschoolers' Use of Morphosyntactic Cues to Identify
+  Generic Sentences: Indefinite Singular Noun Phrases, Tense, and Aspect}
+  {Preschoolers' use of morphosyntactic cues to identify generic sentences:
+  Indefinite singular noun phrases, tense, and aspect}.{\BBCQ}
 \newblock
-\BIn{} E\BPBI A.~Feigenbaum\ \BBA {} J.~Feldman\ (\BEDS), \APACrefbtitle
-  {Computers and thought.} {Computers and thought.}
-\newblock
-\APACaddressPublisher{New York}{McGraw-Hill}.
+\APACjournalVolNumPages{Child Development}{82}{5}{1561--1578}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Hill%
+Gelman%
+\ \BBA {} Raman%
 }{%
-Hill%
+Gelman%
+\ \BBA {} Raman%
 }{%
-{\protect \APACyear {1983}}%
+{\protect \APACyear {2003}}%
 }]{%
-Hill1983a}
+Gelman:2003}
 \APACinsertmetastar {%
-Hill1983a}%
+Gelman:2003}%
 \begin{APACrefauthors}%
-Hill, J\BPBI A\BPBI C.%
+Gelman, S\BPBI A.%
+\BCBT {}\ \BBA {} Raman, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1983}{}{}.
+\APACrefYearMonthDay{2003}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A computational model of language acquisition in the
-  two-year old} {A computational model of language acquisition in the two-year
-  old}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Preschool Children Use Linguistic Form Class and
+  Pragmatic Cues to Interpret Generics} {Preschool children use linguistic form
+  class and pragmatic cues to interpret generics}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Cognition and Brain Theory}{6}{}{287--317}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Matlock%
-}{%
-Matlock%
-}{%
-{\protect \APACyear {2001}}%
-}]{%
-Matlock2001}
-\APACinsertmetastar {%
-Matlock2001}%
-\begin{APACrefauthors}%
-Matlock, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2001}.
-\newblock
-\APACrefbtitle {How real is fictive motion?} {How real is fictive motion?}
-\newblock
-Doctoral dissertation, Psychology Department, University of California, Santa
-  Cruz.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Newell%
-\ \BBA {} Simon%
-}{%
-Newell%
-\ \BBA {} Simon%
-}{%
-{\protect \APACyear {1972}}%
-}]{%
-NewellSimon1972a}
-\APACinsertmetastar {%
-NewellSimon1972a}%
-\begin{APACrefauthors}%
-Newell, A.%
-\BCBT {}\ \BBA {} Simon, H\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1972}.
-\newblock
-\APACrefbtitle {Human problem solving} {Human problem solving}.
-\newblock
-\APACaddressPublisher{Englewood Cliffs, NJ}{Prentice-Hall}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Ohlsson%
-\ \BBA {} Langley%
-}{%
-Ohlsson%
-\ \BBA {} Langley%
-}{%
-{\protect \APACyear {1985}}%
-}]{%
-OhlssonLangley1985a}
-\APACinsertmetastar {%
-OhlssonLangley1985a}%
-\begin{APACrefauthors}%
-Ohlsson, S.%
-\BCBT {}\ \BBA {} Langley, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1985}{}{}.
-\newblock
-\APACrefbtitle {Identifying solution paths in cognitive diagnosis} {Identifying
-  solution paths in cognitive diagnosis}\ \APACbVolEdTR{}{\BTR{}\ \BNUM\
-  CMU-RI-TR-85-2}.
-\newblock
-\APACaddressInstitution{Pittsburgh, PA}{Carnegie Mellon University, The
-  Robotics Institute}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Shrager%
-\ \BBA {} Langley%
-}{%
-Shrager%
-\ \BBA {} Langley%
-}{%
-{\protect \APACyear {1990}}%
-}]{%
-ShragerLangley1990a}
-\APACinsertmetastar {%
-ShragerLangley1990a}%
-\begin{APACrefauthors}%
-Shrager, J.%
-\BCBT {}\ \BBA {} Langley, P.%
-\end{APACrefauthors}%
-\ (\BEDS).
-\unskip\
-\newblock
-\APACrefYear{1990}.
-\newblock
-\APACrefbtitle {Computational models of scientific discovery and theory
-  formation} {Computational models of scientific discovery and theory
-  formation}.
-\newblock
-\APACaddressPublisher{San Mateo, CA}{Morgan Kaufmann}.
+\APACjournalVolNumPages{Child Development}{74}{1}{308--325}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
