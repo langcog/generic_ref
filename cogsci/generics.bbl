@@ -56,6 +56,32 @@ Cimpian, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Frank%
+\ \BBA {} Goodman%
+}{%
+Frank%
+\ \BBA {} Goodman%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Frank:2012}
+\APACinsertmetastar {%
+Frank:2012}%
+\begin{APACrefauthors}%
+Frank, M\BPBI C.%
+\BCBT {}\ \BBA {} Goodman, N\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Predicting Pragmatic Reasoning in Language Games}
+  {Predicting pragmatic reasoning in language games}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{336}{6084}{998}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Gelman%
 \ \BBA {} Raman%
 }{%
@@ -111,6 +137,29 @@ Krifka, M.%
   1--124).
 \newblock
 \APACaddressPublisher{Chicago}{The University of Chicago Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Levy%
+}{%
+Levy%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+Levy:2008}
+\APACinsertmetastar {%
+Levy:2008}%
+\begin{APACrefauthors}%
+Levy, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Expectation-based syntactic comprehension}
+  {Expectation-based syntactic comprehension}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cognition}{106}{3}{1126--1177}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
