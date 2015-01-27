@@ -129,7 +129,7 @@ Experiment 2A investigated the role of context as a cue to identifying generics.
 
 \subsubsection{Procedure} \quad The procedure was the same as that in Experiment 1. For the four example items, two items were randomly chosen to have matching images, the other items had mismatching images. As in Experiment 1, the order of items in both parts of the experiment were pseudorandomized with counterbalancing to ensure that no two consecutive items used subject NPs with the same number and definiteness features. The order of images was not controlled.
 
-\subsubsection{Data Analysis} \quad We excluded 2 participants for indicating that their native language was not English. Thus, responses from 98 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean for the second part of the experiment.
+\subsubsection{Data Analysis} \quad We excluded 2 participants for indicating that their native language was not English. Thus, responses from 98 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean for the second part of the experiment were excluded from the analysis.
 
 \begin{figure}[t]
 \begin{center}
@@ -163,7 +163,7 @@ The stimuli were presented in a manner similar to part two of Experiment 2A. How
 
 \subsubsection{Procedure} \quad The procedure was the same as that for part 2 of Experiments 1 and 2A. Participants were instructed to pay attention to the images they saw and consider what the other Mechanical Turk worker was thinking when he/she produced each sentence. For the four example items, two items were randomly chosen to have matching images, the other items had mismatching images. Participants did not receive any feedback after providing genericity judgments for the four example items. As in Experiments 1 and 2A, the order of items in both parts of the experiment were pseudorandomized with counterbalancing to ensure that no two consecutive items used subject NPs with the same number and definiteness features. The order of images was not controlled.
 
-\subsubsection{Data Analysis} \quad We excluded 5 participants for indicating that their native language was not English. Thus, responses from 185 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean for the second part of the experiment.
+\subsubsection{Data Analysis} \quad We excluded 5 participants for indicating that their native language was not English. Thus, responses from 185 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded from the analysis.
 
 \subsection{Results \& Discussion}
 
@@ -189,10 +189,15 @@ The stimuli for the second part of this experiment were drawn from those used in
 
 In part two, the procedure was identical to that of Experiment 2B. 
 
-\subsubsection{Data Analysis} \quad
+\subsubsection{Data Analysis} \quad For calculating the mean ratings for sentences in part one, we excluded 1 participant for indicating that their native language was not English. Thus, responses from 109 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded. For the second part of the experiment, we excluded 5 participants for indicating that their native language was not English. Thus, responses from 95 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded.
 
 \subsection{Results \& Discussion}
 
+Paragraph about figure.
+
+As with the previous experiments, results from the second part of Experiment 3 were analyzed with linear mixed-effects model. We compared two models. The first predicted genericity rating from number, definiteness, image, and their interactions. The second predicted genericity rating from image alone.\footnote{The two model specifications were as follows: \texttt{response} \(\sim\) \texttt{definiteness * number * image + (image | WorkerId)} and \texttt{response} \(\sim\) \texttt{image + (image | WorkerId)}.} There was no significant difference between the fits of the two models (\(\chi^2(6) = 2.738, p > 0.1\)), so we opted for the minimal model. 
+
+The model reveled that sentences presented with mismatching images were rated significantly more generic than those presented with matching images (\(\beta = 0.326, t = 4.192, p < 0.001\)), consistent with the findings from Experiments 2A and 2B. The effect of contextual referent appears consistently, in both production and comprehension. However, we did not see an effect size larger than those found in Experiments 2A and 2B. Thus, we do not have evidence that the failure of an NP to refer in context is a stronger cue for sentences that are more ambiguous between generic and non-generic interpretations. One puzzling result from Experiment 3 was that 25 sentences whose mean genericity ratings were higher when presented with a matching picture than when presented with a mismatching picture. Inspection of these items did not reveal any clear reasons why this was the case.
 
 \section{General Discussion}
 
