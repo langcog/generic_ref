@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  26 JAN 2015 22:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  26 JAN 2015 22:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**generics.tex
-(./generics.tex
+**cogsci_template.tex
+(./cogsci_template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
@@ -78,31 +78,39 @@ Package: apacite 2012/02/25 v6.01 APA citation
 \bibparsep=\skip45
 \bibitemsep=\skip46
 \biblabelsep=\skip47
-) (./generics.aux
-
-LaTeX Warning: Label `sample-table' multiply defined.
-
 )
-\openout1 = `generics.aux'.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/dblfloatfix/dblfloatfix.sty
+Package: dblfloatfix 2003/11/18 v1.0 (MH)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 40
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+\@dblbotnum=\count88
+\c@dblbotnumber=\count89
+)
+(./cogsci_template.aux)
+\openout1 = `cogsci_template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 39
 .
- (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omspzccm.fd
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-\c@maskedRefs=\count88
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+\c@maskedRefs=\count90
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2012/02/25 v6.01 apacite language file
@@ -110,89 +118,91 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 42
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 41
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 42
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 41
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 42
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 41
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
- [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+
+
+LaTeX Warning: Citation `NewellSimon1972a' undefined on input line 113.
+
+
+LaTeX Warning: Citation `ChalnickBillman1988a' undefined on input line 117.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\OT1/pcr/m/n/9 + definiteness + number | WorkerId) + (definiteness +
- []
+LaTeX Warning: Citation `Feigenbaum1963a' undefined on input line 203.
 
-[2]
 
-LaTeX Warning: Citation `NewellSimon1972a' undefined on input line 180.
+LaTeX Warning: Citation `Hill1983a' undefined on input line 204.
 
-[3] (./generics.bbl
-Underfull \hbox (badness 1173) in paragraph at lines 152--167
-\OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
- []
 
-) [4] (./generics.aux)
+LaTeX Warning: Citation `OhlssonLangley1985a' undefined on input line 205.
+
+
+LaTeX Warning: Citation `Matlock2001' undefined on input line 207.
+
+
+LaTeX Warning: Citation `ShragerLangley1990a' undefined on input line 209.
+
+No file cogsci_template.bbl.
+[2
+
+] (./cogsci_template.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 1009 strings out of 493488
- 12788 string characters out of 3141325
- 74144 words of memory out of 3000000
- 4345 multiletter control sequences out of 15000+200000
- 39448 words of font info for 79 fonts, out of 3000000 for 9000
+ 1003 strings out of 493488
+ 12930 string characters out of 3141325
+ 71782 words of memory out of 3000000
+ 4343 multiletter control sequences out of 15000+200000
+ 34637 words of font info for 69 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 26i,9n,21p,1334b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,9n,21p,159b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on generics.pdf (4 pages, 100724 bytes).
+exlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on cogsci_template.pdf (2 pages, 39255 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 20 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
