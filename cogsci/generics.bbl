@@ -244,8 +244,7 @@ Krifka, M.%
 {\BBOQ}\APACrefatitle {Genericity: An Introduction} {Genericity: An
   introduction}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {The {G}eneric {B}ook} {The {G}eneric {B}ook}\ (\BPGS\
-  1--124).
+\BIn{} \APACrefbtitle {The {G}eneric {B}ook.} {The {G}eneric {B}ook.}
 \newblock
 \APACaddressPublisher{Chicago}{The University of Chicago Press}.
 \PrintBackRefs{\CurrentBib}

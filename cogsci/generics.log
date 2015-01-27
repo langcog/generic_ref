@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  27 JAN 2015 07:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  27 JAN 2015 10:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -246,11 +246,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \OT1/pcr/m/n/9 + definiteness + number | WorkerId) + (definiteness +
  []
 
-[2] <sample_images.jpg, id=17, 1003.75pt x 1003.75pt>
-File: sample_images.jpg Graphic file (type jpg)
- <use sample_images.jpg>
-Package pdftex.def Info: sample_images.jpg used on input line 136.
-(pdftex.def)             Requested size: 151.76854pt x 151.76596pt.
+[2] <stimuli.jpg, id=17, 1254.6875pt x 1003.75pt>
+File: stimuli.jpg Graphic file (type jpg)
+ <use stimuli.jpg>
+Package pdftex.def Info: stimuli.jpg used on input line 136.
+(pdftex.def)             Requested size: 177.06458pt x 141.6421pt.
 
 Underfull \hbox (badness 3407) in paragraph at lines 146--146
 [][]\OT1/ptm/m/n/9 The model spec-i-fi-ca-tion was as fol-lows: \OT1/pcr/m/n/9 
@@ -267,7 +267,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 \OT1/pcr/m/n/9 + definiteness + number + image | WorkerId) +
  []
 
-[3] [4 <./sample_images.jpg>]
+[3] [4 <./stimuli.jpg>]
 Underfull \hbox (badness 3407) in paragraph at lines 172--172
 [][]\OT1/ptm/m/n/9 The model spec-i-fi-ca-tion was as fol-lows: \OT1/pcr/m/n/9 
 response $\OMS/pzccm/m/n/9 ^^X$
@@ -284,9 +284,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--172
  []
 
 (./generics.bbl
-Underfull \vbox (badness 1231) has occurred while \output is active []
-
-
 Underfull \hbox (badness 1173) in paragraph at lines 153--168
 \OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
  []
@@ -294,7 +291,7 @@ Underfull \hbox (badness 1173) in paragraph at lines 153--168
 ) [5] (./generics.aux) ) 
 Here is how much of TeX's memory you used:
  2268 strings out of 493488
- 31719 string characters out of 3141325
+ 31689 string characters out of 3141325
  96709 words of memory out of 3000000
  5537 multiletter control sequences out of 15000+200000
  40943 words of font info for 81 fonts, out of 3000000 for 9000
@@ -309,7 +306,7 @@ sr/local/texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on generics.pdf (5 pages, 596234 bytes).
+Output written on generics.pdf (5 pages, 602859 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
