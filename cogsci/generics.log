@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  26 JAN 2015 22:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  26 JAN 2015 23:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -78,11 +78,7 @@ Package: apacite 2012/02/25 v6.01 APA citation
 \bibparsep=\skip45
 \bibitemsep=\skip46
 \biblabelsep=\skip47
-) (./generics.aux
-
-LaTeX Warning: Label `sample-table' multiply defined.
-
-)
+) (./generics.aux)
 \openout1 = `generics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -94,7 +90,8 @@ LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 40.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 40
 .
- (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omspzccm.fd
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 40.
@@ -155,41 +152,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \OT1/pcr/m/n/9 + definiteness + number | WorkerId) + (definiteness +
  []
 
-[2]
-
-LaTeX Warning: Citation `NewellSimon1972a' undefined on input line 180.
-
-[3] (./generics.bbl
-Underfull \hbox (badness 1173) in paragraph at lines 152--167
+[2] [3] (./generics.bbl
+Underfull \hbox (badness 1173) in paragraph at lines 125--140
 \OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
  []
 
-) [4] (./generics.aux)
+) [4
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (./generics.aux) ) 
 Here is how much of TeX's memory you used:
- 1009 strings out of 493488
- 12788 string characters out of 3141325
- 74144 words of memory out of 3000000
- 4345 multiletter control sequences out of 15000+200000
- 39448 words of font info for 79 fonts, out of 3000000 for 9000
+ 1002 strings out of 493488
+ 12636 string characters out of 3141325
+ 75144 words of memory out of 3000000
+ 4336 multiletter control sequences out of 15000+200000
+ 40943 words of font info for 81 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 26i,9n,21p,1334b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
-1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on generics.pdf (4 pages, 100724 bytes).
+ 26i,9n,21p,1462b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r
+.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on generics.pdf (4 pages, 99743 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

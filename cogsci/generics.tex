@@ -109,7 +109,7 @@ Definite         &   Plural & Non-generic & ``The rabbits are digging holes in t
 
 Paragraph about figure.
 
-To analyze these findings, we fit a linear mixed-effects model to model participants' ratings of their sentences for genericity. We examined the interaction between animacy, definiteness, and number of subject NPs.\footnote{All mixed-effects models were fit using the lme4 package in R version 3.1.2. The model specification was as follows: \texttt{response} \(\sim\) \texttt{animacy * definiteness * number + (animacy + definiteness + number | WorkerId) + (definiteness + number | subject)}.} The model shows main effects of animacy, definiteness, and number, with animate NPs (\(\beta = 0.428, t = 4.396, p < 0.001\)), plural NPs (\(\beta = 0.227, t = 2.596, p < 0.001\)), and indefinite NPs (\(\beta = 1.293, t = 10.497, p < 0.001\)) being rated significantly more generic. In addition, the model revealed interaction effects between animacy and definiteness such that sentences with animate, indefinite NPs were rated significantly less generic (\(\beta = -0.571, t = -4.756, p < 0.001\)) and between definiteness and number such that bare plurals were rated significantly more generic (\(\beta = 0.488, t = 4.725, p < 0.001\)). Finally, there was a significant three-way interaction such that animate, bare plurals were rated significantly more generic (\(\beta = 0.536, t = 3.669, p < 0.001\)). 
+To analyze these findings, we fit a linear mixed-effects model to model participants' ratings of their sentences for genericity. We examined the interaction between animacy, definiteness, and number of subject NPs.\footnote{All mixed-effects models were fit using the lme4 package in R version 3.1.2. The model specification was as follows: \texttt{response} \(\sim\) \texttt{animacy * definiteness * number + (animacy + definiteness + number | WorkerId) + (definiteness + number | subject)}. For each effect, \(p\) values were calculated by treating the \(t\) statistic as if it were a \(z\) statistic \cite{Barr:2013}.} The model shows main effects of animacy, definiteness, and number, with animate NPs (\(\beta = 0.428, t = 4.396, p < 0.001\)), plural NPs (\(\beta = 0.227, t = 2.596, p < 0.001\)), and indefinite NPs (\(\beta = 1.293, t = 10.497, p < 0.001\)) being rated significantly more generic. In addition, the model revealed interaction effects between animacy and definiteness such that sentences with animate, indefinite NPs were rated significantly less generic (\(\beta = -0.571, t = -4.756, p < 0.001\)) and between definiteness and number such that bare plurals were rated significantly more generic (\(\beta = 0.488, t = 4.725, p < 0.001\)). Finally, there was a significant three-way interaction such that animate, bare plurals were rated significantly more generic (\(\beta = 0.536, t = 3.669, p < 0.001\)). 
 
 The results are consistent with previous findings that indefinite singulars and bare plurals facilitate generic interpretations compared to definite singulars and definite plurals, respectively \cite{Cimpian:2011, Gelman:2003}. However, these results also show that plurality is independently associated with genericity, which has not been previously acknowledged. The interaction between definiteness and plurality reveals a superadditive effect by which bare plurals support generic interpretation. This is unsurprising, as bare plurals are often taken to be the canonical subject type for English generics \cite{Carlson:1977,Krifka:1995,Lyons:1977}. The effect of animacy on genericity ratings is consistent with previous findings that both children and adults produce more generic statements in describing animals than in describing artifacts \cite{Brandone:2009}.
 
@@ -119,152 +119,56 @@ This experiment demonstrated the role of morphosyntactic and, in the case of ani
 
 \section{Experiment 2A: Contextual Cues in Production}
 
-First level headings should be in 12~point, initial caps, bold and
-centered. Leave one line space above the heading and 1/4~line space
-below the heading.
+Experiment 2A investigated the role of context as a cue to identifying generics. Specifically, this experiment examined whether language users will be less likely to treat a subject NP as generic when it has a possible referent in the context.
 
 \subsection{Method}
 
-\subsubsection{Participants}
+\subsubsection{Participants} \quad We recruited 100 participants to participate through Amazon's Mechanical Turk website. Participants were restricted to individuals within the United States and were paid 50 cents to complete the study. The study took approximately 14 minutes to complete.
 
-\subsubsection{Stimuli}
+\subsubsection{Stimuli} \quad The stimuli were almost identical to those used in Experiment 1. However, in part 1 of the experiment, each subject NP was accompanied by an image depicting either one or five instances of the animal or object denoted by the subject NP. The number of individuals in the image either matched or mismatched the number of the subject NP. Half of items for each subject NP type were paired with matching images and half were paired with mismatching images. Participants were instructed to describe the image in their sentence completion. The images only appeared for the sentence completion portion of the experiment; they did not appear 
 
-\subsubsection{Procedure}
+\subsubsection{Procedure} \quad The procedure was the same as that in Experiment 1. For the four example items, two items were randomly chosen to have matching images, the other items had mismatching images. As in Experiment 1, the order of items in both parts of the experiment were pseudorandomized with counterbalancing to ensure that no two consecutive items used subject NPs with the same number and definiteness features. 
 
-\subsubsection{Data Analysis}
+\subsubsection{Data Analysis} \quad We excluded 2 participants for indicating that their native language was not English. Thus, responses from 98 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean for the second part of the experiment.
 
 \subsection{Results \& Discussion}
 
 \section{Experiment 2B: Contextual Cues in Comprehension}
 
-First level headings should be in 12~point, initial caps, bold and
-centered. Leave one line space above the heading and 1/4~line space
-below the heading.
-
 \subsection{Method}
 
-\subsubsection{Participants}
+\subsubsection{Participants} \quad
 
-\subsubsection{Stimuli}
+\subsubsection{Stimuli} \quad
 
-\subsubsection{Procedure}
+\subsubsection{Procedure} \quad
 
-\subsubsection{Data Analysis}
+\subsubsection{Data Analysis} \quad
 
 \subsection{Results \& Discussion}
 
 \section{Experiment 3: Ambiguous Sentences}
 
-First level headings should be in 12~point, initial caps, bold and
-centered. Leave one line space above the heading and 1/4~line space
-below the heading.
+\subsection{Method} 
 
-\subsection{Method}
+\subsubsection{Participants} \quad
 
-\subsubsection{Participants}
+\subsubsection{Stimuli} \quad
 
-\subsubsection{Stimuli}
+\subsubsection{Procedure} \quad
 
-\subsubsection{Procedure}
-
-\subsubsection{Data Analysis}
+\subsubsection{Data Analysis} \quad
 
 \subsection{Results \& Discussion}
 
 
 \section{General Discussion}
 
-Use standard APA citation format. Citations within the text should
-include the author's last name and year. If the authors' names are
-included in the sentence, place only the year in parentheses, as in
-\citeA{NewellSimon1972a}, but otherwise place the entire reference in
-parentheses with the authors and year separated by a comma
-\cite{NewellSimon1972a}. List multiple references alphabetically and
-separate them by semicolons
-. Use the
-``et~al.'' construction only after listing all the authors to a
-publication in an earlier reference and for citations with four or
-more authors.
-
-
-\subsection{Footnotes}
-
-Indicate footnotes with a number\footnote{Sample of the first
-footnote.} in the text. Place the footnotes in 9~point type at the
-bottom of the column on which they appear. Precede the footnote block
-with a horizontal rule.\footnote{Sample of the second footnote.}
-
-
-\subsection{Tables}
-
-Number tables consecutively. Place the table number and title (in
-10~point) above the table with one line space above the caption and
-one line space below it, as in Table~\ref{sample-table}. You may float
-tables to the top or bottom of a column, or set wide tables across
-both columns.
-
-\begin{table}[!ht]
-\begin{center} 
-\caption{Sample table title.} 
-\label{sample-table} 
-\vskip 0.12in
-\begin{tabular}{ll} 
-\hline
-Error type    &  Example \\
-\hline
-Take smaller        &   63 - 44 = 21 \\
-Always borrow~~~~   &   96 - 42 = 34 \\
-0 - N = N           &   70 - 47 = 37 \\
-0 - N = 0           &   70 - 47 = 30 \\
-\hline
-\end{tabular} 
-\end{center} 
-\end{table}
-
-
-\subsection{Figures}
-
-All artwork must be very dark for purposes of reproduction and should
-not be hand drawn. Number figures sequentially, placing the figure
-number and caption, in 10~point, after the figure with one line space
-above the caption and one line space below it, as in
-Figure~\ref{sample-figure}. If necessary, leave extra white space at
-the bottom of the page to avoid splitting the figure and figure
-caption. You may float figures to the top or bottom of a column, or
-set wide figures across both columns.
-
-\begin{figure}[ht]
-\begin{center}
-\fbox{CoGNiTiVe ScIeNcE}
-\end{center}
-\caption{This is a figure.} 
-\label{sample-figure}
-\end{figure}
-
 
 \section{Acknowledgments}
 
 Place acknowledgments (including funding information) in a section at
 the end of the paper.
-
-
-\section{References Instructions}
-
-Follow the APA Publication Manual for citation format, both within the
-text and in the reference list, with the following exceptions: (a) do
-not cite the page numbers of any book, including chapters in edited
-volumes; (b) use the same format for unpublished references as for
-published ones. Alphabetize references by the surnames of the authors,
-with single author entries preceding multiple author entries. Order
-references by the same authors by the year of publication, with the
-earliest first.
-
-Use a first level section heading, ``{\bf References}'', as shown
-below. Use a hanging indent style, with the first line of the
-reference flush against the left margin and subsequent lines indented
-by 1/8~inch. Below are example references for a conference paper, book
-chapter, journal article, dissertation, book, technical report, and
-edited volume, respectively.
 
 \bibliographystyle{apacite}
 

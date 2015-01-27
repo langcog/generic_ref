@@ -1,6 +1,36 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Barr%
+, Levy%
+, Scheepers%
+\BCBL {}\ \BBA {} Tily%
+}{%
+Barr%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+Barr:2013}
+\APACinsertmetastar {%
+Barr:2013}%
+\begin{APACrefauthors}%
+Barr, D\BPBI J.%
+, Levy, R.%
+, Scheepers, C.%
+\BCBL {}\ \BBA {} Tily, H\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Random effects structure for confirmatory hypothesis
+  testing: Keep it maximal} {Random effects structure for confirmatory
+  hypothesis testing: Keep it maximal}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Memory and Language}{68}{3}{255--278}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Brandone%
 \ \BBA {} Gelman%
 }{%
@@ -55,34 +85,6 @@ Carlson, G\BPBI N.%
 
 \bibitem [\protect \citeauthoryear {%
 Cimpian%
-, Brandone%
-\BCBL {}\ \BBA {} Gelman%
-}{%
-Cimpian%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2010}}%
-}]{%
-Cimpian:2010}
-\APACinsertmetastar {%
-Cimpian:2010}%
-\begin{APACrefauthors}%
-Cimpian, A.%
-, Brandone, A\BPBI C.%
-\BCBL {}\ \BBA {} Gelman, S\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Generic Statements Require Little Evidence for
-  Acceptance but Have Powerful Implications} {Generic statements require little
-  evidence for acceptance but have powerful implications}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Cognitive Science}{34}{8}{1452--1482}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Cimpian%
 \ \BBA {} Markman%
 }{%
 Cimpian%
@@ -105,35 +107,6 @@ Cimpian, A.%
   {Preschool children's use of cues to generic meaning}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Cognition}{107}{1}{19--53}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Cimpian%
-\ \BBA {} Markman%
-}{%
-Cimpian%
-\ \BBA {} Markman%
-}{%
-{\protect \APACyear {2009}}%
-}]{%
-Cimpian:2009}
-\APACinsertmetastar {%
-Cimpian:2009}%
-\begin{APACrefauthors}%
-Cimpian, A.%
-\BCBT {}\ \BBA {} Markman, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2009}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Information learned from generic langauge becomes
-  central to children's biological concepts: Evidence from their open-ended
-  explanations} {Information learned from generic langauge becomes central to
-  children's biological concepts: Evidence from their open-ended
-  explanations}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Cognition}{113}{1}{14--25}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -315,33 +288,6 @@ Prasada, S.%
   knowledge}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Trends in Cognitive Science}{4}{2}{66--72}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Prasada%
-\ \BBA {} Dillingham%
-}{%
-Prasada%
-\ \BBA {} Dillingham%
-}{%
-{\protect \APACyear {2006}}%
-}]{%
-Prasada:2006}
-\APACinsertmetastar {%
-Prasada:2006}%
-\begin{APACrefauthors}%
-Prasada, S.%
-\BCBT {}\ \BBA {} Dillingham, E\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Principled and statistical connections in common sense
-  conception} {Principled and statistical connections in common sense
-  conception}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Cognition}{99}{1}{73--112}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
