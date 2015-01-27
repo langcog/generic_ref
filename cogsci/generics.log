@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  26 JAN 2015 23:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  27 JAN 2015 00:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,6 +252,21 @@ File: sample_images.jpg Graphic file (type jpg)
 Package pdftex.def Info: sample_images.jpg used on input line 136.
 (pdftex.def)             Requested size: 151.76854pt x 151.76596pt.
 
+Underfull \hbox (badness 3407) in paragraph at lines 146--146
+[][]\OT1/ptm/m/n/9 The model spec-i-fi-ca-tion was as fol-lows: \OT1/pcr/m/n/9 
+response $\OMS/pzccm/m/n/9 ^^X$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\OT1/pcr/m/n/9 animacy * definiteness * number * image + (animacy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\OT1/pcr/m/n/9 + definiteness + number + image | WorkerId) +
+ []
+
 [3] (./generics.bbl
 Underfull \hbox (badness 1173) in paragraph at lines 153--168
 \OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
@@ -265,7 +280,7 @@ Here is how much of TeX's memory you used:
  5537 multiletter control sequences out of 15000+200000
  40943 words of font info for 81 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,9n,23p,1464b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,9n,23p,1396b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-di
 st/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/p
@@ -275,7 +290,7 @@ courier/ucrr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/symbol/u
 syr.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on generics.pdf (4 pages, 589413 bytes).
+Output written on generics.pdf (4 pages, 590536 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
