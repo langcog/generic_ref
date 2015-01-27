@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  26 JAN 2015 21:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  26 JAN 2015 21:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -154,25 +154,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--90
 
 [2]
 
-LaTeX Warning: Citation `NewellSimon1972a' undefined on input line 154.
+LaTeX Warning: Citation `NewellSimon1972a' undefined on input line 156.
 
 [3] (./generics.bbl
-Underfull \hbox (badness 1173) in paragraph at lines 67--82
+Underfull \hbox (badness 1173) in paragraph at lines 152--167
 \OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
  []
 
-) [4
-
-] (./generics.aux)
+) [4] (./generics.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 996 strings out of 493488
- 12571 string characters out of 3141325
+ 1009 strings out of 493488
+ 12788 string characters out of 3141325
  72144 words of memory out of 3000000
- 4332 multiletter control sequences out of 15000+200000
+ 4345 multiletter control sequences out of 15000+200000
  39448 words of font info for 79 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  26i,9n,21p,1334b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -185,7 +183,7 @@ texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2012/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on generics.pdf (4 pages, 98241 bytes).
+Output written on generics.pdf (4 pages, 99852 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
