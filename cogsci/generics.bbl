@@ -1,6 +1,31 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Carlson%
+}{%
+Carlson%
+}{%
+{\protect \APACyear {1977}}%
+}]{%
+Carlson:1977}
+\APACinsertmetastar {%
+Carlson:1977}%
+\begin{APACrefauthors}%
+Carlson, G\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1977}{}{}.
+\newblock
+\APACrefbtitle {Reference to {K}inds in {E}nglish.} {Reference to {K}inds in
+  {E}nglish.}
+\newblock
+\APAChowpublished {Ph.D. dissertation}.
+\newblock
+\APACaddressPublisher{}{University of Massachusetts, Amherst}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cimpian%
 \ \BBA {} Markman%
 }{%
