@@ -23,7 +23,7 @@
 \usepackage{cogsci}
 \usepackage{pslatex}
 \usepackage{apacite}
-
+\usepackage{graphicx}
 
 \title{Morphosyntactic and Referential Cues to the Identification of Generic Statements}
  
@@ -109,7 +109,7 @@ Definite         &   Plural & Non-generic & ``The rabbits are digging holes in t
 
 Paragraph about figure.
 
-To analyze these findings, we fit a linear mixed-effects model to model participants' ratings of their sentences for genericity. We examined the interaction between animacy, definiteness, and number of subject NPs.\footnote{All mixed-effects models were fit using the lme4 package in R version 3.1.2. The model specification was as follows: \texttt{response} \(\sim\) \texttt{animacy * definiteness * number + (animacy + definiteness + number | WorkerId) + (definiteness + number | subject)}. For each effect, \(p\) values were calculated by treating the \(t\) statistic as if it were a \(z\) statistic \cite{Barr:2013}.} The model shows main effects of animacy, definiteness, and number, with animate NPs (\(\beta = 0.428, t = 4.396, p < 0.001\)), plural NPs (\(\beta = 0.227, t = 2.596, p < 0.001\)), and indefinite NPs (\(\beta = 1.293, t = 10.497, p < 0.001\)) being rated significantly more generic. In addition, the model revealed interaction effects between animacy and definiteness such that sentences with animate, indefinite NPs were rated significantly less generic (\(\beta = -0.571, t = -4.756, p < 0.001\)) and between definiteness and number such that bare plurals were rated significantly more generic (\(\beta = 0.488, t = 4.725, p < 0.001\)). Finally, there was a significant three-way interaction such that animate, bare plurals were rated significantly more generic (\(\beta = 0.536, t = 3.669, p < 0.001\)). 
+To analyze these findings, we fit a linear mixed-effects model to predict participants' ratings of their sentences for genericity. We examined the interaction between animacy, definiteness, and number of subject NPs.\footnote{All mixed-effects models were fit using the lme4 package in R version 3.1.2. The model specification was as follows: \texttt{response} \(\sim\) \texttt{animacy * definiteness * number + (animacy + definiteness + number | WorkerId) + (definiteness + number | subject)}. For each effect, \(p\) values were calculated by treating the \(t\) statistic as if it were a \(z\) statistic \cite{Barr:2013}.} The model shows main effects of animacy, definiteness, and number, with animate NPs (\(\beta = 0.428, t = 4.396, p < 0.001\)), plural NPs (\(\beta = 0.227, t = 2.596, p < 0.001\)), and indefinite NPs (\(\beta = 1.293, t = 10.497, p < 0.001\)) being rated significantly more generic. In addition, the model revealed interaction effects between animacy and definiteness such that sentences with animate, indefinite NPs were rated significantly less generic (\(\beta = -0.571, t = -4.756, p < 0.001\)) and between definiteness and number such that bare plurals were rated significantly more generic (\(\beta = 0.488, t = 4.725, p < 0.001\)). Finally, there was a significant three-way interaction such that animate, bare plurals were rated significantly more generic (\(\beta = 0.536, t = 3.669, p < 0.001\)). 
 
 The results are consistent with previous findings that indefinite singulars and bare plurals facilitate generic interpretations compared to definite singulars and definite plurals, respectively \cite{Cimpian:2011, Gelman:2003}. However, these results also show that plurality is independently associated with genericity, which has not been previously acknowledged. The interaction between definiteness and plurality reveals a superadditive effect by which bare plurals support generic interpretation. This is unsurprising, as bare plurals are often taken to be the canonical subject type for English generics \cite{Carlson:1977,Krifka:1995,Lyons:1977}. The effect of animacy on genericity ratings is consistent with previous findings that both children and adults produce more generic statements in describing animals than in describing artifacts \cite{Brandone:2009}.
 
@@ -125,13 +125,25 @@ Experiment 2A investigated the role of context as a cue to identifying generics.
 
 \subsubsection{Participants} \quad We recruited 100 participants to participate through Amazon's Mechanical Turk website. Participants were restricted to individuals within the United States and were paid 50 cents to complete the study. The study took approximately 14 minutes to complete.
 
-\subsubsection{Stimuli} \quad The stimuli were almost identical to those used in Experiment 1. However, in part 1 of the experiment, each subject NP was accompanied by an image depicting either one or five instances of the animal or artifact denoted by the subject NP. Images with only one instance of the animal or artifact were taken directly from the Bank of Standardized Stimuli version 2.0 \cite{Brodeur:2014}. Images with multiple instances of the animal or artifact were created from the single instance images using Pixelmator version 3.2.1. The number of individuals in the image either matched or mismatched the number of the subject NP. Half of items for each subject NP type were paired with matching images and half were paired with mismatching images. Participants were instructed to describe the image in their sentence completion. The images only appeared for the sentence completion portion of the experiment; they did not appear 
+\subsubsection{Stimuli} \quad The stimuli were almost identical to those used in Experiment 1. However, in part 1 of the experiment, each subject NP was accompanied by an image depicting either one or five instances of the animal or artifact denoted by the subject NP (Figure 1). Images with only one instance of the animal or artifact were taken directly from the Bank of Standardized Stimuli version 2.0 \cite{Brodeur:2014}. Images with multiple instances of the animal or artifact were created from the single instance images using Pixelmator version 3.2.1. The number of individuals in the image either matched or mismatched the number of the subject NP. Half of items for each subject NP type were paired with matching images and half were paired with mismatching images. Participants were instructed to describe the image in their sentence completion. The images only appeared for the sentence completion portion of the experiment; they did not appear 
 
 \subsubsection{Procedure} \quad The procedure was the same as that in Experiment 1. For the four example items, two items were randomly chosen to have matching images, the other items had mismatching images. As in Experiment 1, the order of items in both parts of the experiment were pseudorandomized with counterbalancing to ensure that no two consecutive items used subject NPs with the same number and definiteness features. The order of images was not controlled.
 
 \subsubsection{Data Analysis} \quad We excluded 2 participants for indicating that their native language was not English. Thus, responses from 98 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean for the second part of the experiment.
 
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.3\textwidth]{sample_images.jpg}
+\end{center}
+\caption{Examples of images used in Experiments 2A and 2B. Clockwise from upper left: single shirt, multiple shirts, multiple peacocks, single peacock.} 
+\label{sample-figure}
+\end{figure}
+
 \subsection{Results \& Discussion}
+
+Paragraph about figure.
+
+As in Experiment 1, we fit a linear mixed-effects model to predict participants' ratings of their sentences for genericity.
 
 \section{Experiment 2B: Contextual Cues in Comprehension}
 
