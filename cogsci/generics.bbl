@@ -59,6 +59,34 @@ Brandone, A\BPBI C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Brodeur%
+, Gu\'{e}rard%
+\BCBL {}\ \BBA {} Bouras%
+}{%
+Brodeur%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Brodeur:2014}
+\APACinsertmetastar {%
+Brodeur:2014}%
+\begin{APACrefauthors}%
+Brodeur, M\BPBI B.%
+, Gu\'{e}rard, K.%
+\BCBL {}\ \BBA {} Bouras, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bank of Standardized Stimuli ({BOSS}) phase {II}: 930
+  new normative photos} {Bank of standardized stimuli ({BOSS}) phase {II}: 930
+  new normative photos}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PLoS ONE}{9}{9}{e106953}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Carlson%
 }{%
 Carlson%
