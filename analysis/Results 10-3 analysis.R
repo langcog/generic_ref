@@ -1,5 +1,7 @@
 rm(list=ls())
 source("~/Projects/R/Ranalysis/useful.R") # from github.com/langcog/Ranalysis
+library(directlabels)
+
 d = read.csv("data/Results 10-3-parsed.csv")
 
 ### DATA CLEANUP
@@ -30,11 +32,36 @@ ms <- ddply(mss, .(definiteness,number), summarise,
       cil = ci.low(ratings),
       cih = ci.high(ratings))
 
+ms$definiteness <- factor(ms$definiteness, 
+                          levels = c("definite","indefinite"),
+                          labels = c("Definite","Indefinite"))
+ms$number <- factor(ms$number, 
+                          levels = c("singular","plural"),
+                          labels = c("Singular","Plural"))
+pdf("cogsci/figures/e1.pdf", width=4, height=3)
+qplot(definiteness, mean, col=number, 
+      group=number, 
+      ymin=mean - cil, ymax=mean + cih,
+      geom=c("line","linerange"),data=ms) + 
+  ylim(1,5) + 
+  ylab("Mean Genericity Rating") +
+  xlab("Definiteness") +
+  theme_classic() +
+  scale_colour_manual(values=c("darkgray","black"), guide=FALSE) + 
+  geom_dl(aes(label=number), method=list("last.qp",hjust=-.15, cex=.8))
+dev.off()
+
+
+
 qplot(definiteness, mean, fill=number, 
       group=number, stat="identity",
       position=position_dodge(width=.9),
       ymin=mean - cil, ymax=mean + cih,
-      geom=c("bar","linerange"),data=ms)
+      geom=c("bar","linerange"),data=ms) + 
+  ylim(0,5) + 
+  ylab("Mean Genericity Rating") +
+  xlab("Definiteness") +
+  scale_fill_manual(values=c("darkgray","black"))
 
 ### NOW WITH ANIMACY
 mssa <- ddply(judgments, .(definiteness,number,animacy,WorkerId), summarise,

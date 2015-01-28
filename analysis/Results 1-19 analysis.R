@@ -22,10 +22,32 @@ qplot(response, facets = definiteness ~ number, data=targets)
 mssa <- ddply(targets, .(definiteness,number,image,WorkerId), summarise,
               response = mean(response))
 
-msa <- ddply(mssa, .(definiteness,number,image), summarise,
+ms <- ddply(mssa, .(definiteness,number,image), summarise,
              mean = mean(response),
              cil = ci.low(response),
              cih = ci.high(response))
+
+pdf("cogsci/figures/e3.pdf", width=4, height=3)
+qplot(image, mean, col=number, lty=definiteness,
+      group=interaction(number,definiteness),
+      ymin=mean - cil, ymax=mean + cih,
+      geom=c("line","pointrange"), data=ms) +
+  geom_dl(aes(label=interaction(number, definiteness)), 
+          method=list("last.qp", cex=.8, hjust=-.15)) + 
+  ylim(c(1,5)) + 
+  ylab("Mean Genericity Rating") + 
+  xlab("Picture/Plurality Relationship") + 
+  theme_classic() + 
+  scale_colour_manual(values=c("darkgray","black"), guide=FALSE) + 
+  scale_linetype_discrete(guide=FALSE)
+dev.off()
+
+
+
+
+
+
+
 
 qplot(image, mean, col=definiteness, lty=number, 
       group=interaction(definiteness,number),
@@ -36,6 +58,23 @@ qplot(image, mean, col=definiteness, lty=number,
   ylim(c(1,5)) + 
   ylab("Mean Genericity Rating")
 
+qplot(interaction(definiteness,number), mean, fill=image, 
+      position="dodge", stat="identity",
+      geom="bar",     
+      data=msa) + 
+  geom_linerange(aes(ymin=mean - cil, ymax=mean + cih),
+                 position=position_dodge(width=.9)) +
+  ylab("Mean Genericity Rating") + 
+  ylim(c(0,5))
+
+qplot(image, mean, fill=interaction(definiteness,number), 
+      position="dodge", stat="identity",
+      geom="bar",     
+      data=msa) + 
+  geom_linerange(aes(ymin=mean - cil, ymax=mean + cih),
+                 position=position_dodge(width=.9)) +
+  ylab("Mean Genericity Rating") + 
+  ylim(c(0,5))
 ### MODEL WE SHOULD BE FITTING
 mod <- lmer(response ~ image * definiteness * number + 
               (image | WorkerId), 

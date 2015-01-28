@@ -1,25 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  27 JAN 2015 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/MacPorts 2014_3) (preloaded format=pdflatex 2014.11.23)  27 JAN 2015 20:32
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**generics.tex
-(./generics.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
-lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
-welsh, loaded.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
+**\input generics.tex
+(./generics.tex (/opt/local/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
+(/opt/local/share/texmf-texlive/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -35,7 +21,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 ) (./cogsci.sty
 Conference Style for COGSCI -- last modified October 24, 2006
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/pslatex/pslatex.sty
+) (/opt/local/share/texmf-texlive/tex/latex/pslatex/pslatex.sty
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -69,8 +55,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
-)
-(./apacite.sty
+) (./apacite.sty
 Package: apacite 2012/02/25 v6.01 APA citation
 \c@BibCnt=\count87
 \bibleftmargin=\skip43
@@ -78,32 +63,31 @@ Package: apacite 2012/02/25 v6.01 APA citation
 \bibparsep=\skip45
 \bibitemsep=\skip46
 \biblabelsep=\skip47
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+) (/opt/local/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+(/opt/local/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+(/opt/local/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/opt/local/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -123,8 +107,7 @@ LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 40.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 40
 .
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omspzccm.fd
+ (/opt/local/share/texmf-texlive/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 40.
@@ -134,12 +117,12 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 \c@maskedRefs=\count89
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/apacite/english.apc
+(/opt/local/share/texmf-texlive/tex/latex/apacite/english.apc
 File: english.apc 2012/02/25 v6.01 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+(/opt/local/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
 \scratchdimen=\dimen105
@@ -152,15 +135,15 @@ LaTeX Info: Redefining \BHBI on input line 130.
 \MPnumerator=\count94
 \makeMPintoPDFobject=\count95
 \everyMPtoPDFconversion=\toks16
-) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/opt/local/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -169,22 +152,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -196,7 +179,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -205,19 +188,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 42
 .
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 42
 .
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+psycm on input line 42
 .
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -232,65 +215,122 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
- [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
+<figures/e1.pdf, id=10, 289.08pt x 216.81pt>
+File: figures/e1.pdf Graphic file (type pdf)
+ <use figures/e1.pdf>
+Package pdftex.def Info: figures/e1.pdf used on input line 118.
+(pdftex.def)             Requested size: 243.91125pt x 182.93298pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \OT1/pcr/m/n/9 + definiteness + number | WorkerId) + (definiteness +
  []
 
-[2] <stimuli.jpg, id=17, 1254.6875pt x 1003.75pt>
-File: stimuli.jpg Graphic file (type jpg)
- <use stimuli.jpg>
-Package pdftex.def Info: stimuli.jpg used on input line 136.
+[2]
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [3 <./figures/e1.pdf>] <figures/stimuli.jpg, id=26, 1254.6875pt x 1003.75pt>
+File: figures/stimuli.jpg Graphic file (type jpg)
+
+<use figures/stimuli.jpg>
+Package pdftex.def Info: figures/stimuli.jpg used on input line 149.
 (pdftex.def)             Requested size: 177.06458pt x 141.6421pt.
+ <figures/e2a_mod.pdf, id=27, 289.08pt x 216.81pt>
+File: figures/e2a_mod.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 3407) in paragraph at lines 146--146
+<use figures/e2a_mod.pdf>
+Package pdftex.def Info: figures/e2a_mod.pdf used on input line 159.
+(pdftex.def)             Requested size: 243.91125pt x 182.93298pt.
+
+Underfull \hbox (badness 4859) in paragraph at lines 160--160
+[]\OT1/ptm/m/n/10 Figure 3: []Mean gener-ic-ity rat-ings from Ex-per-i-ment
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 160--160
+\OT1/ptm/m/n/10 2A (rat-ings by pro-duc-ers), plot-ted by pic-ture/plurality
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 165--165
 [][]\OT1/ptm/m/n/9 The model spec-i-fi-ca-tion was as fol-lows: \OT1/pcr/m/n/9 
 response $\OMS/pzccm/m/n/9 ^^X$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \OT1/pcr/m/n/9 animacy * definiteness * number * image + (animacy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 \OT1/pcr/m/n/9 + definiteness + number + image | WorkerId) +
  []
 
-[3] [4 <./stimuli.jpg>]
-Underfull \hbox (badness 3407) in paragraph at lines 172--172
+[4 <./figures/stimuli.jpg> <./figures/e2a_mod.pdf>]
+<figures/e2b_mod.pdf, id=50, 289.08pt x 216.81pt>
+File: figures/e2b_mod.pdf Graphic file (type pdf)
+ <use figures/e2b_mod.pdf>
+Package pdftex.def Info: figures/e2b_mod.pdf used on input line 192.
+(pdftex.def)             Requested size: 243.91125pt x 182.93298pt.
+
+Underfull \hbox (badness 4859) in paragraph at lines 193--193
+[]\OT1/ptm/m/n/10 Figure 4: []Mean gener-ic-ity rat-ings from Ex-per-i-ment
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 193--193
+\OT1/ptm/m/n/10 2B (in-de-pen-dent rat-ings), plot-ted by pic-ture/plurality
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 197--197
 [][]\OT1/ptm/m/n/9 The model spec-i-fi-ca-tion was as fol-lows: \OT1/pcr/m/n/9 
 response $\OMS/pzccm/m/n/9 ^^X$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 \OT1/pcr/m/n/9 animacy * definiteness * number * image + (animacy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 \OT1/pcr/m/n/9 + definiteness + number + image | WorkerId) +
  []
 
-[5]
-Underfull \hbox (badness 5607) in paragraph at lines 198--198
+[5 <./figures/e2b_mod.pdf>]
+<figures/e3_norming_mod.pdf, id=73, 289.08pt x 216.81pt>
+File: figures/e3_norming_mod.pdf Graphic file (type pdf)
+
+<use figures/e3_norming_mod.pdf>
+Package pdftex.def Info: figures/e3_norming_mod.pdf used on input line 223.
+(pdftex.def)             Requested size: 243.91125pt x 182.93298pt.
+
+<figures/e3_mod.pdf, id=74, 289.08pt x 216.81pt>
+File: figures/e3_mod.pdf Graphic file (type pdf)
+ <use figures/e3_mod.pdf>
+Package pdftex.def Info: figures/e3_mod.pdf used on input line 229.
+(pdftex.def)             Requested size: 243.91125pt x 182.93298pt.
+
+Underfull \hbox (badness 5607) in paragraph at lines 236--236
 \OMS/pzccm/m/n/9 ^^X$ \OT1/pcr/m/n/9 definiteness * number * image + (image | W
 orkerId)
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 200--201
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+ [6 <./figures/e3_norming_mod.pdf>]
+Underfull \hbox (badness 2012) in paragraph at lines 238--239
 \OT1/ptm/m/n/10 match-ing im-ages were rated sig-nif-i-cantly more generic
  []
 
@@ -299,28 +339,31 @@ Underfull \hbox (badness 1173) in paragraph at lines 153--168
 \OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
  []
 
-) [6] (./generics.aux) ) 
+) [7 <./figures/e3_mod.pdf>] (./generics.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2270 strings out of 493488
- 31698 string characters out of 3141325
- 96709 words of memory out of 3000000
- 5537 multiletter control sequences out of 15000+200000
- 41573 words of font info for 83 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 37i,9n,23p,1546b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on generics.pdf (6 pages, 607891 bytes).
+ 2300 strings out of 495025
+ 32087 string characters out of 6181437
+ 96365 words of memory out of 5000000
+ 5468 multiletter control sequences out of 15000+600000
+ 41573 words of font info for 83 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 37i,9n,23p,1553b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</opt/local/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/local/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/local/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/local/share/texmf-texlive/f
+onts/type1/urw/courier/ucrr8a.pfb></opt/local/share/texmf-texlive/fonts/type1/u
+rw/symbol/usyr.pfb></opt/local/share/texmf-texlive/fonts/type1/urw/times/utmb8a
+.pfb></opt/local/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></opt/loc
+al/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on generics.pdf (7 pages, 919773 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

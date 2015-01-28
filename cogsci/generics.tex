@@ -36,20 +36,24 @@
   Department of Psychology \\
   Stanford University}
 
-
 \begin{document}
 
 \maketitle
 
-
 \begin{abstract}
-Generic sentences (e.g. ``Birds fly.'') express generalizations about kinds, as opposed to non-generic sentences that are about specific individuals or groups of individuals (e.g. ``All birds fly.''). We investigate how language users use morphosyntactic and pragmatic cues to determine whether naturalistic sentences should receive generic interpretations. Experiment 1 demonstrates the effect of morphosyntactic features of a sentence's subject noun phrase (NP) on generic interpretation. Experiments 2 and 3 reveal that when a sentence's subject NP does not have an obvious reference in context, the sentence is more likely to receive a generic interpretation. 
+Generic sentences (e.g., ``birds fly'') express generalizations about kinds, as opposed specific individuals or groups of individuals (e.g., ``all birds fly''). Generics are an important method of transmitting cultural knowledge, but because there is no unique marker of genericity, identifying whether a sentence is generic is a challenge. Here we investigated how language users use morphosyntactic and pragmatic cues to determine whether naturalistic sentences should receive generic interpretations. Experiment 1 demonstrates the effect of the morphosyntactic features of a sentence's subject noun phrase (NP) on generic interpretation. Experiments 2 and 3 reveal that when a sentence's subject NP does not have an obvious reference in context, the sentence is more likely to receive a generic interpretation. These experiments provide
 
-\textbf{Keywords:} pragmatics; generics
+\textbf{Keywords:} Psycholinguistics; pragmatics; generics.
 \end{abstract}
 
 
 \section{Introduction}
+ % 3x puzzle
+
+% importance of generics
+% propopositional definition can be rephrased
+% lay eggs is a good example
+% "while much research has been focused on problem 1"
 
 Generic sentences differ from non-generic sentences in that they express generalizations about kinds rather than properties of specific individuals or sets of individuals. For example, the sentence ``Birds fly'' express a general property of the kind \textit{bird}, whereas the sentence ``All birds fly'' states that for every member \textit{x} of the set consisting of all birds, \textit{x} flies. A key difference between generic and non-generic statements is that generics allow for exceptions. ``Birds fly'' is true despite the fact that some birds do not fly. ``All birds fly'' is false in virtue of the fact that there are individuals that are birds and do not fly \cite{Prasada:2000}. 
 
@@ -105,7 +109,14 @@ Definite         &   Plural & Non-generic & ``The rabbits are digging holes in t
 \end{center} 
 \end{table*}
 
-\subsection{Results \& Discussion}
+\subsection{Results and Discussion}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/e1.pdf}
+\caption{\label{fig:e1} Mean genericity ratings by definiteness and number. Error bars show 95\% confidence intervals.} 
+\end{figure}
+
 
 Paragraph about figure.
 
@@ -133,13 +144,19 @@ Experiment 2A investigated the role of context as a cue to identifying generics.
 
 \begin{figure}[t]
 \begin{center}
-\includegraphics[width=0.35\textwidth]{stimuli.jpg}
+\includegraphics[width=0.35\textwidth]{figures/stimuli.jpg}
 \end{center}
 \caption{Examples of images used in Experiments 2A, 2B, and 3. Clockwise from upper left: single shirt, multiple shirts, multiple peacocks, single peacock.} 
 \label{sample-figure}
 \end{figure}
 
-\subsection{Results \& Discussion}
+\subsection{Results and Discussion}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/e2a_mod.pdf}
+\caption{\label{fig:e2a} Mean genericity ratings from Experiment 2A (ratings by producers), plotted by picture/plurality match/mismatch, definiteness, and number. Error bars show 95\% confidence intervals.} 
+\end{figure}
 
 Paragraph about figure.
 
@@ -165,8 +182,14 @@ The stimuli were presented in a manner similar to part two of Experiment 2A. How
 
 \subsubsection{Data Analysis} \quad We excluded 5 participants for indicating that their native language was not English. Thus, responses from 185 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded from the analysis.
 
-\subsection{Results \& Discussion}
+\subsection{Results and Discussion}
 
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/e2b_mod.pdf}
+\caption{\label{fig:e2b} Mean genericity ratings from Experiment 2B (independent ratings), plotted by picture/plurality match/mismatch, definiteness, and number. Error bars show 95\% confidence intervals.} 
+\end{figure}
 Paragraph about figured
 
 As in Experiment 2A, we fit a linear mixed-effects model to predict participants' genericity ratings from animacy, definiteness, number, and image match/mismatch, as well as the associated interactions.\footnote{The model specification was as follows: \texttt{response} \(\sim\) \texttt{animacy * definiteness * number * image + (animacy + definiteness + number + image | WorkerId) + (definiteness + number + image | subject)}.} The model revealed significant main effects of definiteness, number, and image. Sentences with indefinite subject NPs were rated more generic (\(\beta = 1.401, t = 11.718, p < 0.001\)), while sentences with singular subjects were rated less generic (\(\beta = -0.421, t = -3.642, p < 0.001\)). Sentences produced with an image that did not match the subject NP in number were also rated significantly more generic (\(\beta = 0.382, t = 3.604, p < 0.001\)). The model also revealed interaction effects between between definiteness and image such that sentences with indefinite subjects that appears with mismatching images were less generic (\(\beta = -0.426, t = -2.731, p < 0.001\)) and between animacy and image such that sentences with inanimate subjects and mismatching images were less generic (\(\beta = -0.380, t=-2.508, p<0.05\)). Finally, the model showed a significant three-way interaction such that inanimate, indefinite subjects with mismatching images were rated significantly more generic (\(\beta = 0.431, t = 2.028, p < 0.05\)).
@@ -192,6 +215,19 @@ In part two, the procedure was identical to that of Experiment 2B.
 \subsubsection{Data Analysis} \quad For calculating the mean ratings for sentences in part one, we excluded 1 participant for indicating that their native language was not English. Thus, responses from 109 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded. For the second part of the experiment, we excluded 5 participants for indicating that their native language was not English. Thus, responses from 95 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded.
 
 \subsection{Results \& Discussion}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/e3_norming_mod.pdf}
+\caption{\label{fig:e3norming} Histograms of genericity ratings from the full set of sentences produced for Experiment 3, split by definiteness and number.} 
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/e3_mod.pdf}
+\caption{\label{fig:e3} Mean genericity ratings from Experiment 3, plotted by picture/plurality match/mismatch, definiteness, and number. Error bars show 95\% confidence intervals.} 
+\end{figure}
+Paragraph about figured
 
 Paragraph about figure.
 
