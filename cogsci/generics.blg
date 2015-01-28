@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
+This is BibTeX, Version 0.99d (TeX Live 2014/MacPorts 2014_3)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: generics.aux
 The style file: apacite.bst
@@ -12,44 +12,44 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Generics.bib
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
-You've used 12 entries,
+You've used 13 entries,
             6735 wiz_defined-function locations,
-            1324 strings with 12220 characters,
-and the built_in function-call counts, 22200 in all, are:
-= -- 2779
-> -- 184
-< -- 1014
-+ -- 1069
-- -- 24
-* -- 1418
-:= -- 4018
-add.period$ -- 52
-call.type$ -- 12
-change.case$ -- 205
+            1328 strings with 12332 characters,
+and the built_in function-call counts, 23847 in all, are:
+= -- 2990
+> -- 194
+< -- 1095
++ -- 1148
+- -- 26
+* -- 1512
+:= -- 4322
+add.period$ -- 56
+call.type$ -- 13
+change.case$ -- 222
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 578
-empty$ -- 900
-format.name$ -- 311
-if$ -- 4242
+cite$ -- 26
+duplicate$ -- 616
+empty$ -- 970
+format.name$ -- 325
+if$ -- 4565
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 26
 missing$ -- 0
-newline$ -- 302
-num.names$ -- 96
-pop$ -- 370
+newline$ -- 324
+num.names$ -- 104
+pop$ -- 417
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 52
 quote$ -- 0
-skip$ -- 1477
+skip$ -- 1577
 stack$ -- 0
-substring$ -- 1177
-swap$ -- 351
-text.length$ -- 24
+substring$ -- 1264
+swap$ -- 367
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1024
+type$ -- 1104
 warning$ -- 0
-while$ -- 103
+while$ -- 108
 width$ -- 0
-write$ -- 372
+write$ -- 396

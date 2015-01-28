@@ -194,6 +194,29 @@ Frank, M\BPBI C.%
 
 \bibitem [\protect \citeauthoryear {%
 Gelman%
+}{%
+Gelman%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+gelman2003}
+\APACinsertmetastar {%
+gelman2003}%
+\begin{APACrefauthors}%
+Gelman, S\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {The essential child: Origins of essentialism in everyday
+  thought} {The essential child: Origins of essentialism in everyday thought}.
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gelman%
 \ \BBA {} Raman%
 }{%
 Gelman%
