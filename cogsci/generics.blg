@@ -11,10 +11,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: Generics.bib
+Warning--I didn't find a database entry for "Brandon:2009"
 apacite.bst [2012/02/25 v6.01 APA bibliography style]
 You've used 13 entries,
             6735 wiz_defined-function locations,
-            1328 strings with 12332 characters,
+            1330 strings with 12356 characters,
 and the built_in function-call counts, 23847 in all, are:
 = -- 2990
 > -- 194
@@ -53,3 +54,4 @@ warning$ -- 0
 while$ -- 108
 width$ -- 0
 write$ -- 396
+(There was 1 warning)

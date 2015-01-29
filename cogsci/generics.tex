@@ -183,7 +183,7 @@ This result is similar to the finding of \citeA{Gelman:2003}, who showed that ch
 
 \subsection{Method}
 
-\subsubsection{Participants} Recruitment details were as above, except the study took 4 minutes and compensation was 30 cents. We excluded five participants for non-English native languages; our final sample consisted of 185 participants.
+\subsubsection{Participants} Recruitment details were as above, except the study took 4 minutes and compensation was 30 cents. We recruited 190 participants, excluding five for non-English native languages; our final sample consisted of 185 participants.
 
 \subsubsection{Stimuli} 
 
@@ -221,23 +221,7 @@ Although contextual referent mismatch produced effects in Experiments 2A and 2B,
 
 \subsubsection{Participants}
 
-In part 1 of this experiment, we recruited 110 participants through Mechanical Turk for 67 cents and excluded one participant for having a non-English native language for a total sample of 109; in part 2, we recruited 100 participants and paid 20 cents, excluding five for a total sample of 95.
-
-\subsubsection{Stimuli}  
-
-Stimuli for the first part of this experiment were drawn from a set of 1100 sentences generated in Experiment 1 that received genericity ratings between 2 and 4, inclusive. We then created 11 non-overlapping subsets containing 100 randomly-chosen sentences from the original set. This process was repeated to yield 110 sets of 100 sentences each. Since the ambiguous sentences from Experiment 1 were not equally distributed among different NP types, we could not ensure an equal distribution of NP types in these sets. We assigned each participant one set of sentences, which were displayed without images as in the genericity judgment portion of Experiment 1.
-
-The stimuli for the second part of this experiment were drawn from those used in the first part. We calculated the mean genericity rating given to each sentence in part 1. We then selected the 20 sentences for each NP type whose mean ratings were closest to 3 and which did not contain any obvious typographical errors. This yielded a set of 80 sentences, which were then divided into groups of 16 sentences with 4 sentences of each NP type. In constructing these sets, animacy was not controlled for; in general, each set contained more animate subjects than inanimate subjects. No set contained multiple sentences with the same subject. These sentences were presented with matching and mismatching images in the same manner as that of Experiment 2B. 
-
-\subsubsection{Procedure} 
-
-In part 1, participants first saw four example sentences with feedback, with the definite singular and bare plural sentences favoring generic interpretations. The target sentences were then presented for rating in randomized order as in part 2 of Experiment 1. In part 2, the procedure was identical to that of Experiment 2B. 
-
-% \subsubsection{Data Analysis} 
-
-% For calculating the mean ratings for sentences in part one, we excluded 1 participant for indicating that their native language was not English. Thus, responses from 109 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded. For the second part of the experiment, we excluded 5 participants for indicating that their native language was not English. Thus, responses from 95 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded.
-
-\subsection{Results and Discussion}
+In part 1, we recruited 110 participants through Mechanical Turk for 67 cents and excluded one participant for having a non-English native language for a total sample of 109; in part 2, we recruited 100 participants and paid 20 cents, excluding five for a total sample of 95.
 
 \begin{figure}[t]
 \centering
@@ -251,12 +235,31 @@ In part 1, participants first saw four example sentences with feedback, with the
 \caption{\label{fig:e3} Mean genericity ratings from Experiment 3, plotted by picture/plurality match/mismatch, definiteness, and number. Error bars show 95\% confidence intervals.} 
 \end{figure}
 
+\subsubsection{Stimuli}  
+
+Stimuli for the first part of this experiment were drawn from a set of 1100 sentences generated in Experiment 1 that received genericity ratings between 2 and 4, inclusive. We then created 11 non-overlapping subsets, each containing 100 randomly-chosen sentences. This process was repeated to yield 110 sets of 100 sentences each. Since the ambiguous sentences from Experiment 1 were not equally distributed among different NP types, we could not ensure an equal distribution of NP types in these sets. We assigned each participant one set of sentences, displaying them without images as in the genericity judgment portion of Experiment 1.
+
+The stimuli for the second part of this experiment were drawn from those used in the first part. We calculated the mean genericity rating given to each sentence in part 1. We then selected the 20 sentences for each NP type whose mean ratings were closest to 3 and which did not contain any obvious typographical errors. This yielded a set of 80 sentences, which were then divided into groups of 16 sentences with 4 sentences of each NP type. In constructing these sets, animacy was not controlled for; in general, each set contained more animate subjects than inanimate subjects. No set contained multiple sentences with the same subject. These sentences were presented with matching and mismatching images in the same manner as that of Experiment 2B. 
+
+\subsubsection{Procedure} 
+
+In part 1, participants saw four example sentences with feedback, with the definite singular and bare plural example sentences favoring generic interpretations. The target sentences were then presented for rating in randomized order as in the genericity rating portion of Experiment 1. In part 2, the procedure was identical to that of Experiment 2B. 
+
+% \subsubsection{Data Analysis} 
+
+% For calculating the mean ratings for sentences in part one, we excluded 1 participant for indicating that their native language was not English. Thus, responses from 109 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded. For the second part of the experiment, we excluded 5 participants for indicating that their native language was not English. Thus, responses from 95 participants were analyzed. In addition, responses from items whose reaction times were greater than 2 standard deviations from the mean were excluded.
+
+\subsection{Results and Discussion}
+
 The distribution of mean genericity ratings across sentences is shown in Figure \ref{fig:e3norming}. The majority of definites were not rated as being particularly generic, but the distribution was substantially more bimodal for indefinites. Our procedure resulted in the selection of sentences whose ranking was closest to three; these sentences were relatively rare for all participants.
 
-Turning to the second part of the experiment, we again found a strikingly consistent effect of referential mismatch, though again this effect was small (Figure \ref{fig:e3}). As with the previous experiments, results from the second part of Experiment 3 were analyzed with linear mixed-effects models. We compared two models. The first predicted genericity rating from number, definiteness, image, and their interactions. The second predicted genericity rating from image alone.\footnote{The two model specifications were as follows: \texttt{response} \(\sim\) \texttt{definiteness * number * image + (image | WorkerId)} and \texttt{response} \(\sim\) \texttt{image + (image | WorkerId)}.} There was no significant difference between the fits of the two models (\(\chi^2(6) = 2.738, p > 0.1\)), so we opted for the minimal model, which revealed that sentences presented with mismatching images were rated significantly more generic than those presented with matching images (\(\beta = 0.326, t = 4.192, p < 0.001\)).
+Turning to the second part of the experiment, we again found a strikingly consistent effect of referential mismatch, though again this effect was small (Figure \ref{fig:e3}). As with the previous experiments, results from the second part of Experiment 3 were analyzed with linear mixed-effects models. We compared two models. The first predicted genericity rating from number, definiteness, image, and their interactions. The second predicted genericity rating from image alone.\footnote{The two model specifications were as follows: \texttt{response} \(\sim\) \texttt{definiteness * number * image + (image | WorkerId)} and \texttt{response} \(\sim\) \texttt{image + (image | WorkerId)}.} There was no significant difference between the fits of the two models (\(\chi^2(6) = 2.738, p = 0.841\)), so we opted for the minimal model, which revealed that sentences presented with mismatching images were rated significantly more generic than those presented with matching images (\(\beta = 0.326, t = 4.192, p < 0.001\)).
 
 \section{General Discussion}
 
+Several of the results found here replicate previous findings about cues to genericity; indefinites are more generic than definites \cite{Cimpian:2011, Gelman:2003}, animates are more generic than inanimates \cite{Brandone:2009}, and lack of a contextual referent supports generic interpretation \cite{Gelman:2003}. However, we have also identified previously unacknowledged cues to genericity. Experiment 1 showed plurality of subject NPs to be a cue to genericity. This is connected to the finding that definite plurals are judged to be more generic than definite singulars, contra standard assumptions about genericity in English. This result suggests that we must broaden our view of which types of English NPs may be kind-denoting.
+
+The results of Experiments 2A, 2B, and 3 show that pragmatic cues regarding contextual referents also play a crucial role in allowing language users to identify generics. Importantly, we observe this effect across all subject NP types. This suggests that there is independent integration of morphosyntactic and pragmatic information about genericity. The view that emerges is one consistent with probabilistic approaches to language comprehension in which language users integrate independent sources of information, both linguistic and non-linguistic, to determine the most likely interpretation. 
 
 \section{Acknowledgments}
 
