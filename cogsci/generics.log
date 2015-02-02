@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  28 JAN 2015 21:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  2 FEB 2015 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -245,41 +245,41 @@ Underfull \hbox (badness 2556) in paragraph at lines 62--63
 <figures/e1.pdf, id=10, 289.08pt x 216.81pt>
 File: figures/e1.pdf Graphic file (type pdf)
  <use figures/e1.pdf>
-Package pdftex.def Info: figures/e1.pdf used on input line 125.
+Package pdftex.def Info: figures/e1.pdf used on input line 124.
 (pdftex.def)             Requested size: 219.51863pt x 164.63835pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-\OT1/pcr/m/n/9 * definiteness * number + (animacy + definiteness
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\OT1/pcr/m/n/9 * definiteness * number + (animacy + definiteness +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-\OT1/pcr/m/n/9 + number | WorkerId) + (definiteness + number |
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\OT1/pcr/m/n/9 number | WorkerId) + (definiteness + number | subject
  []
 
 [2 <./figures/e1.pdf>] <figures/stimuli.jpg, id=20, 1254.6875pt x 1003.75pt>
 File: figures/stimuli.jpg Graphic file (type jpg)
 
 <use figures/stimuli.jpg>
-Package pdftex.def Info: figures/stimuli.jpg used on input line 158.
+Package pdftex.def Info: figures/stimuli.jpg used on input line 157.
 (pdftex.def)             Requested size: 151.76854pt x 121.4097pt.
  <figures/e2a_mod.pdf, id=21, 289.08pt x 216.81pt>
 File: figures/e2a_mod.pdf Graphic file (type pdf)
 
 <use figures/e2a_mod.pdf>
-Package pdftex.def Info: figures/e2a_mod.pdf used on input line 168.
+Package pdftex.def Info: figures/e2a_mod.pdf used on input line 167.
 (pdftex.def)             Requested size: 219.51863pt x 164.63835pt.
 
-Underfull \hbox (badness 4859) in paragraph at lines 169--169
+Underfull \hbox (badness 4859) in paragraph at lines 168--168
 []\OT1/ptm/m/n/10 Figure 3: []Mean gener-ic-ity rat-ings from Ex-per-i-ment
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 169--169
+Underfull \hbox (badness 2856) in paragraph at lines 168--168
 \OT1/ptm/m/n/10 2A (rat-ings by pro-duc-ers), plot-ted by pic-ture/plurality
  []
 
@@ -288,23 +288,23 @@ Missing character: There is no ü in font pcrr7tn!
 Missing character: There is no ü in font pcrr7tn!
 Missing character: There is no ü in font pcrr7tn!
 
-Underfull \hbox (badness 3407) in paragraph at lines 174--174
+Underfull \hbox (badness 3407) in paragraph at lines 173--173
 [][]\OT1/ptm/m/n/9 The model spec-i-fi-ca-tion was as fol-lows: \OT1/pcr/m/n/9 
 response $\OMS/pzccm/m/n/9 ^^X$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 \OT1/pcr/m/n/9 animacy * definiteness * number * image + (animacy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 \OT1/pcr/m/n/9 + definiteness + number + image | WorkerId) +
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 174--175
+Underfull \hbox (badness 1038) in paragraph at lines 173--174
 \OT1/ptm/m/n/10 age. Sen-tences with in-def-i-nite sub-ject NPs were rated
  []
 
@@ -312,20 +312,23 @@ Underfull \hbox (badness 1038) in paragraph at lines 174--175
 File: figures/e2b_mod.pdf Graphic file (type pdf)
 
 <use figures/e2b_mod.pdf>
-Package pdftex.def Info: figures/e2b_mod.pdf used on input line 206.
+Package pdftex.def Info: figures/e2b_mod.pdf used on input line 205.
 (pdftex.def)             Requested size: 219.51863pt x 164.63835pt.
 
-Underfull \hbox (badness 4859) in paragraph at lines 207--207
+Underfull \hbox (badness 4859) in paragraph at lines 206--206
 []\OT1/ptm/m/n/10 Figure 4: []Mean gener-ic-ity rat-ings from Ex-per-i-ment
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 207--207
+Underfull \hbox (badness 6876) in paragraph at lines 206--206
 \OT1/ptm/m/n/10 2B (in-de-pen-dent rat-ings), plot-ted by pic-ture/plurality
  []
 
-[4 <./figures/stimuli.jpg> <./figures/e2a_mod.pdf>]
-Underfull \hbox (badness 2269) in paragraph at lines 224--225
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figures/stimuli.jpg> <./figures/e2a_mod.pdf>]
+Underfull \hbox (badness 2269) in paragraph at lines 223--224
  \OT1/ptm/b/n/10 Par-tic-i-pants \OT1/ptm/m/n/10 In part 1, we re-cruited 110 p
 ar-tic-i-pants
  []
@@ -334,18 +337,18 @@ ar-tic-i-pants
 File: figures/e3_norming_mod.pdf Graphic file (type pdf)
 
 <use figures/e3_norming_mod.pdf>
-Package pdftex.def Info: figures/e3_norming_mod.pdf used on input line 228.
+Package pdftex.def Info: figures/e3_norming_mod.pdf used on input line 227.
 (pdftex.def)             Requested size: 219.51863pt x 164.63835pt.
 
 <figures/e3_mod.pdf, id=52, 289.08pt x 216.81pt>
 File: figures/e3_mod.pdf Graphic file (type pdf)
  <use figures/e3_mod.pdf>
-Package pdftex.def Info: figures/e3_mod.pdf used on input line 234.
+Package pdftex.def Info: figures/e3_mod.pdf used on input line 233.
 (pdftex.def)             Requested size: 219.51863pt x 164.63835pt.
 
 [5 <./figures/e2b_mod.pdf> <./figures/e3_norming_mod.pdf> <./figures/e3_mod.pdf
 >]
-Underfull \hbox (badness 5607) in paragraph at lines 256--256
+Underfull \hbox (badness 5607) in paragraph at lines 255--255
 \OMS/pzccm/m/n/9 ^^X$ \OT1/pcr/m/n/9 definiteness * number * image + (image | W
 orkerId)
  []
@@ -355,7 +358,9 @@ Underfull \hbox (badness 1173) in paragraph at lines 153--168
 \OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
  []
 
-) [6] (./generics.aux) ) 
+[6]) [7
+
+] (./generics.aux) ) 
 Here is how much of TeX's memory you used:
  2305 strings out of 493488
  32369 string characters out of 3141325
@@ -363,20 +368,20 @@ Here is how much of TeX's memory you used:
  5566 multiletter control sequences out of 15000+200000
  41573 words of font info for 83 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,9n,23p,1587b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on generics.pdf (6 pages, 921628 bytes).
+ 37i,9n,23p,1590b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r
+.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on generics.pdf (7 pages, 922399 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
