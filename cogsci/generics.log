@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  2 FEB 2015 13:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  2 FEB 2015 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -303,11 +303,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--173
 \OT1/pcr/m/n/9 + definiteness + number + image | WorkerId) +
  []
 
-
-Underfull \hbox (badness 1038) in paragraph at lines 173--174
-\OT1/ptm/m/n/10 age. Sen-tences with in-def-i-nite sub-ject NPs were rated
- []
-
 [3] <figures/e2b_mod.pdf, id=28, 289.08pt x 216.81pt>
 File: figures/e2b_mod.pdf Graphic file (type pdf)
 
@@ -324,10 +319,7 @@ Underfull \hbox (badness 6876) in paragraph at lines 206--206
 \OT1/ptm/m/n/10 2B (in-de-pen-dent rat-ings), plot-ted by pic-ture/plurality
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./figures/stimuli.jpg> <./figures/e2a_mod.pdf>]
+[4 <./figures/stimuli.jpg> <./figures/e2a_mod.pdf>]
 Underfull \hbox (badness 2269) in paragraph at lines 223--224
  \OT1/ptm/b/n/10 Par-tic-i-pants \OT1/ptm/m/n/10 In part 1, we re-cruited 110 p
 ar-tic-i-pants
@@ -358,9 +350,7 @@ Underfull \hbox (badness 1173) in paragraph at lines 153--168
 \OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
  []
 
-[6]) [7
-
-] (./generics.aux) ) 
+) [6] (./generics.aux) ) 
 Here is how much of TeX's memory you used:
  2305 strings out of 493488
  32369 string characters out of 3141325
@@ -368,20 +358,20 @@ Here is how much of TeX's memory you used:
  5566 multiletter control sequences out of 15000+200000
  41573 words of font info for 83 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,9n,23p,1590b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r
-.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on generics.pdf (7 pages, 922399 bytes).
+ 37i,9n,23p,1557b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb>
+Output written on generics.pdf (6 pages, 921901 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
