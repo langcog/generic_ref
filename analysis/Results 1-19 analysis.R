@@ -27,6 +27,16 @@ ms <- ddply(mssa, .(definiteness,number,image), summarise,
              cil = ci.low(response),
              cih = ci.high(response))
 
+ms$definiteness <- factor(ms$definiteness, 
+                          levels = c("definite","indefinite"),
+                          labels = c("Definite","Indefinite"))
+ms$number <- factor(ms$number, 
+                    levels = c("singular","plural"),
+                    labels = c("Singular","Plural"))
+ms$image <- factor(ms$image, 
+                   levels = c("match","mismatch"),
+                   labels = c("Match","Mismatch"))
+
 pdf("cogsci/figures/e3.pdf", width=4, height=3)
 qplot(image, mean, col=number, lty=definiteness,
       group=interaction(number,definiteness),
