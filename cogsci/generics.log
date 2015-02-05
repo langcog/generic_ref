@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  4 FEB 2015 16:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.12.12)  4 FEB 2015 20:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -354,11 +354,11 @@ Underfull \hbox (badness 1173) in paragraph at lines 153--168
 Here is how much of TeX's memory you used:
  2305 strings out of 493488
  32369 string characters out of 3141325
- 95810 words of memory out of 3000000
+ 96810 words of memory out of 3000000
  5566 multiletter control sequences out of 15000+200000
  41573 words of font info for 83 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,9n,23p,1559b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,9n,23p,1552b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
 i10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
@@ -368,7 +368,7 @@ sr/local/texlive/2012/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2012
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on generics.pdf (6 pages, 921682 bytes).
+Output written on generics.pdf (6 pages, 921679 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
