@@ -6,8 +6,20 @@ require(gridExtra)
 library(plyr)
 
 d <- read.csv("data/Results 5-19-parsed.csv")
+d2 <- read.csv("data/Results 5-20-parsed.csv")
+d3 <- read.csv("data/Results 5-20 2-parsed.csv")
 
 colnames(d)[3] = 'language'
+colnames(d2)[3] = 'language'
+colnames(d3)[3] = 'language'
+
+colnames(d)[4] = 'feedback'
+colnames(d2)[4] = 'feedback'
+colnames(d3)[4] = 'feedback'
+
+d <- rbind(d,d2,d3)
+rm(d2)
+rm(d3)
 
 levels(d$language)
 
