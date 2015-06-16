@@ -8,6 +8,9 @@ library(plyr)
 d <- read.csv("data/Results 5-19-parsed.csv")
 d2 <- read.csv("data/Results 5-20-parsed.csv")
 d3 <- read.csv("data/Results 5-20 2-parsed.csv")
+# To include tense and aspect as the same factor, import a different CSV file:
+#d4 <- read.csv("data/tense_aspect_1.csv")
+d4 <- read.csv("data/tense_aspect_2.csv")
 
 colnames(d)[3] = 'language'
 colnames(d2)[3] = 'language'
@@ -21,10 +24,33 @@ d <- rbind(d,d2,d3)
 rm(d2)
 rm(d3)
 
+d4[2] = NULL
+# If using tense_aspect_1.csv, use the following:
+# colnames(d4) = c('sentence_id','tense.aspect')
+colnames(d4) = c('sentence_id','tense','aspect')
+d = merge(d,d4,by='sentence_id')
+rm(d4)
+
+d$sentence.length = 0
+
+for (i in 1:nrow(d)){
+  if (d[i,]$definiteness == 'definite' | d[i,]$number == 'singular'){
+    d[i,]$sentence.length = length(strsplit(toString(d[i,]$sentence),' ')[[1]]) - length(strsplit(toString(d[i,]$subject),' ')[[1]]) - 1
+  } else {
+    d[i,]$sentence.length = length(strsplit(toString(d[i,]$sentence),' ')[[1]]) - length(strsplit(toString(d[i,]$subject),' ')[[1]])
+  }
+}
+
 levels(d$language)
 
+# If using tense_aspect_1.csv, it is necessary to filter out sentences with the tense.aspect values "other" and "multiple":
+# d = subset(d, language != '"Hindi"' & language != '"Bengali"' & language != '"Korean"' & language != '"laotian"' & language != '"Spanish"' & tense.aspect != 'other' & tense.aspect != 'multiple')
 d = subset(d, language != '"Hindi"' & language != '"Bengali"' & language != '"Korean"' & language != '"laotian"' & language != '"Spanish"')
-levels(d$language) = droplevels(d$language)
+d$language = factor(d$language)
+# If using tense_aspect_1.csv, use the following line:
+# d$tense.aspect = factor(d$tense.aspect)
+d$tense = factor(d$tense)
+d$aspect = factor(d$aspect)
 
 d = subset(d, abs(rt - mean(d$rt)) < 2 * sd(d$rt))
 
@@ -44,10 +70,16 @@ qplot(definiteness, percent.generic, fill=number,
       position=position_dodge(width=.9),
       geom="bar",data=ms)
 
-mod1 = glmer(response.factor ~ definiteness * number * animacy * (definiteness + number + animacy | WorkerId), family=binomial,data = targets)
+# If using tense_aspect_1.csv, replace the factors tense and aspect with single factor tense.aspect. Of the three models below, I was only able to finish running the first.
+
+mod1 = glmer(response.factor ~ definiteness + number + animacy + tense + aspect + sentence.length + (definiteness + number + animacy + tense + aspect | WorkerId), family=binomial,control = glmerControl(optimizer = "bobyqa"),data = targets)
 
 summary(mod1)
 
-mod = glmer(response.factor ~ definiteness * number * animacy * (definiteness * number * animacy | WorkerId), family=binomial,data = targets)
+mod2 = glmer(response.factor ~ definiteness * number * animacy * tense * aspect * sentence.length + (definiteness + number + animacy + tense + aspect + sentence.length | WorkerId), family=binomial,control = glmerControl(optimizer = "bobyqa"),data = targets)
 
 summary(mod2)
+
+mod3 = glmer(response.factor ~ definiteness * number * animacy * tense * aspect * sentence.length + (definiteness * number * animacy * tense * aspect * sentence.length | WorkerId), family=binomial,control = glmerControl(optimizer = "bobyqa"),data = targets)
+
+summary(mod3)
