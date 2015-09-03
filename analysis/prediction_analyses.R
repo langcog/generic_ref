@@ -3,7 +3,7 @@ library(langcog)
 library(ggplot2)
 library(dplyr)
 
-d <- read.csv("data/for_prediction.csv")
+d <- read.csv("../data/for_prediction.csv")
 
 ## now average for each sentence, our unit of prediction. 
 
@@ -19,12 +19,12 @@ summary(glm(generic ~ number * definiteness + tense + aspect + sentence.length, 
 
 ms <- bys %>%
   group_by(number, definiteness, tense, aspect) %>%
-  multi.boot.df("generic", 
-                statistics = c("ci.lower", "ci.upper", "mean"))
+  multi_boot.data.frame(column = "generic", 
+                        statistics_functions = c("ci_lower", "ci_upper", "mean"))
 
 qplot(tense:aspect, mean, 
       geom = "pointrange",
       facets = number ~ definiteness, 
-      ymin = ci.lower, 
-      ymax = ci.upper,
+      ymin = ci_lower, 
+      ymax = ci_upper,
       data= ms)
