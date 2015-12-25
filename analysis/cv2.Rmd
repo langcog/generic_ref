@@ -1,0 +1,182 @@
+---
+title: "Classifying generics"
+author: "Phil Crone & Mike Frank"
+date: "Dec 24, 2015"
+output:
+  html_document:
+    highlight: pygments
+    theme: flatly
+    toc: yes
+    toc_depth: 2
+  pdf_document:
+    toc: yes
+---
+
+# Preliminaries
+
+```{r}
+suppressPackageStartupMessages(c("dplyr","ggplot2"))
+
+rm(list=ls())
+library(langcog)
+library(ggplot2)
+library(dplyr)
+library(caret)
+
+knitr::opts_chunk$set(fig.width=8, fig.height=5, 
+                      echo=TRUE, warning=FALSE, message=FALSE, cache=TRUE)
+theme_set(theme_bw())
+```
+
+Read data.
+
+```{r}
+raw.d <- read.csv("../data/for_prediction_2.csv")
+```
+
+# Human-human consistency 
+ 
+Let's get human-human consistency. First split the data. 
+
+```{r}
+ds <- raw.d %>%
+  filter(type == "target") %>%
+  group_by(sentence) %>%
+  mutate(n = n()) 
+
+multiples <- filter(ds, n > 1)
+singles <- filter(ds, n == 1)
+```
+
+Now check what the percent error is for sentences with two. 
+
+```{r}
+multiples %>% 
+  summarise(n = n()) %>%
+  ggplot(aes(x=n)) + geom_histogram()
+
+multiples %>%
+  filter(n==2) %>%
+  group_by(sentence) %>%
+  summarise(agree = sum(response) == 2 | sum(response) == 0) %>%
+  ungroup() %>%
+  summarise(agree = mean(agree))
+```
+
+This is terrible. Not sure what these data are though? Maybe it's odd examples? Either way we don't have anything to work with in this particular dataset. 
+
+# Cross-validation with caret
+
+Prepare data. Hold out 25% for future evaluation.
+
+```{r}
+d <- singles %>%
+  ungroup() %>%
+  select(sentence, animacy, number, definiteness, tense,
+         aspect, sentence.length, modal, be.have, response) %>%
+  mutate(response = factor(c("non.generic","generic")[response]))
+
+in_train <- createDataPartition(y = d$response,
+                                p = .75, 
+                                list = FALSE)
+
+training <- d[in_train,]
+testing <- d[-in_train,]
+```
+
+10-fold CV settings.
+
+```{r}
+fitControl <- trainControl(method = "repeatedcv",
+                           number = 10,
+                           classProbs = TRUE,
+                           summaryFunction = twoClassSummary,
+                           repeats = 10)
+```
+
+## Stepwise GLM
+
+Have to suppress outputs on this one since by default the output is super verbose. 
+
+```{r}
+glmstep_mod <- train(response ~ number * definiteness + animacy + tense + 
+                       aspect + sentence.length + modal + be.have,
+                data = training,
+                method = "glmStepAIC", # glmstepaic
+                trControl = fitControl,
+                metric = "ROC", 
+                trace = FALSE)
+```
+
+Now look at outputs. 
+
+```{r}
+glmstep_mod
+predictors(glmstep_mod)
+```
+
+Variable coefficients - we can interpret these just like we would a normal linear model.
+
+```{r}
+summary(glmstep_mod$finalModel)
+```
+
+## GLMnet
+
+Fit model using regularized [glmnet](http://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html).
+
+```{r}
+glmnet_mod <- train(response ~ number * definiteness + animacy + tense + 
+                       aspect + sentence.length + modal + be.have, 
+                data = training,
+                method = "glmnet", # glmstepaic
+                trControl = fitControl,
+                tuneGrid = expand.grid(alpha = seq(.1,1,.2),
+                                       lambda = c(.0001,.001,.01,.1)),
+                metric = "ROC")
+```
+
+Look at model and predictors. 
+
+```{r}
+glmnet_mod
+predictors(glmnet_mod)
+```
+
+Variable importance.
+
+```{r}
+varImp(glmnet_mod)
+```
+
+Very interesting, and quite interpretable. 
+
+## Super minimal glm
+
+Baseline from Phil's email. 
+
+```{r}
+min_mod <- train(response ~ number * definiteness + modal, 
+                data = training,
+                method = "glmStepAIC", # glmstepaic
+                trControl = fitControl,
+                metric = "ROC", 
+                trace = FALSE)
+```
+
+This model really doesn't do well, even on the training data. 
+
+## Results
+
+Predict on the held-out data. 
+
+```{r}
+glmstep_classes <- predict(glmstep_mod, newdata = testing)
+glmnet_classes <- predict(glmnet_mod, newdata = testing)
+min_classes <- predict(min_mod, newdata = testing)
+confusionMatrix(data = glmstep_classes, testing$response)
+confusionMatrix(data = glmnet_classes, testing$response)
+confusionMatrix(data = min_classes, testing$response)
+```
+
+So the stepwise and GLMnet versions are very similar (identical in some runs) to one another. But they both do much better than the minimal model. 
