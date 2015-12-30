@@ -65,6 +65,17 @@ multiples %>%
 
 This is terrible. Not sure what these data are though? Maybe it's odd examples? Either way we don't have anything to work with in this particular dataset. 
 
+```{r}
+multiples %>%
+  filter(n==2) %>%
+  group_by(sentence) %>%
+  summarise(agree = sum(response) == 2 | sum(response) == 4) %>%
+  ungroup() %>%
+  summarise(agree = mean(agree))
+```
+
+Responses are coded as either 1 or 2, so I believe we should be looking at cases in which the sum equals 2 or 4. Once we do this, human-human agreement is much higher.
+
 # Cross-validation with caret
 
 Prepare data. Hold out 25% for future evaluation.
@@ -166,6 +177,19 @@ min_mod <- train(response ~ number * definiteness + modal,
 
 This model really doesn't do well, even on the training data. 
 
+```{r}
+min_mod_2 <- train(response ~ definiteness + tense + modal, 
+                data = training,
+                method = "glmStepAIC", # glmstepaic
+                trControl = fitControl,
+                metric = "ROC", 
+                trace = FALSE)
+```
+
+Model referenced in email was a bit different, as it used a version of the dataframe in which tense and modal are treated as a single factor. Also, the minimal model did not include number as a predictor. The second minimal model comes closer to what was described in the email. 
+
+Notably, this model includes the three most important factors according to glmnet_mod.
+
 ## Results
 
 Predict on the held-out data. 
@@ -180,3 +204,10 @@ confusionMatrix(data = min_classes, testing$response)
 ```
 
 So the stepwise and GLMnet versions are very similar (identical in some runs) to one another. But they both do much better than the minimal model. 
+
+```{r}
+min_classes_2 <- predict(min_mod_2, newdata = testing)
+confusionMatrix(data = min_classes_2, testing$response)
+```
+
+Second minimal model has test error comparable to the stepwise and GLMnet versions.
