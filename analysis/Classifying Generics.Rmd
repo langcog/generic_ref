@@ -1,0 +1,359 @@
+---
+title: "Classifying generics"
+author: "Phil Crone & Mike Frank"
+date: "January 8, 2016"
+output:
+  html_document:
+    highlight: pygments
+    theme: flatly
+    toc: yes
+    toc_depth: 2
+  pdf_document:
+    toc: yes
+---
+
+# Preliminaries
+
+```{r}
+suppressPackageStartupMessages(c("dplyr","ggplot2","caret","tree","randomForest","gbm"))
+
+rm(list=ls())
+library(langcog)
+library(ggplot2)
+library(dplyr)
+library(caret)
+library(tree)
+library(randomForest)
+library(gbm)
+
+knitr::opts_chunk$set(fig.width=8, fig.height=5, 
+                      echo=TRUE, warning=FALSE, message=FALSE, cache=TRUE)
+theme_set(theme_bw())
+```
+
+# Inter-speaker agreement
+
+We'll start by considering inter-speaker agreement for our most recent experiments involving a binary forced-choice task. First, read in the data.
+
+```{r}
+raw.d <- read.csv("../data/for_prediction_2.csv")
+```
+
+Next, split the data
+
+```{r}
+ds <- raw.d %>%
+  filter(type == "target") %>%
+  group_by(sentence) %>%
+  mutate(n = n()) 
+
+multiples <- filter(ds, n > 1)
+singles <- filter(ds, n == 1)
+```
+
+Now check what the percent error is for sentences with two. 
+
+```{r}
+multiples %>%
+  filter(n==2) %>%
+  group_by(sentence) %>%
+  summarise(agree = sum(response) == 2 | sum(response) == 4) %>%
+  ungroup() %>%
+  summarise(agree = mean(agree))
+```
+
+For this experiment, human-human agreement is about 80%.
+
+We'll next consider data from Experiments 1 & 3. In these cases, subjects responsed using a 5-point Likert scale. First, read the data. 
+
+```{r}
+
+d1 = read.csv('../data/Results 10-3-parsed.csv')
+d2 = read.csv("../data/Results 1-13-parsed.csv")
+
+```
+
+Clean up data.
+
+```{r}
+
+d1 = d1[d1$Answer.101 != '"Hindi"' & d1$Answer.101 != '"spanish"' & d1$Answer.101 != '"Spanish"',]
+d2 = d2[d2$language != '\"Italian\"' & d2$language != '\"korean\"' & d2$language != '\"Punjabi\"' & d2$language != '\"Russian\"' & d2$language != '\"Spanish\"',]
+
+colnames(d1)[10] = 'sentence'
+
+```
+
+We'll classify responses on the Likert scale as either generic or non-generic. We can't classify ratings of 3 in this way, since it was the midpoint on our Likert scale. So, we'll throw out responses of 3. 
+
+```{r}
+
+d1 = subset(d1, response != 3 & type == 'judgment', select=c(sentence,response))
+d1$response = ifelse(d1$response == 1 | d1$response == 2,0,1)
+
+d2 = subset(d2, response != 3 & type == 'judgment', select=c(sentence,response))
+d2$response = ifelse(d2$response == 1 | d2$response == 2,0,1)
+
+d = rbind(d1,d2)
+
+```
+
+Get inter-speaker agreement.
+
+```{r}
+
+d %>%
+  group_by(sentence) %>%
+  mutate(n = n()) %>%
+  filter(n>1) %>%
+  group_by(sentence) %>%
+  mutate(agree = ifelse(sum(response) > n/2,sum(response) /n, 1 - sum(response) /n)) %>%
+  ungroup() %>%
+  summarise(agree = mean(agree))
+
+```
+
+In these experiments, speakers agree about 89% of the time.
+
+# Cross-validation with caret
+
+Prepare data for generalized linear models and tree-based methods. Hold out 25% for future evaluation.
+
+```{r}
+d <- singles %>%
+  ungroup() %>%
+  select(sentence, animacy, number, definiteness, tense,
+         aspect, sentence.length, modal, be.have, response) %>%
+  mutate(response = factor(c("non.generic","generic")[response]))
+
+in_train <- createDataPartition(y = d$response,
+                                p = .75, 
+                                list = FALSE)
+
+training <- d[in_train,]
+testing <- d[-in_train,]
+```
+
+10-fold CV settings.
+
+```{r}
+fitControl <- trainControl(method = "repeatedcv",
+                           number = 10,
+                           classProbs = TRUE,
+                           summaryFunction = twoClassSummary,
+                           repeats = 10)
+```
+
+## Stepwise GLM
+
+Have to suppress outputs on this one since by default the output is super verbose. 
+
+```{r}
+glmstep_mod <- train(response ~ number * definiteness + animacy + tense + 
+                       aspect + sentence.length + modal + be.have,
+                data = training,
+                method = "glmStepAIC", # glmstepaic
+                trControl = fitControl,
+                metric = "ROC", 
+                trace = FALSE)
+```
+
+Now look at outputs. 
+
+```{r}
+glmstep_mod
+predictors(glmstep_mod)
+```
+
+Variable coefficients - we can interpret these just like we would a normal linear model.
+
+```{r}
+summary(glmstep_mod$finalModel)
+```
+
+## GLMnet
+
+Fit model using regularized [glmnet](http://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html).
+
+```{r}
+glmnet_mod <- train(response ~ number * definiteness + animacy + tense + 
+                       aspect + sentence.length + modal + be.have, 
+                data = training,
+                method = "glmnet", # glmstepaic
+                trControl = fitControl,
+                tuneGrid = expand.grid(alpha = seq(.1,1,.2),
+                                       lambda = c(.0001,.001,.01,.1)),
+                metric = "ROC")
+```
+
+Look at model and predictors. 
+
+```{r}
+glmnet_mod
+predictors(glmnet_mod)
+```
+
+Variable importance.
+
+```{r}
+varImp(glmnet_mod)
+```
+
+Very interesting, and quite interpretable. 
+
+## Super minimal glm
+
+Baseline from Phil's email. 
+
+```{r}
+min_mod <- train(response ~ definiteness + tense + modal, 
+                data = training,
+                method = "glmStepAIC", # glmstepaic
+                trControl = fitControl,
+                metric = "ROC", 
+                trace = FALSE)
+
+min_mod
+```
+
+Notably, this model includes the three most important factors according to glmnet_mod.
+
+Let's consider an even more minimal model, which excludes `modal`.
+
+```{r}
+min_mod_2 <- train(response ~ definiteness + tense, 
+                data = training,
+                method = "glmStepAIC", # glmstepaic
+                trControl = fitControl,
+                metric = "ROC", 
+                trace = FALSE)
+
+min_mod_2
+```
+
+## Results
+
+Predict on the held-out data. 
+
+```{r}
+glmstep_classes <- predict(glmstep_mod, newdata = testing)
+glmnet_classes <- predict(glmnet_mod, newdata = testing)
+min_classes <- predict(min_mod, newdata = testing)
+min_classes_2 <- predict(min_mod_2, newdata = testing)
+confusionMatrix(data = glmstep_classes, testing$response)
+confusionMatrix(data = glmnet_classes, testing$response)
+confusionMatrix(data = min_classes, testing$response)
+confusionMatrix(data = min_classes_2, testing$response)
+```
+
+All models achieve test accuracy of 85%-87%.
+
+## Basic Decision Trees
+
+Now let's consider basic deicions trees. 
+
+```{r}
+
+generics.tree = tree(response ~ number + definiteness + animacy + tense + 
+                       aspect + sentence.length + modal + be.have,data=training)
+
+plot(generics.tree)
+text(generics.tree, pretty = 0)
+
+```
+
+How well does this tree do on the test data?
+
+```{r}
+
+tree.pred = predict(generics.tree, testing, type = "class")
+
+sum(tree.pred == testing$response)/length(tree.pred)
+
+```
+
+The accuracy rate is around 86% on the testing data. This is comparable to the generalized linear models considered above.
+
+Now use cross-validation to see if we might improve misclassification rate by pruning the tree.
+
+```{r}
+
+pruning.cv = cv.tree(generics.tree, FUN = prune.misclass)
+plot(pruning.cv)
+
+```
+
+Trees of size 3 perform as well as larger trees. Let's see how well such trees performs on the test data.
+
+```{r}
+
+pruned.tree.3 = prune.misclass(generics.tree, best = 3)
+plot(pruned.tree.3)
+text(pruned.tree.3, pretty = 0)
+
+tree.pred.3 = predict(pruned.tree.3, testing, type = "class")
+sum(tree.pred.3 == testing$response)/length(tree.pred.3)
+
+```
+
+The misclassification rate on testing data is slightly lower, but is comparable to the larger tree and the generalized linear models considered above.
+
+## Random Forests
+
+Now let's try random forests. For this, we build many decision trees based on bootstrapped training samples. Predictions are made by averaging the predictions of all decision trees. In addition, if `p` is the total number of predictors in our data, we choose some value `m < p` and only allow the decision trees to split on some random set of `m` predictors. 
+
+```{r}
+
+generics.rf = train(response ~ number + definiteness + animacy + tense + 
+                       aspect + sentence.length + modal + be.have,
+                    method = 'rf',
+                    data=training,
+                    trControl = fitControl,
+                    tuneGrid = expand.grid(mtry = seq(1:5)),
+                    allowParallel=TRUE)
+
+varImp(generics.rf)
+plot(generics.rf)
+```
+
+Again, definiteness and tense are the most important factors. It looks like we achieve the best accuracy on the training data for `m=3`. Let's see how this random forest performs on test data.
+
+```{r}
+
+rf.classes <- predict(generics.rf, newdata = testing)
+confusionMatrix(data = rf.classes, testing$response)
+```
+
+Test accuracy has increased slightly, but it is still comparable to what we had with the simple decision trees.
+
+## Boosting
+
+Rather than fit multiple decision trees to the training data, boosting first fits one decision tree to the training data. This tree is then shrunk and residuals are computed. Additional trees are fit to the residuals of the existing model, shrunk, and added to the current model. This process is then repeated.  
+
+```{r}
+
+generics.boost = train(response ~ number * definiteness + animacy + tense + 
+                       aspect + sentence.length + modal + be.have,
+                      data=training,
+                      method = 'gbm',
+                      distribution = 'bernoulli',
+                      trControl = fitControl,
+                      tuneGrid = expand.grid(n.trees = seq(100,1000,100),
+                                       interaction.depth = seq(1:5),
+                                       shrinkage=.01,
+                                       n.minobsinnode=20),
+                      verbose = FALSE)
+
+varImp(generics.boost)
+plot(generics.boost)
+```
+
+Again, tense and definiteness are the most important factors.
+
+```{r}
+boost.classes <- predict(generics.boost, newdata = testing)
+confusionMatrix(data = boost.classes, testing$response)
+
+```
+
+Test accuracy is comparable to what we saw for basic decision trees and random forests.
