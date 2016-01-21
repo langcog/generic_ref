@@ -6,19 +6,26 @@ library(directlabels)
 original = read.csv("../data/testing.csv")
 new = read.csv("../data/Subject-Agreement-Cleaned-Parsed.csv")
 
+# Data Cleanup
+new[503,]$sentence = 'The towels were left, wet and soggy, on the bathroom floor.'
+new[507,]$sentence = 'Pigs are, in fact, very clean animals. '
+new[876,]$sentence = '"A cow goes ""moo."""'
+new[1969,]$sentence = '"A cow goes ""moo."""'
+
 original = subset(original,select=c('sentence','response'))
 original$response = ifelse(original$response == 'generic',1,0)
-new = subset(new,type=='target',select=c('sentence','response'))
-new$response = ifelse(new$response == 1, 1, 0)
 
-d = rbind(original,new)
-
+d = subset(new,type=='target',select=c('sentence','response'))
+d$response = ifelse(d$response == 1, 1, 0)
+d$original.response = original[match(d$sentence,original$sentence),2]
 
 d %>%
   group_by(sentence) %>%
   mutate(n = n()) %>%
   filter(n>1) %>%
-  group_by(sentence) %>%
-  mutate(agree = ifelse(sum(response) >= n/2,sum(response) /n, 1 - sum(response) /n)) %>%
   ungroup() %>%
-  summarise(agree = mean(agree))
+  mutate(agree = response == original.response) %>%
+  group_by(sentence) %>%
+  summarise(agree = mean(agree)) %>%
+  ungroup() %>%
+  summarise(mean(agree))

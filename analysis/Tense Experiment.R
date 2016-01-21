@@ -48,15 +48,9 @@ qplot(tense, mean, col=number, lty=definiteness,
   scale_colour_manual(values=c("darkgray","black"), guide=FALSE) + 
   scale_linetype_discrete(guide=FALSE)
 
-### MODEL WE SHOULD BE FITTING
-mod <- glmer(response ~ animacy * definiteness * number * tense + 
-               (animacy * definiteness * number * tense | WorkerId) + 
-               (tense | subject), data=targets, family='binomial')
+mod = glmer(response ~ animacy * definiteness * number * tense
+            + (tense + definiteness + number | WorkerId) + (tense|subject), 
+            data=targets,family='binomial',control = glmerControl(optimizer = 'bobyqa'))
 
-### FASTER MODEL
-mod <- glmer(response ~ animacy * definiteness * number * tense + 
-              (animacy + definiteness + number + tense | WorkerId) + 
-              (tense | subject), data=targets, family='binomial', 
-              control=glmerControl(optimizer ='bobyqa'))
+summary(mod)
 
-mod = glm(response ~ animacy * definiteness * number * tense,data=targets,family='binomial')
