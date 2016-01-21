@@ -4,7 +4,7 @@ source("~/Projects/R/Ranalysis/useful_dplyr.R") # from github.com/langcog/Ranaly
 library(directlabels)
 
 original = read.csv("../data/testing.csv")
-new = read.csv("../data/Subject-Agreement-Cleaned-Parsed.csv")
+new = read.csv("../data/Subject-Agreement-Cleaned-Parsed.csv",stringsAsFactors=FALSE))
 
 # Data Cleanup
 new[503,]$sentence = 'The towels were left, wet and soggy, on the bathroom floor.'
