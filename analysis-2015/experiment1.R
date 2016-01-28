@@ -1,8 +1,9 @@
 rm(list=ls())
-source("~/Projects/R/Ranalysis/useful.R") # from github.com/langcog/Ranalysis
+source("~/Documents/Programming/R/useful.R") # from github.com/langcog/Ranalysis
+source("~/Documents/Programming/R/useful_dplyr.R") # from github.com/langcog/Ranalysis
 library(directlabels)
 
-d = read.csv("data/Results 10-3-parsed.csv")
+d = read.csv("~/Documents/Linguistics/Generics/Experiments/generic_ref/data/Results 10-3-parsed.csv")
 
 ### DATA CLEANUP
 colnames(d)[3] = 'language'
@@ -52,8 +53,30 @@ qplot(definiteness, mean, col=number,
   geom_dl(aes(label=number), method=list("last.qp",hjust=-.15, cex=.8))
 dev.off()
 
+mssa <- ddply(judgments, .(animacy,WorkerId), summarise,
+             ratings = mean(ratings))
 
+ms <- ddply(mssa, .(animacy), summarise,
+            mean = mean(ratings),
+            cil = ci.low(ratings),
+            cih = ci.high(ratings))
 
+ms$animacy <- factor(ms$animacy, 
+                    levels = c("animate","inanimate"),
+                    labels = c("Animate","Inanimate"))
+
+ms$animacy = relevel(ms$animacy,"Inanimate")
+
+pdf("~/e1_anim.pdf", width=4, height=3)
+qplot(animacy, mean, group=1,
+      ymin=mean - cil, ymax=mean + cih,
+      geom=c("line","linerange"),data=ms) + 
+  ylim(1,5) + 
+  ylab("Mean Genericity Rating") +
+  xlab("Animacy") +
+  theme_classic() +
+  scale_colour_manual(values=c("black"), guide=FALSE)
+dev.off()
 
 
 
@@ -95,5 +118,17 @@ mod <- lmer(ratings ~ animacy * definiteness * number +
               (definiteness + number | subject), data=judgments)
 
 
+sents <- judgments %>% 
+  group_by(full_sentence, animacy, definiteness, number) %>%
+  summarise(n = n(),
+            response = mean(as.numeric(response) - 11))
 
+quartz()
 
+pdf("cogsci/figures/e1_norming.pdf", width=4, height=3)
+qplot(response, facets = definiteness ~ number, 
+      data=sents) +
+  ylab("Count") + 
+  xlab("Genericity Rating") + 
+  theme_classic() 
+dev.off()

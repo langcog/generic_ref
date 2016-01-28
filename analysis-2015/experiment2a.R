@@ -1,6 +1,9 @@
 rm(list=ls())
 source("~/Projects/R/Ranalysis/useful.R") # from github.com/langcog/Ranalysis
+# source("~/Documents/Programming/R/useful.R")
 d = read.csv("data/Results-11-17-parsed.csv")
+# d = read.csv("~/Documents/Linguistics/Generics/Experiments/generic_ref/data/Results-11-17-parsed.csv")
+library(directlabels)
 
 ### DATA CLEANUP
 colnames(d)[3] = 'language'

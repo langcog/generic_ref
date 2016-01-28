@@ -22,7 +22,8 @@ library(langcog)
 library(ggplot2)
 library(dplyr)
 library(caret)
-library(tree)
+library(rpart)
+library(rpart.plot)
 library(randomForest)
 library(gbm)
 
@@ -37,6 +38,7 @@ We'll start by considering inter-speaker agreement for our most recent experimen
 
 ```{r}
 raw.d <- read.csv("../data/for_prediction_2.csv")
+testing <- read.csv('../data/testing.csv')
 ```
 
 Next, split the data
@@ -122,16 +124,14 @@ Prepare data for generalized linear models and tree-based methods. Hold out 25% 
 ```{r}
 d <- singles %>%
   ungroup() %>%
-  select(sentence, animacy, number, definiteness, tense,
+  select(sentence, sentence_id, animacy, number, definiteness, tense,
          aspect, sentence.length, modal, be.have, response) %>%
-  mutate(response = factor(c("non.generic","generic")[response]))
+  mutate(response = factor(c("generic","non.generic")[response]))
 
-in_train <- createDataPartition(y = d$response,
-                                p = .75, 
-                                list = FALSE)
+testing_ids = levels(as.factor(testing$sentence_id))
 
-training <- d[in_train,]
-testing <- d[-in_train,]
+training <- subset(d, !(sentence_id %in% testing_ids))
+testing <- subset(d, sentence_id %in% testing_ids)
 ```
 
 10-fold CV settings.
@@ -288,8 +288,9 @@ Trees of size 3 perform as well as larger trees. Let's see how well such trees p
 ```{r}
 
 pruned.tree.3 = prune.misclass(generics.tree, best = 3)
+
 plot(pruned.tree.3)
-text(pruned.tree.3, pretty = 0)
+text(pruned.tree.3, pretty = 0,splits=T)
 
 tree.pred.3 = predict(pruned.tree.3, testing, type = "class")
 sum(tree.pred.3 == testing$response)/length(tree.pred.3)
@@ -297,6 +298,18 @@ sum(tree.pred.3 == testing$response)/length(tree.pred.3)
 ```
 
 The misclassification rate on testing data is slightly lower, but is comparable to the larger tree and the generalized linear models considered above.
+
+Alternative decision tree:
+```{r}
+rpart.tree = rpart(response ~ number + definiteness + animacy + tense + 
+                       aspect + sentence.length + modal + be.have,data=training)
+
+rpart.prune = prune(rpart.tree,cp=0.1)
+
+pdf("tree.pdf", width=4, height=3)
+prp(rpart.prune,varlen=0,faclen=0,left=F)
+dev.off()
+```
 
 ## Random Forests
 
