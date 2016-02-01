@@ -77,6 +77,29 @@ Carlson, G\BPBI N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Chierchia%
+}{%
+Chierchia%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+Chierchia:1998}
+\APACinsertmetastar {%
+Chierchia:1998}%
+\begin{APACrefauthors}%
+Chierchia, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reference to Kinds across Languages} {Reference to kinds
+  across languages}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Natural Language Semantics}{6}{4}{339--405}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cimpian%
 \ \BBA {} Markman%
 }{%
@@ -129,6 +152,54 @@ Cimpian, A.%
   Indefinite singular noun phrases, tense, and aspect}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Child Development}{82}{5}{1561--1578}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dayal%
+}{%
+Dayal%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+Dayal:2004}
+\APACinsertmetastar {%
+Dayal:2004}%
+\begin{APACrefauthors}%
+Dayal, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Number Marking and (In)definiteness in Kind Terms}
+  {Number marking and (in)definiteness in kind terms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linguistics and {P}hilosophy}{27}{4}{393--450}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Degen%
+}{%
+Degen%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Degen:2015}
+\APACinsertmetastar {%
+Degen:2015}%
+\begin{APACrefauthors}%
+Degen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Investigating the distribution of \textit{some} (but not
+  \textit{all}) implicatures using corpora and web-based methods}
+  {Investigating the distribution of \textit{some} (but not \textit{all})
+  implicatures using corpora and web-based methods}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Semantics and Pragmatics}{8}{11}{1--55}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -330,6 +401,40 @@ Partee, B.%
   {E}nglish}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Philosophy}{70}{}{601--609}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+P\'{e}rez-Leroux%
+, Munn%
+, Schmitt%
+\BCBL {}\ \BBA {} DeIrish%
+}{%
+P\'{e}rez-Leroux%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+Perez-Leroux:2004}
+\APACinsertmetastar {%
+Perez-Leroux:2004}%
+\begin{APACrefauthors}%
+P\'{e}rez-Leroux, A\BPBI T.%
+, Munn, A.%
+, Schmitt, C.%
+\BCBL {}\ \BBA {} DeIrish, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Learning definite determiners: genericity and
+  definiteness in {E}nglish and {S}panish} {Learning definite determiners:
+  genericity and definiteness in {E}nglish and {S}panish}.{\BBCQ}
+\newblock
+\BIn{} A.~Brugos, L.~Micciulla\BCBL {}\ \BBA {} C\BPBI E.~Smith\ (\BEDS),
+  \APACrefbtitle {Supplement to the Proceedings of the 28th {A}nnual {B}oston
+  {U}niversity {C}onference on {L}anguage {D}evelopment.} {Supplement to the
+  proceedings of the 28th {A}nnual {B}oston {U}niversity {C}onference on
+  {L}anguage {D}evelopment.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
