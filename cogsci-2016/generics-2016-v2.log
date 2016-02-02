@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2015.3.4)  1 FEB 2016 15:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2015.3.4)  1 FEB 2016 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -252,17 +252,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
-
-<figures/e2-2016.pdf, id=10, 289.08pt x 216.81pt>
+ [2]
+<figures/e2-2016.pdf, id=17, 289.08pt x 216.81pt>
 File: figures/e2-2016.pdf Graphic file (type pdf)
  <use figures/e2-2016.pdf>
 Package pdftex.def Info: figures/e2-2016.pdf used on input line 130.
 (pdftex.def)             Requested size: 195.12975pt x 146.34705pt.
 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <./figures/e2-2016.pdf>]
+[3 <./figures/e2-2016.pdf>]
 Underfull \hbox (badness 1354) in paragraph at lines 150--151
 \OT1/ptm/m/n/10 We first used the Stan-ford part-of-speech (POS) tag-ger
  []
@@ -279,9 +276,6 @@ File: figures/tense.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/tense.pdf used on input line 196.
 (pdftex.def)             Requested size: 195.12975pt x 146.34705pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 1112) in paragraph at lines 202--203
 []\OT1/ptm/m/n/10 We fit a lo-gis-tic mixed-effects model to pre-dict sen-
  []
@@ -293,9 +287,6 @@ n of
  []
 
 [5 <./figures/tense.pdf>] (./generics-2016-v2.bbl
-Underfull \vbox (badness 2837) has occurred while \output is active []
-
-
 Underfull \hbox (badness 1173) in paragraph at lines 141--156
 \OT1/ptm/m/n/10 Preschool-ers' use of mor-phosyn-tac-tic cues to iden-tify
  []
@@ -304,11 +295,11 @@ Underfull \hbox (badness 1173) in paragraph at lines 141--156
 Here is how much of TeX's memory you used:
  2412 strings out of 493481
  33999 string characters out of 3140966
- 100497 words of memory out of 3000000
+ 98497 words of memory out of 3000000
  5673 multiletter control sequences out of 15000+200000
  40130 words of font info for 80 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,10n,23p,1470b,243s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,23p,1454b,243s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/d
 vips/base/8r.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
@@ -318,7 +309,7 @@ m/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/courier/ucrr8a
 local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texl
 ive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on generics-2016-v2.pdf (6 pages, 124925 bytes).
+Output written on generics-2016-v2.pdf (6 pages, 125052 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
