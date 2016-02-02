@@ -305,6 +305,29 @@ Gelman, S\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Heim%
+}{%
+Heim%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+Heim:1994}
+\APACinsertmetastar {%
+Heim:1994}%
+\begin{APACrefauthors}%
+Heim, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comments on {A}busch's theory of tense} {Comments on
+  {A}busch's theory of tense}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ellipsis, tense and questions}{}{}{143--170}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Krifka%
 \ \protect \BOthers {.}}{%
 Krifka%
