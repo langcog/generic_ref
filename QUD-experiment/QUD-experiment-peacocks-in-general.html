@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Conversation Experiment</title>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="mmturkey.0.5.js"></script> 
+
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="slide" id="instructions">
+<br>
+<p><b>Conversation Experiment</b></p>
+
+<p class="block-text">Your will read descriptions of conversations between two speakers. In each conversation, one of the speakers says something about an animal or object. 
+Your task is to judge whether this sentence is about a <b>type</b> of animal or object, about a <b>specific</b> animal or object, or about a <b>specific group</b> of animals or objects.</p>
+
+<p class="block-text">There are about 40 sentences for you to judge. 
+The HIT should take about 5 minutes. </p>
+
+<p class='block-text'>PLEASE ONLY COMPLETE ONE HIT WITH THIS NAME. IF YOU COMPLETE MULTIPLE HITS WITH THIS NAME, YOU WILL NOT BE PAID FOR YOUR WORK.</p>
+  
+<button type="button" onclick="experiment.intro()">Start</button>
+<p class="block-text" id="mustaccept">
+You must accept the HIT in order to continue.
+</p>
+  
+	<p class="block-text" id="legal">Legal information: By answering the
+		following questions, you are participating in a study being performed by
+		researchers in the Stanford Department of Linguistics. If you have
+		questions about this research, please contact Phil Crone (<a
+		href="mailto://pcrone@stanford.edu">pcrone@stanford.edu</a>). You must be  at least 18 years old to
+		participate. Your participation in this research is voluntary. You may
+		decline to answer any or all of the following questions. You may decline
+		further participation, at any time, without adverse consequences. Your
+		anonymity is assured; the researchers who have requested your
+		participation will not receive any personal information about you.</p> <BR><BR>
+</div>
+
+<div class="slide" id="intro">
+	<p class="block-text" id="blurb">In this experiment you will see a sequence of about 40 conversations between <span class='name1'></span> and <span class='name2'></span>.
+	In most of these interactions, <span class='name1'></span> will ask <span class='name2'></span> for some sort of information and <span class='name2'></span> will respond. In other cases, <span class='name2'></span>
+	will offer information without any prompting from <span class='name1'></span>.</p>
+	
+	<p class="block-text" id="blurb">For each of these interactions, you will indicate whether <span class='name2'></span>'s statement is about a <b>type</b> of animal or object, about a 
+<b>specific</b> animal or object, or about a <b>specific group</b> of animals or objects. </p>
+	
+	<p class="block-text" id="blurb">Click the button below to begin. You will start by warming up with three example items for which you will receive feedback. This feedback will help you get a sense for how to respond as you work through the HIT. </p>
+	<img  height='0' width='0' align='center'/>
+	<button type="button" onclick="this.blur(); experiment.next(0);">Continue</button>
+</div>
+
+<div class="slide" id="end_of_examples">
+	<p class="block-text" id="blurb">Great! Now that you've had a chance to get a feel for the survey, let's begin. 
+	Click the button below to continue.</p> 
+	<button class="continue">Continue</button>
+</div>
+
+<div class='slide' id = "sentence_judgment">
+<div class="progress">
+	<span>Progress:</span>
+	<div class="bar-wrapper">
+	  <div class="bar"></div>
+	</div>
+</div>
+<br>
+<p class="qtxt"><span id="questiontxt"></span></p>
+<form id='form'>
+<div class='example_response' id='example_ratings'>
+	<p class="block-text" id="context"><b><span class='name1'></span></b>: <span class='utterance' id = 'context-utterance'></span></p>
+	<p class="block-text" id="response"><b><span class='name2'></span></b>: <span class='utterance' id = 'response-utterance'></span></p>
+	<p class="block-text" id="blurb">Is <span class='name2'></span>'s statement about <span class="plural_subject"></span> in general or about a specific <span class="subject"></span>?</p>
+    <center>
+    <table>
+    <tr>
+    <td><label><input class='rating' name='genericity' type='radio' value='1' /> &nbsp;&nbsp; <span class="cap_plural_subject"></span> in general</label></td> 
+    </tr>
+    <tr>
+    <td><label><input class='rating' name='genericity' type='radio' value='0' /> &nbsp;&nbsp; A specific <span class="subject"></span></label></td>
+    </tr>
+	</table>
+	</center>
+	<p></p>
+	<p class='no_answer'>Please answer before continuing.</p>
+	<p></p>
+	<p class='block-text' id='explanation'><span class="explain_text"></span></p>
+	</div>
+</form>
+<button class='continue'>Continue</button>
+</div>
+
+<!-- FOR RAPHAEL: make a canvas
+<div class='canvas' id='canvas'></div>-->
+
+<div class="slide" id="language">
+	<p>Last question: What is your native language (the language that
+	was spoken at home when you were a child)?</p>
+  <p>Please enter it below.</p> 
+  <form id="lgform">
+  <input type="text" name="lg" id="lgbox"></input>
+  <form id="feedbackform">
+  	<p>If you would like to provide any feedback, you may write it in the box below.</p>
+  <textarea cols="100" rows="4" name="feedback" id="feedbackbox"></textarea>
+   </form>
+  <button type="button" id="lgsubmit">Submit</button>
+  
+</div>
+
+<div class="slide" id="finished">
+	You're finished - thanks for participating! Submitting to Mechanical Turk...
+</div>
+
+<script type="text/javascript" src="QUD-experiment-general.js"></script></body>
+</html>
