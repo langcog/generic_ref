@@ -110,7 +110,7 @@ mod4 = glm(response ~ number * definiteness * tense * context * animacy,
            family='binomial')
 summary(mod4)
 # Model for experiment 2 with no random effects. 
-# Significant predictors: Tense, Animacy, Number:Animacy interaction, Context:Animacy interaction, Number:Tense:Animacy interaction, Number:Context:Animacy interaction, Tense:Context:Animacy interaction
+# Significant predictors: Number:Animacy interaction, Context:Animacy interaction, Number:Tense:Animacy interaction, Number:Context:Animacy interaction, Tense:Context:Animacy interaction
 
 mod5 = glmer(response ~ number * definiteness * tense * context * animacy 
              + (number + definiteness + tense + context + animacy | subject) 
@@ -152,6 +152,34 @@ mod9 = lmer(response ~ number * definiteness * tense * context * animacy
 item.felicity = ddply(subset(d,experiment.type=='felicity'), .(sentence,context), summarise, item.naturalness = mean(response))
 
 targets = targets %>% merge(item.felicity)
+
+# See if there is a correlation between felicity and genericity
+
+cor(subset(targets,experiment.type=='peacocks')$item.naturalness,subset(targets,experiment.type=='peacocks')$response)
+
+cor(subset(targets,experiment.type=='peacocks in general')$item.naturalness,subset(targets,experiment.type=='peacocks in general')$response)
+
+# See if there is a correlation between felicity and "matching" responses (i.e. generic response in generic context, specific response in specific context)
+
+match = function (exp.type,genericity,context){
+  match.val = 0
+  if (exp.type == 'peacocks' | exp.type == 'peacocks in general') {
+    if (genericity == 0 & context == 'specific'){
+      match.val = 1
+    } else if (genericity == 1 & context == 'generic'){
+      match.val = 1
+    }
+  }
+  match.val
+}
+
+match.vec = Vectorize(match)
+
+targets$match = match.vec(targets$experiment.type,targets$response,targets$context)
+
+cor(subset(targets,experiment.type=='peacocks' & context != 'bare')$item.naturalness,subset(targets,experiment.type=='peacocks' & context != 'bare')$match)
+
+cor(subset(targets,experiment.type=='peacocks in general' & context != 'bare')$item.naturalness,subset(targets,experiment.type=='peacocks in general' & context != 'bare')$match)
 
 # Now see if felicity is a significant predictor of genericity ratings.
 
