@@ -68,7 +68,8 @@ plot2 = qplot(context, resid, col=number, lty=definiteness,
           method=list("last.qp", cex=.8, hjust=-.15)) + 
   theme_classic() +
   scale_color_solarized(guide=FALSE) +
-  scale_linetype_manual(values=c("solid", "dashed"),guide=FALSE)
+  scale_linetype_manual(values=c("solid", "dashed"),guide=FALSE) +
+  geom_hline(yintercept=0,linetype='dashed')
 plot2
 
 mod1 = glm(genericity ~ animacy * number * definiteness * tense * context,
