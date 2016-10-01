@@ -1,0 +1,107 @@
+WorkerId,SubmitTime,animacy,number,definiteness,tense,subject,sentence,response,rt,question_number,type,aspect,modal,be_have,sentence_id,sentence_length,original_response
+3AJEF9C0BH2QXVC32W1LRMTKUEJUDL,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,definite,past,football,The footballs were specially designed for professional competition.,1,9638,53,target,simple,no,no,196,6,non.generic
+M8PP6PCLH242CQ56Z8S63RMGTWOINK,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,indefinite,present,toilet,A toilet should be cleaned regularly.,1,3736,50,target,simple,yes,no,279,4,generic
+1DUE6VR5H635QZOY521G52BZ5UBBMF,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,indefinite,present,car,A car needs fuel.,1,2228,33,target,simple,no,no,498,2,generic
+90G79ROOMVEK0DH5ZA58S8ZSLVNKYP,Thu Jan 21 17:02:18 PST 2016,animate,plural,definite,past,fox,The foxes escaped the hounds.,2,3637,39,target,simple,no,no,648,3,non.generic
+LDK6G3T8YMB98G8WU8B4W95B17HK1O,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,past,marble,Marbles rolled down the slope.,2,2287,29,target,simple,no,no,3382,4,non.generic
+5I3IL54KGDNMGIVEAO14K01EYWC80R,Thu Jan 21 17:02:18 PST 2016,animate,singular,indefinite,present,dog,A dog barks all night.,2,2335,28,target,simple,no,no,3158,3,non.generic
+DUIZDGA0OJ9JYNT8ERWMDOZCQSMUT3,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,past,fence,The fence fell down in the storm.,2,1996,25,target,simple,no,no,2122,5,non.generic
+63K2UR508IQZIFJNPWWFNYIWE5Y6LY,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,present,elephant,Elephants like to trumpet when they are happy.,1,2877,24,target,simple,no,no,3588,7,generic
+EXHR2DTZ1L1J66LCGE8YCQ9Z2HND0B,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,present,penguin,Penguins live in arctic regions.,1,2518,27,target,simple,no,no,3188,4,generic
+K217HPZDEWT8LIN944NY1FVRKUDIS9,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,past,knife,Knives flew through the air at the target. ,2,2826,26,target,simple,no,no,1572,7,non.generic
+IMIZ3RFU6WX22NAMEVG1C58L2Z81PP,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,past,chair,Chairs were provided for the extra guests.,2,3307,21,target,simple,no,no,2345,6,non.generic
+BS4N5XPZIRB6K45AX5DE9YRTD6DA5E,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,present,toilet,Toilets are flushed. ,1,4764,20,target,simple,no,no,120,2,generic
+EXYWLU62AYL4EZYLO959N0WRHW3212,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,definite,past,couch,The couches were smelly.,2,4172,23,target,simple,no,yes,2051,2,non.generic
+B1PBIAP578HJ4GQUUY49OM9IETN875,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,definite,present,light bulb,The light bulbs are burned out.,2,4324,22,target,simple,no,no,1464,3,non.generic
+1NC0903F5XH0XIZ24W8J65905PVT03,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,present,clock,Clocks make a ticking sound.,1,4193,47,target,simple,no,no,1905,4,generic
+9JHOJVEZIFAEK1D1V0D20PCUU5TR06,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,definite,present,chair,The chairs are hard,2,1981,46,target,simple,no,yes,2015,2,non.generic
+D20T9I3DA08A4IHVXFFAWWFV2I07SG,Thu Jan 21 17:02:18 PST 2016,animate,plural,definite,present,dolphin,The dolphins can really speak English; they're just messing with us.,2,6590,45,target,simple,yes,no,4003,9,non.generic
+H78KJIAI734TLLQVDEYOOU71562K8Q,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,present,panda,Pandas have forgotten how to reproduce.,1,3554,44,target,perfect,no,no,3185,5,generic
+C3T3EQK6UDQ6JWYNUND7W3TRZ7TPOE,Thu Jan 21 17:02:18 PST 2016,animate,plural,definite,present,peacock,The peacocks are showing off.,2,3417,43,target,progressive,no,no,8,3,non.generic
+KW2XEB14GZ803VSWQ43LXGUZ1JVH5Z,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,past,fence,Fences were built to maintain property.,1,2233,42,target,simple,no,no,2712,5,non.generic
+CJNTECQTDOUP17G2KNKDMQGIUFKI94,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,past,cheetah,Cheetahs ran quickly through the wild,2,2148,41,target,simple,no,no,1114,5,generic
+GM8ABCWK41PXLSEE6LTUOCPDT8NN0I,Thu Jan 21 17:02:18 PST 2016,animate,plural,definite,past,squirrel,The squirrels chased each other,2,2363,40,target,simple,no,no,1888,3,non.generic
+UPP8RHPRKJ3MG2BF6ZFUHT2TBY253K,Thu Jan 21 17:02:18 PST 2016,animate,singular,definite,present,owl,The owl is a wise creature.,1,2106,49,target,simple,no,yes,3432,4,generic
+WSZ1TFC22IBZ8B7DW58DS4M1NIU4BR,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,present,television,The television is turned off.,2,1711,48,target,simple,no,no,591,3,non.generic
+EEPBJ8JY20IYRMT5VHXSHRA1BDAT5Z,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,present,peacock,Peacocks Have long feathers,1,3282,6,target,simple,no,yes,1348,3,generic
+X4FMTVTFE7B3SGXSDIJ5MOVZIUVZU0,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,present,bed,The bed is made up.,2,1991,7,target,simple,no,no,3888,3,non.generic
+14BXRYPTZDBYICJCLN2AI68WTS0YIA,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,present,sword,Swords are weapons.,1,5316,4,example,simple,no,no,3888,3,non.generic
+Q988O9PH3OQXZAGRNJGBKGPWDHXHGU,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,present,cat,Cats are cute when they sleep.,1,3558,5,target,simple,no,yes,681,5,generic
+A12ID3JP04K1563S87D6L6BMHLVB8L,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,definite,present,bus,The buses were blocking traffic.,2,3308,2,example,simple,no,yes,681,5,generic
+XYIC39GQBT6EJKBWRQWKIV6RBOIHMS,Thu Jan 21 17:02:18 PST 2016,animate,singular,indefinite,present,mouse,A mouse lives in my house.,2,3569,3,example,simple,no,yes,681,5,generic
+4LCIRUCIHTN1FQJTSG2GTYH2SSIEMQ,Thu Jan 21 17:02:18 PST 2016,animate,singular,definite,present,zebra,The zebra is not extinct.,1,7789,1,example,simple,no,yes,681,5,generic
+HNFBL7L9LS71J3UTIHZYZWWREVALHL,Thu Jan 21 17:02:18 PST 2016,animate,singular,definite,present,owl,The owl is wise.,1,3695,8,target,simple,no,yes,814,2,non.generic
+OF9UY68U4A97UHMPM9HIQHJ601TII0,Thu Jan 21 17:02:18 PST 2016,animate,singular,definite,present,elephant,The elephant sprays himself.,2,3497,9,target,simple,no,no,796,2,non.generic
+Y4HM3TSRLMS3TM1PH690EF3WAKHDDZ,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,past,piano,The piano needed tuning,2,2231,14,target,simple,no,no,335,2,non.generic
+8X1E5LDTENRC0BLRTPZAW8XW72J76L,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,present,toilet,The toilet is very necessary,1,4243,15,target,simple,no,yes,970,3,generic
+L12XCT9FV2C548OFGJAI0GYSFH61VO,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,past,tire,Tires cost a lot of money.,1,2801,16,target,simple,no,no,4026,5,generic
+KT0HBCJUKLF0IRF4664BYLL1OOWVJT,Thu Jan 21 17:02:18 PST 2016,animate,plural,definite,present,fox,The foxes say Ring-ding-ding-ding-dingeringeding,1,7987,17,target,simple,no,no,3183,2,non.generic
+LA6ZHC8PLUYYSB5H9PX83SWBGS5CDP,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,past,clock,The clock chimed away,2,2772,10,target,simple,no,no,3263,2,non.generic
+FE53AP7B74TOF0DBHEAFJ055YT2MVX,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,past,kite,The kite flew high on the strong winds.,2,2700,11,target,simple,no,no,3835,6,non.generic
+HQFF97MZ5M1SUS2H2L9Y281W1LGQEO,Thu Jan 21 17:02:18 PST 2016,animate,singular,definite,past,pigeon,The pigeon flew up,2,2531,12,target,simple,no,no,2000,2,non.generic
+9D9I0OLUK3MSZRWB0PDH1081ILYGLN,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,present,pigeon,Pigeons love breadcrumbs.,1,2286,13,target,simple,no,no,3863,2,generic
+LXCBG1100PYYGOAK7TBUMKP11JSXEW,Thu Jan 21 17:02:18 PST 2016,animate,singular,indefinite,past,butterfly,A butterfly was once a caterpillar,1,3264,36,target,simple,no,yes,693,4,generic
+WRENGL4USP32WDS4BGWXYJOILUMMG1,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,past,elephant,Elephants stamped when frightened ,1,2870,37,target,simple,no,no,3270,3,generic
+0J2ESYX9H6KBPAUFDOQ5B0X40KLO0Q,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,definite,past,shirt,The shirts were vintage,2,2433,34,target,simple,no,yes,2985,2,non.generic
+HAG5WSQVN76TGJB6TWDTNAEZ5CQVCK,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,present,kite,The kite flies high.,2,2090,35,target,simple,no,no,3072,2,generic
+MKY3X3II2VD3AXESUZHBT4YBKQ3ITF,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,present,guitar,Guitars have a wonderful sound for folk music or rock music.,1,3221,18,target,simple,no,yes,208,10,generic
+P93JJV60IKEKFG7W06G8SAM597MOD8,Thu Jan 21 17:02:18 PST 2016,animate,plural,definite,past,skunk,The skunks chased each other through the flower field.,2,2850,19,target,simple,no,no,1968,7,non.generic
+5KUBBDGKPIYSDIJB4WG8OTHABKSXHN,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,present,computer,The computer is a fun way to pass the time.,1,4035,30,target,simple,no,yes,2545,8,generic
+A4F2B1C3XODUSY0P9VTZS3RM4MV9VO,Thu Jan 21 17:02:18 PST 2016,inanimate,singular,definite,past,toilet,The toilet was clogged.,2,2398,31,target,simple,no,no,2304,2,non.generic
+J6J0GW8VSO3X2Z3P420919ORMZ4WHY,Thu Jan 21 17:02:18 PST 2016,inanimate,plural,indefinite,present,bicycle,Bicycles are a green form of transportation.,1,2794,38,target,simple,no,yes,4224,6,generic
+89KGPQ3FNI5RJ39PEPL6ZDHDLM7APB,Thu Jan 21 17:02:18 PST 2016,animate,plural,definite,present,kangaroo,The kangaroos jump around merrily.,2,6072,51,target,simple,no,no,609,3,non.generic
+8NDFVTLS4034JUACS1OF9K1I3Y5OUQ,Thu Jan 21 17:02:18 PST 2016,animate,singular,definite,past,bear,The bear growled.,2,3380,32,target,simple,no,no,617,1,non.generic
+RTODE6E4BXS7IDOFRTG3F1P924X3ID,Thu Jan 21 17:02:18 PST 2016,animate,plural,indefinite,present,shark,Sharks are brutal.,1,2333,52,target,simple,no,yes,4309,2,non.generic
+2Y1CO0F4JF78DWDAVMR0432E5A6ZDL,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,past,toilet,The toilet was clogged.,2,3145,53,target,simple,no,no,2304,2,non.generic
+MY0R5AW8AV6EKMSUCO36PAZRX3RMBV,Thu Jan 21 17:41:03 PST 2016,animate,singular,indefinite,present,dog,A dog barks all night.,2,5383,50,target,simple,no,no,3158,3,non.generic
+FTK71VQHQM0PWKHL2FSEVEDDEJ7QO9,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,present,toilet,Toilets are flushed. ,1,2809,33,target,simple,no,no,120,2,generic
+0XV3DVARYU7R12M8T4R2MV8V5YLLBZ,Thu Jan 21 17:41:03 PST 2016,animate,singular,definite,past,pigeon,The pigeon flew up,2,3008,39,target,simple,no,no,2000,2,non.generic
+1LYKFDTRTD4QKOQO0OMWAND57BHDNG,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,present,computer,The computer is a fun way to pass the time.,1,27536,29,target,simple,no,yes,2545,8,generic
+I9H62ZA941UT7USQ3LO178Y8BK3E6B,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,present,kite,The kite flies high.,2,3273,28,target,simple,no,no,3072,2,generic
+991VCCR4TRH5YYBCBIAU6GGXH4IBXQ,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,present,penguin,Penguins live in arctic regions.,1,2219,25,target,simple,no,no,3188,4,generic
+IYARC9DB623EAFUHNEUNH069B5MGBV,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,definite,past,shirt,The shirts were vintage,2,7032,24,target,simple,no,yes,2985,2,non.generic
+7YFW54S3BN6F6CQE4ECASGKT1RPRH6,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,present,bed,The bed is made up.,2,5600,27,target,simple,no,no,3888,3,non.generic
+VFP3WKJ20X2HOR5GITN1Z3GCFPKKCW,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,present,peacock,Peacocks Have long feathers,1,2312,26,target,simple,no,yes,1348,3,generic
+36QSTOMI42ENRYQK5WMHK7W68P45OG,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,present,clock,Clocks make a ticking sound.,2,8770,21,target,simple,no,no,1905,4,generic
+REVHDY36P9TIA1W9GIDXF9Q8OIFSFD,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,definite,present,light bulb,The light bulbs are burned out.,2,2963,20,target,simple,no,no,1464,3,non.generic
+GDNH3D1ZRK5CI7KUZ80F6LUWI1XH71,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,past,kite,The kite flew high on the strong winds.,2,4560,23,target,simple,no,no,3835,6,non.generic
+KDBCWQWZUCSOPAW4VRT49LSK3QZ7QV,Thu Jan 21 17:41:03 PST 2016,animate,singular,definite,past,bear,The bear growled.,2,13743,22,target,simple,no,no,617,1,non.generic
+019SD4T5MAG02FI1YHQHZUOWLCTTUH,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,indefinite,present,toilet,A toilet should be cleaned regularly.,1,41685,47,target,simple,yes,no,279,4,generic
+ERMHPDWOE3B2499FOUMEZ2N3LUUBPR,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,past,chair,Chairs were provided for the extra guests.,2,39139,46,target,simple,no,no,2345,6,non.generic
+6TYQQM9099V7NA1U5NNG5WHTRG50KL,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,past,tire,Tires cost a lot of money.,1,4543,45,target,simple,no,no,4026,5,generic
+LVPHBM7NY98BOHNSF7B1KC357L95AX,Thu Jan 21 17:41:03 PST 2016,animate,plural,definite,present,peacock,The peacocks are showing off.,2,3699,44,target,progressive,no,no,8,3,non.generic
+QOFV1PHUIVEQHJURI4QQKC90KLF9W2,Thu Jan 21 17:41:03 PST 2016,animate,singular,indefinite,past,butterfly,A butterfly was once a caterpillar,1,4907,43,target,simple,no,yes,693,4,generic
+0BDQ7TFBFU2PZOMN70TN3Q197A18OO,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,past,piano,The piano needed tuning,2,14532,42,target,simple,no,no,335,2,non.generic
+GOL4N0BC52CAEF26DSLXQEJZJ2BVC8,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,present,guitar,Guitars have a wonderful sound for folk music or rock music.,1,34197,41,target,simple,no,yes,208,10,generic
+FHLM1AZ9IK6H76EPL6IA0YYF2JKKB3,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,past,clock,The clock chimed away,2,25915,40,target,simple,no,no,3263,2,non.generic
+K14MCN8JQDNZZ6YL4FHF2FN72CA4CD,Thu Jan 21 17:41:03 PST 2016,animate,singular,definite,present,owl,The owl is a wise creature.,1,5347,49,target,simple,no,yes,3432,4,generic
+BJOV6PFNWIYE4I8D6Q5L6GMK2NMP8K,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,definite,present,chair,The chairs are hard,2,2544,48,target,simple,no,yes,2015,2,non.generic
+BX4AE5NFTY7JJCJJWVKKM9FBX9GW9A,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,present,bicycle,Bicycles are a green form of transportation.,1,5056,6,target,simple,no,yes,4224,6,generic
+TWCBVUJ1EVZMXY36J5IVUBJ5J67NQY,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,present,toilet,The toilet is very necessary,1,12684,7,target,simple,no,yes,970,3,generic
+WWERCGEKJIJQL9PS5217IZ4W337EUX,Thu Jan 21 17:41:03 PST 2016,animate,singular,definite,present,zebra,The zebra is not extinct.,1,8367,4,example,simple,no,yes,970,3,generic
+9E752AF3MCP0D30URJ16TSB7AKO2JV,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,indefinite,present,car,A car needs fuel.,1,35313,5,target,simple,no,no,498,2,generic
+KCLBJ72UCYRMYSIQIWB1S870IM50HI,Thu Jan 21 17:41:03 PST 2016,animate,singular,indefinite,present,mouse,A mouse lives in my house.,2,5987,2,example,simple,no,no,498,2,generic
+G6OX4H7181WBQ89J2QYG5FM44BZ56L,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,present,sword,Swords are weapons.,1,4443,3,example,simple,no,no,498,2,generic
+OSGDWAB6ZIV83ERQAIKKER4DD2FEY2,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,definite,present,bus,The buses were blocking traffic.,2,13167,1,example,simple,no,no,498,2,generic
+ZIE6Y387MHQHNRR3J3NQR2TYPD20OF,Thu Jan 21 17:41:03 PST 2016,animate,plural,definite,past,skunk,The skunks chased each other through the flower field.,2,5180,8,target,simple,no,no,1968,7,non.generic
+2N1947HFI7FX2M43F95G5OJO6VET8Z,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,present,cat,Cats are cute when they sleep.,1,4827,9,target,simple,no,yes,681,5,generic
+F7UNAOZ7LLATLQUHPHIZBSOXD3XWML,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,present,television,The television is turned off.,2,2895,14,target,simple,no,no,591,3,non.generic
+LJ353HTJHV0YX1I47FPP7R3VDVN278,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,past,fence,Fences were built to maintain property.,2,138047,15,target,simple,no,no,2712,5,non.generic
+WGKHK2N9SVY8SH8JG0SQVIEYQYFJ7R,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,present,pigeon,Pigeons love breadcrumbs.,1,3144,16,target,simple,no,no,3863,2,generic
+IPB0G38QCHGBN9X7G12RKFHIWFE3HK,Thu Jan 21 17:41:03 PST 2016,animate,plural,definite,present,dolphin,The dolphins can really speak English; they're just messing with us.,2,80709,17,target,simple,yes,no,4003,9,non.generic
+JSY7BXOCHMF2FYWN9KJ8RPHZE1WKDF,Thu Jan 21 17:41:03 PST 2016,animate,plural,definite,past,squirrel,The squirrels chased each other,2,6288,10,target,simple,no,no,1888,3,non.generic
+5LAX0U2XHLT252054OJGNE01OX0UMQ,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,present,shark,Sharks are brutal.,1,5032,11,target,simple,no,yes,4309,2,non.generic
+9BO5PIVAP7LW0144TADWJHP6QDA14N,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,present,panda,Pandas have forgotten how to reproduce.,1,4988,12,target,perfect,no,no,3185,5,generic
+VCW4GFZICR54NEZXJEOBXR9B98MD6O,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,definite,past,couch,The couches were smelly.,2,13767,13,target,simple,no,yes,2051,2,non.generic
+ZULESG5DTPUC45XSR1205JHGLX80YE,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,past,cheetah,Cheetahs ran quickly through the wild,1,3620,36,target,simple,no,no,1114,5,generic
+PAV2Q0RQSK9ZDJUWASDE4VSK65ERL0,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,present,elephant,Elephants like to trumpet when they are happy.,1,46397,37,target,simple,no,no,3588,7,generic
+0J7KKBCBUSKY5O5YS5ZS8L7NSAM6N2,Thu Jan 21 17:41:03 PST 2016,animate,singular,definite,present,elephant,The elephant sprays himself.,2,4168,34,target,simple,no,no,796,2,non.generic
+LQ9VNKV9BYU3FZ3KE10N3YLDRJMJ89,Thu Jan 21 17:41:03 PST 2016,animate,plural,indefinite,past,elephant,Elephants stamped when frightened ,2,18552,35,target,simple,no,no,3270,3,generic
+UWKEE00WFMMR2XI25M9QGVX14P7CXR,Thu Jan 21 17:41:03 PST 2016,animate,plural,definite,present,fox,The foxes say Ring-ding-ding-ding-dingeringeding,2,15111,18,target,simple,no,no,3183,2,non.generic
+WZ5H99FRS979HABZOANHK676CSKQZ3,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,definite,past,football,The footballs were specially designed for professional competition.,2,6240,19,target,simple,no,no,196,6,non.generic
+ON98FTLAF6DX983YEGORNWVMZEG0QA,Thu Jan 21 17:41:03 PST 2016,animate,plural,definite,present,kangaroo,The kangaroos jump around merrily.,1,23352,30,target,simple,no,no,609,3,non.generic
+XF1O2AFJ2EC93YRSTYWRN5ZAOMT9SP,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,past,marble,Marbles rolled down the slope.,2,6831,31,target,simple,no,no,3382,4,non.generic
+E8OU6J2S8YPIHVM6TO2D7CIZDA3EB3,Thu Jan 21 17:41:03 PST 2016,inanimate,singular,definite,past,fence,The fence fell down in the storm.,2,3048,38,target,simple,no,no,2122,5,non.generic
+7FSOIT0M7808GR4DAGSRNKTU39K4W6,Thu Jan 21 17:41:03 PST 2016,animate,plural,definite,past,fox,The foxes escaped the hounds.,2,3497,51,target,simple,no,no,648,3,non.generic
+G4EKSTCQHVXK4MIE1088RJPSE1O5AR,Thu Jan 21 17:41:03 PST 2016,inanimate,plural,indefinite,past,knife,Knives flew through the air at the target. ,2,3563,32,target,simple,no,no,1572,7,non.generic
+CSOUO9NRTQYGO8DCB28495OQ405738,Thu Jan 21 17:41:03 PST 2016,animate,singular,definite,present,owl,The owl is wise.,2,6663,52,target,simple,no,yes,814,2,non.generic

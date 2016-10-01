@@ -1,0 +1,482 @@
+WorkerId,SubmitTime,Answer 55,Answer 56,animacy,number,definiteness,subject,sentence,sentence_id,response,rt,question_number,type
+L9VJ6COE4RK9IJDM3U46OI6Z8F1VWD,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,car,Cars are a form of transportation.,565,1,2234,53,target
+D5QMVRXMOD6PN98Z3IWREB8RJG61YO,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,definite,football,The football flies through the air,4215,2,3536,54,target
+SFQPVSHXDH3Q45THZEBXESSVUNLH6O,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,trumpet,Trumpets played the mournful tune.,2285,2,2917,50,target
+4B2SFEQWX4FB43FWAK85JYYZC0G5ZH,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,boat,Boats are floating in the lake,1051,2,3431,33,target
+4I0ENGN9HAZ9RVU9X6W1JCSIGKHCEV,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,indefinite,owl,Owls have large eyes,1421,1,4335,39,target
+YWMHX8YZ0ZTH39MV51HB4NWEPOL1NS,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,cat,The cat runs from the dog.,3069,2,2497,29,target
+UDI38W5MHQL1WSV261UEBIX9XCOJ9H,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,definite,bear,The bears at the zoo seem playful.,2474,2,3318,28,target
+FA1I55AV8NQ48VJXIJHLP73N58DDKM,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,definite,trumpet,The trumpet was missing a mouthpiece.,930,2,3397,25,target
+WKJHMWQAVCTDV6DEEOQWHMZDJDKNJZ,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,indefinite,camel,A camel moved slowly across the desert.,1182,2,5785,24,target
+VNISIIK5HLDZPGJZR2O6T5XANO4080,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,indefinite,marble,A marble is a fun toy to give at christmas.,1540,1,4048,27,target
+28H05E7PYMM62JN0IUI8SV2BXGL1XK,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,indefinite,boat,A boat is fun!,1025,1,4204,26,target
+5M706GPVHR8EVXODPLRGFQBEC54I0T,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,skunk,The skunk sprayed the car.,2082,2,2682,21,target
+TQXGSXSO2SLJELP2DLN6FE0XHCSJ66,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,indefinite,pig,A pig squealed happily as he rolled in the mud.,1752,2,5400,20,target
+7QYAP9BNAQQT6YZODKC6WGFNAY6ZY2,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,definite,tire,The tires screeched loudly.,644,2,4430,23,target
+MZWMPN6IT3SHKUMULB9UR3SHE71DDX,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,definite,turtle,The turtles plodded along.,637,2,4503,22,target
+4QWZSKDX7M1TV676NS9OHBJQ0HW8CM,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,knife,"Knives are sharp, and should be handled with care.",4235,1,2892,47,target
+NVHCJH2WS6XVVSGDSUZRTWQFQVZJI6,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,indefinite,light bulb,A light bulb just went out.,2279,2,4035,46,target
+DFHNO9T40VZHJSATL3KDV1HBG3C853,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,indefinite,knife,A knife is sharp.,1662,1,4682,45,target
+7AREELPBV5CO7R3QQ2N75UR3JOXB8F,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,bed,Beds are not made up yet.,1455,2,3034,44,target
+37GZ7UHBGBJ8FMPZULKUF9PSDLHK0B,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,indefinite,cheetah,Cheetahs can run fast.,2182,1,2600,43,target
+T9UW4RVYFKH8WIW4BTFIZK6TOEUDLO,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,cat,The cat lapped up milk from its dish.,1984,2,4349,42,target
+YT9DRR37OW900M2U06RITFOO6CTQQ2,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,definite,chair,The chairs fell over,3254,2,3018,41,target
+AUN3FB7EZKOC1Z4K9OWLQDRTQ79XMW,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,indefinite,panda,A panda Ate bamboo,1356,2,2333,40,target
+1JB1O8TRONH5VPB7DOG3CTUB8SZ1T9,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,indefinite,gorilla,Gorillas ate lots of fruits and leaves,1778,1,6235,49,target
+SE98RMYVBP362FMN5YB56EXZRF1H49,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,butterfly,The butterfly landed on the flowers.,1826,2,3124,48,target
+2C9753GBD937QCL2EAFJWCJ568LIXU,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,definite,shirt,The shirt was dirty.,2111,2,5435,6,target
+VHEI9PY66EVGRN8YYYOQ10SM6S9839,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,fox,The fox ran after the hound.,1145,2,3266,7,target
+A7A6W0LAQ4EVRSBZG1O7COZFQH910D,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,definite,bus,The buses were blocking traffic.,1145,2,7251,4,example
+KZH9I4W480Z5I3HY4H4KW276REY762,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,indefinite,butterfly,Butterflies tickle my nose.,4039,1,12183,5,target
+52REJDOQVCXIGKI5AJ3HQDKWMDG068,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,zebra,The zebra is not extinct.,4039,1,5914,2,example
+D1UQIVX98ZRYMWDKUTU9CWNJPZ03EP,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,indefinite,mouse,A mouse lives in my house.,4039,2,5334,3,example
+9XSB58AU0CSVULL6DSJT6Q8UO8CZ51,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,sword,Swords are weapons.,4039,1,10456,1,example
+BAXU3B5NCPLK4QCBZDS9211T8TVFID,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,definite,fence,The fences would only hold off the zombies for so long.,3015,2,6350,8,target
+59YQ6QSOJNRW14GXTAHEVQXU7DVGCY,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles were something I used to collect.,1315,1,5065,9,target
+6C8YMTF4NZO2QXXBSYK5GYRU2IFEU7,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,toilet,Toilets come in handy.,832,1,4584,14,target
+TPHPR1XWPGW6PK5IGX9K88GF8Y7BEF,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,dolphin,The dolphin chatters back from the coastline.,1460,2,4800,15,target
+1JKXYIBDGM5G6C5SKX0WKSWURLUO18,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,indefinite,tire,A tire was hanging from the tree.,2328,2,2998,16,target
+2IBM4W9J8X1AEPCWGOM7RNOGC1P0V6,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,indefinite,camel,Camels can go for days without water.,2569,1,2714,17,target
+4QAFU1VNL9HJ40RX343DIV0RHDB71Q,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,towel,Towels are soft and fluffy,4219,1,3455,10,target
+Y3AW763BQ02QF1BU0UFUTYMV166N52,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,indefinite,elephant,Elephants like to trumpet when they are happy.,3588,1,3396,11,target
+OORUJI5O8L2UYAY7NWTUYV8FVF3PEQ,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,definite,knife,The knives were sharpened in preparation for slicing meat.,3517,2,3199,12,target
+5YWCKYA64JGVWILJAKEYBK5SGRTTQ4,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,definite,cow,The cows need milking.,369,2,4517,13,target
+96UBXSBFJYZ77G1SQ6Y5ZW5SOA8P3H,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,squirrel,The squirrel ran quickly.,2555,2,2968,36,target
+5WPLB8C4E04YRDMKDJXVE039UVCB2C,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,indefinite,trumpet,Trumpets sound loud. ,136,1,2650,37,target
+IRQECT7DIVC2VN9G7PJK9R079F00Y7,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,definite,camel,The camel is a good way to travel in the desert.,3210,1,3384,34,target
+1OR3L79U2NZVKLYRY39YKHLHIFD5LV,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,definite,shark,The sharks circled the blood in the water. ,1568,2,3183,35,target
+YENB5WK4X2HNAFBCLPDUPP3Q9ZSNYT,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,singular,indefinite,fox,A fox can hide in the woods,1867,1,3922,18,target
+W6SOWDFMRZVT617EMTSYGMC048XXIE,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,definite,tire,The tire Went flat,1330,2,2967,19,target
+KTQFBNRAOJ1UNMPPWRE32S7CN1LPMU,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,indefinite,clock,A clock tells time. ,121,1,3453,30,target
+J14XFK66VNCJYGPH2HVAFCNDYABFCA,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,definite,tire,The tire was round,2760,2,3717,31,target
+YY0PVE6VZP37PLHKRRHJKD7JYIWNTB,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,definite,television,The television is turned on loudly.,764,2,3431,38,target
+TNC72RWP1IAG4Q6I0KJISPVL6L98X5,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,plural,definite,car,The cars hit each other,1871,2,2866,51,target
+6I4QPK7YHBXUYU4MIKPV9472MN2GLO,Wed May 20 10:25:09 PDT 2015,"""English""","""""",animate,plural,definite,pig,The pigs roll in the mud.,761,2,5884,32,target
+MFUNOPQXZ2A16XIV2PPZU79PRDSDNF,Wed May 20 10:25:09 PDT 2015,"""English""","""""",inanimate,singular,indefinite,boat,A boat sailed by,2012,2,2667,52,target
+YUC452HDY4SN66IZXC7PQK7ZP1K3YT,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,indefinite,penguin,A penguin cannot fly.,3289,1,2151,53,target
+0M3O08JPQ6MJ73AMPBZLTLL6RA6AEK,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,fox,Foxes are hunted by men on horses.,2807,1,2543,54,target
+QSY54FM8RNU0SCX51JZ36FOZ86M9GX,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,definite,cow,The cows go moo.,2870,1,2191,50,target
+D649QRGTBKA24VQCILG1GJF9KCDLNZ,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,boat,Boats were anchored in the harbor.,155,2,2680,33,target
+R4BUKWQB0KM4ZTDLLZA1KBI78K6URN,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,indefinite,skunk,A skunk smelled so badly we couldn't believe it.,3572,2,6719,39,target
+1J9KT56BVCLN6MLMDJK1LRAO4AT2IG,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,indefinite,toilet,A toilet flooded the apartment,4302,2,2480,29,target
+SGWB4THU5L8ZV7NQT8KP7BGPHGU0TC,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,peacock,Peacocks are brightly colored,4246,1,2126,28,target
+6EFN3V9UDS0O4PLA0Z09W8L950PM0X,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles rolled across the floor.,628,2,2695,25,target
+VSC4RONHZKZFK1F3BAG1SMRRE6VH1N,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,shark,Sharks live in the oceans.,4173,1,2629,24,target
+83SJT9Y3QGF65X0JKNEYYCBFNJD7PU,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,definite,toilet,The toilet is clogged.,3327,2,2511,27,target
+5KG4XSN0RCCL96U87K1QDPE9YVQ1C5,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,indefinite,panda,A panda lives at the zoo,1887,2,2103,26,target
+5FHDRTPDERVBQ3XOYCFYFZRYNOTV0Y,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,zipper,Zippers break from time to time,1087,1,2167,21,target
+S2GDNG8LY552GFB3ZJ23LK1111F77P,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,definite,piano,The pianos are playing in tantum.,2228,2,2671,20,target
+RZMQWMQCH9PMLFK265U7D7C5P8G350,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,definite,pigeon,The pigeon cooed playfully.,649,2,2105,23,target
+401AZAY73ID7L5B2FPBYL9J529B9A8,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,indefinite,zipper,A zipper needs to be replaced on my jeans.,557,2,2544,22,target
+8MNYJGQBA7OF9XEPQGJD8JSH71H14Y,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,definite,pigeon,The pigeon flew up,2000,2,3775,47,target
+4UQ7WRLZ9TF8FWTAUJLTETDQTZGQ5Z,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,definite,trumpet,The trumpet sounded pleasant.,575,2,2271,46,target
+EUGM7TZE99WMBJZAY7FXIV4S1ULQDS,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,elephant,Elephants never forget.,2900,1,2383,45,target
+NCBCK48YGP50XEHYE6LN5IT3F03QJ9,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,definite,piano,The piano was not tuned up so we couldn't play.,2321,2,2639,44,target
+EBAMZPUC6OC516Y5NZVFLI6AH8TFHR,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,definite,owl,The owls wake up at night.,2898,1,4159,43,target
+XJA61IC11TO7JZKV5I0RCP9O2E6X8R,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,definite,panda,The pandas are all asleep.,2232,2,2247,42,target
+3XCH17ZB8IQIKRJV4SXAA4NKETAHWP,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,indefinite,cow,A cow grazes peacefully in the field. ,1265,2,2534,41,target
+79I29AZTR35W6S6VFVCZZXLZLZS4JB,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,pigeon,Pigeons are ugly.,1904,1,2263,40,target
+6II64MGJYQP5F93BG8JVUSVIRBX1GL,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,definite,shark,The sharks off the coast can be dangerous to humans.,755,1,4015,49,target
+3JK9A34CO3QNKV91ZJFKJ6LQZHRITI,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,squirrel,Squirrels hide in trees.,1227,1,3222,48,target
+E2SGDJ7JD310XJKW98YPBKGEU64S1G,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,penguin,Penguins like a cold climate.,919,1,3650,6,target
+JWSCVXR2WM2MXD9X5J9IL0CJG5HBGL,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,turtle,Turtles make good pets.,1287,1,1873,7,target
+YMQSLI42TVI4JY5HURSAA18QNMW1EH,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,definite,bus,The buses were blocking traffic.,1287,2,5223,4,example
+JLQ0TBAEW8OH57SR0LJ1XFJOLGJUKG,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,light bulb,Light bulbs are cheap.,2903,1,4913,5,target
+R3DZ3B8U9IQJA0R3WTWROVF8APDUVW,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,sword,Swords are weapons.,2903,1,5461,2,example
+KYM3K4733KBFA92LEKF4U4CXS4YGEE,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,definite,zebra,The zebra is not extinct.,2903,1,4670,3,example
+T4MO5W9I35176UHQCLZC3R3R5NQECF,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,indefinite,mouse,A mouse lives in my house.,2903,2,10724,1,example
+S4BOUSQ392JRY0EAP6GLNNV7KBGX7E,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,definite,dog,The dog is the most precious animal on earth.,2138,1,2918,8,target
+AICLMQ9DALMASZ5BQ8LRTIIVWWFKAW,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,penguin,Penguins have a funny way of moving,1668,1,4111,9,target
+G8E97C3MYS0LW7QDSQDUJJ34D535TX,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,definite,lion,The lion is king of the jungle.,3461,1,2423,14,target
+8806B96RP06WK34NIJVFKQXDT8FXNX,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles were never returned ,1766,2,4351,15,target
+F55K2LEQYDPUY183JQLPMZD3AHSJFB,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,indefinite,boat,A boat glided over the reef,1761,2,3519,16,target
+V2CJA4IHO27IVRQ2VH6VQPLYXQ69US,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,definite,skunk,The skunk was leaving an odor throughout the neighborhood.,1712,2,2919,17,target
+FODIDVM15YNNSA6722WIB1WOY6AYYE,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,definite,bear,The bears slumbered.,1835,2,3447,10,target
+2DAG1MX93NALI3MWYPMM14OBC923CM,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,zipper,Zippers go up and down.,2084,1,2776,11,target
+1IHSI5KRLGN68ILB1M286Q0WLVAMR7,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,pigeon,Pigeons are nothing but dirty sky rats.,2205,1,1982,12,target
+7JM8P00ZQJDNZ8NB7RL63Z39VFUJNZ,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,indefinite,dog,A dog is sleeping on the porch.,9,2,2326,13,target
+Y1RWPY6KEZNKVDBEMP3O5ASYD3HIW0,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,kite,Kites were flown high.,1214,2,3104,36,target
+6S0Y8EG3I6TZ6MFD004WIPUGB6OF71,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,indefinite,bicycle,Bicycles the bicycles were shiny,2972,2,2647,37,target
+9931BX8BUKYD0KG685XNO893CHRLV8,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,indefinite,knife,A knife was stuck in the back of the body.,2174,2,2311,34,target
+556KJG74BL7H15N534787LQ5XU7SV7,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,indefinite,shirt,A shirt can be made of cotton.,3191,1,3710,35,target
+VJY9CQZ67HMDFWWPTKNVCRXW3ZQG2K,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,definite,rabbit,The rabbit ate lots of carrots,1772,2,2423,18,target
+31KQ7SSXGP7QRDD58EJ54LXYTE0WOV,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,plural,indefinite,bear,Bears hibernate for the winter months.,66,1,2550,19,target
+H8W9VYPSPECDW4ZJ7BF5LHM2MA0A1N,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,definite,light bulb,The light bulbs went on.,3403,2,2943,30,target
+2EMAVXFEKY091OKP30AJROR07FRDCC,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,indefinite,shark,A shark ate the scuba diver,1771,2,2520,31,target
+P0JXXB0C1ZIG65ZYC3XMFWKIVANHTM,Wed May 20 10:27:52 PDT 2015,"""English""","""""",animate,singular,definite,camel,The camel stores water in its hump,1071,1,3183,38,target
+0OK0V04LVV20RPY6IGJKOT45H460R1,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,definite,trumpet,The trumpet PLAYED THE SONG LOUDLY. ,3126,2,2391,51,target
+111IPSRN6ZD1LXM5P5BP6BIUG0F7E5,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,singular,indefinite,tire,A tire blew out when it ran over a sharp object.,1985,2,2286,32,target
+VIT6OEH22ZAU5M9E3QO8PHD3PES1TA,Wed May 20 10:27:52 PDT 2015,"""English""","""""",inanimate,plural,definite,knife,The knives were arranged by size.,3872,2,3063,52,target
+WBPC2D9Y8YHE7IZ4C9LY2SYQ6MFX14,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,tire,The tires spun as he drove down the highway. ,1578,2,2700,53,target
+LJITATWGEUHD577E4I2KK5YTSTQZKK,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,shirt,The shirts needed to be dry-cleaned soon.,867,2,2439,54,target
+QZMK029XFH1JO7Y516HGODTAZZ0EEA,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,definite,butterfly,The butterfly had pretty wings.,753,2,2646,50,target
+T7VCU39KAJN6H8TEK3HVJHGYJMJXM9,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,television,The televisions were all turned on.,1005,2,2766,33,target
+ZGCBPPZTQPTLVQ6HZKQ5OG0812ITFM,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,definite,elephant,The elephant has a trunk,994,1,2645,39,target
+H5YI35PVRZ5H02D2ZQBH8US2VG0MNW,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,marble,A marble is a fun toy for a kid to play with when they are bored,4080,1,2669,29,target
+FTWRUG9X61R4DUOU0WAO13SVNT3IIG,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,indefinite,skunk,A skunk was hit on the road. ,2480,2,2319,28,target
+IIY9W13YBAE03246RF4ZFEY6SM1DX9,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,indefinite,elephant,Elephants marched through the jungle.,643,2,7783,25,target
+8AU3KC7BVN2O2VTACNA26BLUHH0ZAJ,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,indefinite,zipper,Zippers are used to close to pieces of fabric.,298,1,3124,24,target
+WU27UKEGJFCNOKQX6061DYDUU5GYEI,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,piano,A piano is used to write and create music,324,1,2471,27,target
+0KY1KRLIUAFDGMNAP6BNWSNMX7JM1E,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,couch,A couch is for sitting.,28,1,3508,26,target
+QDN2WFSBCNMSGLHL1NJHAZTJ223FDP,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,definite,turtle,The turtles are crossing the road.,2931,2,3475,21,target
+3I8GNBLRA0FQEK283PC2B2OA5RCDD7,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,indefinite,bear,A bear can hibernate all winter without food.,2165,1,3258,20,target
+PU0X8WSMF9FY55B15PL4NXN3QUEOPF,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,indefinite,cheetah,A cheetah ran across the road,2980,2,2271,23,target
+KMM461G6CBGIWQ8C2RVEFULFM9B094,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,car,A car drives on a freeway.,797,1,5508,22,target
+9BD5E0E7QLK1QJK1QXOWY0FV0TG3JW,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,definite,cow,The cow should not be dinner.,3452,1,2507,47,target
+CIJ1B20QW18B6V4E73RTBSPAU8P3P4,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,indefinite,rabbit,A rabbit sprung up out of the grass just a few feet in front of us.,1743,2,3581,46,target
+RAS5T8T8D3J7YBB1SDMY5ZUTG1CZ6H,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,definite,television,The television is turned off.,591,2,2146,45,target
+BNCZCM36HJG2CHUFCEEPTSYW8LZWK5,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,television,The televisions are a great way to keep entertained.,1161,1,2652,44,target
+MJIXHGZQT9OZMMJVUM0T8O1P56SI63,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,trumpet,The trumpets sounded off tune.,4015,2,2503,43,target
+TEY9UIWLFGLRM118NEXPJYE0IQXZYY,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,definite,bed,The bed was very comfortable.,1286,2,4396,42,target
+N7UTF8WM252VJ3VXFCA9PLAKYB5SDL,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,indefinite,owl,An owl hooted at night,2212,2,2818,41,target
+3OTR10NJNYZOBPQBSNICQCE2AVX0QP,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,definite,turtle,The turtles have outgrown their aquarium. ,1238,2,3988,40,target
+ZRIKTVBTXGFWNQ80KGF6RN97UA1ZO5,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,indefinite,clock,Clocks ticked and chimed.,1809,2,3823,49,target
+YSNQM7FNZFHRZTUEXNYC8RHI06537Y,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,indefinite,boat,Boats are great for smuggling cocaine!,3706,1,3077,48,target
+8CGF9OPU0PA7V19UJY1ZB6DQJSZNX6,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,kite,The kites have tails,3683,2,3136,6,target
+VC0OPOEJUK4Y4J8LZFGTB68PW9YENM,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,couch,The couches were old and torn. ,1594,2,2820,7,target
+JWLE243KDBY032A17EXN68ACJLV0BA,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,indefinite,mouse,A mouse lives in my house.,1594,2,2790,4,example
+U8PFLM2STBOHHK56EKLMXGUM7XPZ4J,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,indefinite,owl,Owls have eaten several mice.,2715,1,22142,5,target
+XGK4V32ZD3S4GNZG1IMMND5IAEKEV4,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,indefinite,sword,Swords are weapons.,2715,1,3520,2,example
+L8B8JKLDQS9A26ERGU94QVREN2HC7U,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,bus,The buses were blocking traffic.,2715,2,2652,3,example
+1TMVDHRZPMV2Y4M45O4XCZIK7KPK1W,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,definite,zebra,The zebra is not extinct.,2715,1,9308,1,example
+VEJSMBU7OO6S9YQEK1Y579YBQM80N9,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,definite,fence,The fence was broken and needed mending.,868,2,2043,8,target
+2ZQRX4YR2VN8B38NSMI66SHFUQH2OM,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,indefinite,peacock,A peacock flew away.,4321,2,2071,9,target
+F4ATS9TWWF0TZZLMU28P63MP7AWA51,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,definite,penguin,The penguins played in their pen.,2487,2,3520,14,target
+SW7RP5WZTZSW1G64XWZFLSZTSF7APY,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,indefinite,boat,Boats can go very fast.,3769,1,2029,15,target
+YTVCPHU0IUUTXI9600D56QXF8QY14I,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,indefinite,football,Footballs fill the air.,828,1,6204,16,target
+5IJUK7Z05UYCSUQ5DK4VBZBHAWVW40,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,knife,The knives were kept in the drawer.,661,2,3659,17,target
+X051H9JKCQ2OUW1GAEZSG5KA7W0K8Z,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,definite,dog,The dog chased the cat.,2912,2,1717,10,target
+ZGXATRLH75QWOGHZ3P4NGHGMPHCQXE,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,indefinite,fence,Fences are put to protect animals from getting in or to provide privacy,4105,1,2872,11,target
+D013KZLTTZC82XYELKIS6Z5S3YIRBS,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,definite,penguin,The penguins are grouped together in the cage.,2257,2,2429,12,target
+GS0QZEZFL9UREOF2T88T2Z7JH34L2J,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,knife,A knife needs to be sharpened regularly.,872,1,3371,13,target
+8DY8BGYEVRZUXROZ8AC05P008NJFKR,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,piano,A piano was in the band room.,2469,2,4163,36,target
+P2C297EBYRJ7XHVOIOSQQGKN0SCN1P,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,definite,owl,The owl says HOO at night,3330,1,3257,37,target
+IKXCNA48TPEA5D914FV1BFOULZTPRF,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,light bulb,A light bulb went off in his head.,3428,2,8291,34,target
+N0OH1S3Z1C26C4UPF8LELHG8BAW436,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,indefinite,lion,Lions stalked their prey in the jungle.,1755,2,4354,35,target
+WNMDD503SFBESSZCDOGI4134TJ12IM,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,bicycle,A bicycle can be handy,2021,1,2001,18,target
+RF751HQRQK5Q7510WFV6AN7D89V82Q,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,indefinite,owl,Owls are said to be wise.,3608,1,1906,19,target
+465UDLO2YKC5V0IJF10CYK3B9KKLF0,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,plural,definite,elephant,The elephants stroll across the savanna.,3306,2,4548,30,target
+MJLKPIG9S1XBDKHCR9BNSI777QRW3T,Wed May 20 10:28:14 PDT 2015,"""English""","""""",animate,singular,indefinite,shark,A shark can bite hard.,589,1,2797,31,target
+EU1LPMVFPFSXWZQMVHDL7KPNI3DCUA,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,definite,television,The televisions are very large and expensive.,3894,2,3065,38,target
+9TPC75ZMPT0AC24D213ZHGEYS934GE,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,plural,indefinite,toilet,Toilets are needed in houses.,710,1,2120,51,target
+1NQMM8WPDD7XZXWJ011HPWW413ZFXA,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,toilet,A toilet is functional.,3761,1,1849,32,target
+Z9ZI8P9FEM5Z8PQLHPQRVCAXL8HC0Y,Wed May 20 10:28:14 PDT 2015,"""English""","""""",inanimate,singular,indefinite,chair,A chair is by the table.,2426,2,8586,52,target
+0MUWPG4X90J7OEQVBAJ9RXW55W2BB2,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,definite,kite,The kites soared high in the sky. ,3932,2,5383,53,target
+LEW195B8NDEL2L45DBP1I2MQ6Y1L51,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,squirrel,A squirrel is climbing up the tree.,3294,2,9205,54,target
+BK5W5LHGUVBZFUT1WH56NJMZBVYX7R,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,skunk,A skunk is one of the worst animals to encounter.,878,1,4269,50,target
+EKM44OPSUYI9KQ7B1DEL4RTGJYPACA,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,definite,shirt,The shirts were ironed.,4331,2,11375,33,target
+6HN7ORLHO7DHGE4INFRH8XG9CZFBHS,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,definite,panda,The panda is a very rare bare in the jungle,668,1,9804,39,target
+8VW81I43NPOWRZKBVXVHWWZ92UBULG,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,guitar,Guitars have a unique sound.,610,1,3903,29,target
+AYDLCIB8LTIXJN1W5MOTVTMLYHGN5U,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,plural,indefinite,cheetah,Cheetahs are very fast cats.,2815,1,2895,28,target
+KRLHYVWRU9Y6OTDXEL9HVS4X470XN4,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,plural,definite,dog,The dogs like to bark.,774,1,5182,25,target
+FR2H87J6E9HM9LBUC2JBOTYHEP9640,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,knife,Knives were thrown by the performer at the apple on his assistant's head.,1742,2,3966,24,target
+2FJX1CD8JEGAL8BCKWPEH5T3EASFDI,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,singular,indefinite,trumpet,A trumpet is a loud instrument.,787,1,4314,27,target
+DJT7EUG87NDJKZ8OZ7G62NMXA2KVJ2,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,butterfly,A butterfly landed on the flower.,3881,2,4175,26,target
+2G7QULEZDW0FJCC3657VRY18M45XSQ,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,plural,indefinite,pig,Pigs were rolling in the mud.,552,2,6985,21,target
+RYTE1QBB3UYUN6WEGY2LY2VEPY94UJ,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,definite,owl,The owl kept watch through the night.,3860,2,3486,20,target
+4O60KVX9CMMXCSL41LGLNFC3ZDJC1G,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,singular,indefinite,zipper,A zipper will often break before the pants wear out.,862,1,4904,23,target
+BSG5GQB1FTK7NCOXHMXF3Q6W7SLA03,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,light bulb,Light bulbs need to be replaced when they burn out.,2651,1,11963,22,target
+ES4J3MWGJO2MINYFD7K8N0DT5XOLQL,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,owl,An owl lived in the oak tree in the back yard.,220,2,3783,47,target
+7M66B386D2F74UL8YJEMUT8G2W2UXK,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,plural,definite,rabbit,The rabbits multiply frequently.,853,1,3855,46,target
+5B20ZOJKQ8GRQK60ST3KYKX0SU5VF7,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,singular,definite,bicycle,The bicycle has sat in the garage for two years.,4192,2,3456,45,target
+8FX9TZH3U5OWCJS52GN3WEZGI1B3BS,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,definite,light bulb,The light bulbs needed to be replaced.,721,2,5079,44,target
+APBHQ72312PWX1B5AQ9QJBHOIP2QFG,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,singular,definite,towel,The towel is wet.,1915,2,2423,43,target
+VOVSYIO4ETLISXYQHFTF31LMDT39GJ,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,dog,A dog was running wild in our neighborhood.,908,2,3039,42,target
+Z4JQXLZ513A5M1CDCZHJSMO1HY803N,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,plural,definite,elephant,The elephants ran from the hunters who came in noisy jeeps.,2319,2,6607,41,target
+864EQZT0SIG5R99X8E7TE7Y9QLRIWT,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles are made of glass.,2211,1,2494,40,target
+C1EK3ZJYXIVKIO13QO8LSKBA3XZQA8,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,definite,toilet,The toilets are clogged,4206,2,4030,49,target
+Z0QDMY5M1YQV5C1N5I3X9S04VSUGGX,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,boat,Boats are a lot of fun.,3791,1,2766,48,target
+RXZ7UYWZ4DB38AXPTR9U08YB4SMBOI,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,computer,Computers are helpful for completing tasks.,740,1,5064,6,target
+JVIS1I6MANENRZQDP6YEF5T53MEHK9,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,bicycle,Bicycles can be dangerous.,4020,1,3670,7,target
+JYE94HWDFT6Y6A9WP94S3O93FXGLY5,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,definite,zebra,The zebra is not extinct.,4020,1,7965,4,example
+G2V644LJKHK5XJ8DX16T4Z5B2OO79E,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles rolled across the floor.,2079,2,5959,5,target
+EFJGMPIQYFBN59J3CIZZP4K5ZGB7OD,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,sword,Swords are weapons.,2079,1,23217,2,example
+SHFXSNTPT2CDG5HOYQ0M8PM2Z88DN5,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,definite,bus,The buses were blocking traffic.,2079,2,6639,3,example
+TCJSNRN48DN7FVW9F6PD9FQOKZYUFI,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,mouse,A mouse lives in my house.,2079,2,20168,1,example
+CZ8IMNS6A9TGPRDLP94VE08W2ZTKKX,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,singular,indefinite,bicycle,A bicycle can be a healthy way to commute to work.,2330,1,10839,8,target
+Q2QCZNBECNYQEJ7SGS1TGPN0V6N5YP,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,singular,indefinite,trumpet,A trumpet is an instrument.,1658,1,3583,9,target
+33C9R479RR0BWCKQSJN9M1ZNGMOEHS,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,definite,skunk,The skunk stinks real bad,292,2,2975,14,target
+BQT3DOO9QCJOGB3TVPNBEJPQLZBS6N,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,definite,butterfly,The butterfly landed on the flower.,4287,2,2607,15,target
+BS05U5HD6WHLOEZBZLTZ5OO4KQ9PR6,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,elephant,An elephant is very large.,3070,1,6783,16,target
+4ZLIEGLM0SB22K2Z6Q4G7Q82SQ5W99,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,singular,definite,computer,The computer is on the desk.,3316,2,9299,17,target
+1QGNF16UNE6W9Z7ON0PYOZNX991JSS,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,definite,kite,The kites were flying along the beach. ,4279,2,6727,10,target
+X3PDFW9WTHNXT59E2PUBU8MN1GP2BQ,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,definite,bed,The beds were identical.,2709,2,2829,11,target
+V3XAGNNE6JFM5FT1K4L2JCOU9CLWGF,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,lion,A lion roared.,4142,2,3629,12,target
+6EN15H9P0DSPAG6NPWR13R2SJ0BK2S,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,definite,dolphin,The dolphin aided the stranded fisherman,1763,2,2612,13,target
+80VUVFCO57DX2DZMKXNPMMFLAW11NT,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles are made of glass.,493,1,3204,36,target
+Q9ZT8J62UN9VZM023NZDIKN9JEMCGN,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,lion,A lion is the king of the jungle and its roar is feared through its kingdom,4072,1,5637,37,target
+6CPU9WAIS5CJK73OMKKY5D4DWG4M2Y,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,singular,definite,car,The car was stopped by the police officer.,159,2,7886,34,target
+Y01YKOYNELRPFQREXLU2RC969KRA20,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,computer,Computers required maintenance for optimal performance.,2846,1,15077,35,target
+YSWJ472RB0SLS14E0UWDE7XLISIFQN,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,plural,definite,pigeon,The pigeons eat seeds.,606,2,10686,18,target
+ECKL0TWAKJZFTSZK6BSVKG9G4SAEGK,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,plural,indefinite,dolphin,Dolphins act funny,3344,1,3198,19,target
+9NLIP031JUFWB9WKYN370OXSQ1J029,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,piano,Pianos can produce beautiful music is played properly. ,2277,1,6942,30,target
+NFW0HD4R808F92W84SPS69OQF8BO5A,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,chair,Chairs and desks are what make up the classroom.,2371,2,7341,31,target
+JR9Z4JSC2352CK7JNJVBB7R5HAR8IJ,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,definite,toilet,The toilets overflowed and made a big mess.,2592,2,4201,38,target
+39DXM9AL5WPV1TJB0P8Z9YM2TLRLYT,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,plural,indefinite,pigeon,Pigeons flew over our heads.,1817,2,9987,51,target
+TZ10K0W8X9F0U46HAGZR6YVCY1144H,Wed May 20 10:28:33 PDT 2015,"""English""","""""",inanimate,plural,indefinite,television,Televisions are entertaining,1423,1,2551,32,target
+DVZP0AUCN17WCDF7PCMG7DQIZBSW0H,Wed May 20 10:28:33 PDT 2015,"""English""","""""",animate,singular,indefinite,cheetah,A cheetah killed the rabbit. ,3926,2,2591,52,target
+PH7YJ5HYPQDZBYJHAQ16D504L695DP,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,indefinite,panda,A panda looked for leaves to eat.,1845,2,3350,53,target
+27HJQC17817DJP02TB0JCD45ZOF7S8,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,indefinite,kite,Kites are nice to have on summer days,1046,1,4556,54,target
+EGIG8OX86AFIEJDAVDMC5LX3QHCKVK,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,indefinite,skunk,A skunk  A skunk will spray you if threatened.,4146,1,6274,50,target
+AFO3KV5KFKPH1QRVDZ3EUKZD8XE6F5,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,indefinite,cat,Cats are cute when they sleep.,681,1,4368,33,target
+XXW7IPNTWHB8U4YQUHMLEYJANQIIU9,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,indefinite,pig,A pig are very fast.,703,1,12512,39,target
+AANMSKQ1W22ZT0BE01QH2GEJ4Z78X4,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,indefinite,knife,A knife cuts through butter easily when it is hot.,258,1,5591,29,target
+DMRZGYBCNAFAQAHU2DZS7RFRJI7L1E,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,lion,The lions are fierce.,810,2,5827,28,target
+Y3AL60H1X3WVUUI6CKR73ETXCUDZ3V,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,definite,trumpet,The trumpet blew a fierce blast,1798,2,3942,25,target
+2ABZCYKPMOKMW7LOWN14UOEYN3AY5M,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,definite,panda,The panda lived in the zoo with his family.,3576,2,4721,24,target
+CII7AWAZUQQ0KMSZEIW7YSJGCXFMES,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,indefinite,towel,Towels were handed to each swimmer.,636,2,4540,27,target
+WLN8GUXDU4PQHGR84C4JB5KPH2DQAA,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,indefinite,peacock,A peacock has very colorful tail feathers.,933,1,4175,26,target
+ZGJW3SN84Q1GUF2XWKNJBXQTWMP220,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,indefinite,car,A car was speeding down the road.,4114,2,4256,21,target
+DE8HR6623YB049ZI9PBHQJPPXBPDK3,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,definite,zipper,The zippers on the jacket were stuck.,3624,2,3732,20,target
+19M1O7TKNR8IRKZM4YSD6TQPHRQWS3,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,penguin,The penguins kept warm by hugging.,1147,2,4111,23,target
+EPUO98MHYALL9KMBK2EI6B84GAF71K,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,indefinite,cat,Cats have nine lives. ,1250,1,3316,22,target
+XSQOTL2XJO52LWYGVL98WUGYAX3ZBG,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,indefinite,shark,Sharks are not as dangerous as man.,3448,1,5265,47,target
+1VMQDXI4EHUMNO7GAIB8WL6DYMRED8,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,indefinite,boat,A boat is a form of water transportation.,4227,1,3500,46,target
+1277SQFIZDCDNOC06BL2V82P85RI2L,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,shark,The sharks swam frantically.,2540,2,2650,45,target
+NKC2LUTSNLSMVN2V6PWXJLCMFVZTCB,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,definite,bicycle,The bicycles zoomed in and out of traffic.,1806,2,4646,44,target
+98HPNCH66VGENXYAZJTOWFEG1YIJTJ,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,definite,towel,The towel was wet,2014,2,2927,43,target
+X36AVV5LFH13HOS2XYPTS1YW8GB6SW,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,turtle,The turtles move slowly.,3825,2,3724,42,target
+QQNK0TKBD3KCZR82C2KIBL59Z508L7,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,definite,fence,The fences are built well.,802,2,6466,41,target
+Q3LAJH4P90GQIL394U3IWUJOGYOOXV,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,squirrel,The squirrels eat nuts while sitting in the tree,296,2,11342,40,target
+ZPW34JWDP23TA3Z37XA1EI9C5OZ3M1,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,definite,toilet,The toilet Was overflowing,1339,2,5670,49,target
+E1HM9VPBUV76AIZJ4GJN8LFQN88BBB,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,pig,The pigs oinked and rolled in the mud.,3584,2,3856,48,target
+R6O0XJMMW8ETSC2WUQIG9M0PQKKSPU,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,definite,guitar,The guitars were so loud,2987,2,4059,6,target
+UJ1RQN9CQ94JHR8NB6N3PY539DJ6GG,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,indefinite,skunk,Skunks are cute but stinky.,3767,1,2945,7,target
+D6D41ASWWKLBRK8Z7BV374USD388VU,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,definite,zebra,The zebra is not extinct.,3767,1,5575,4,example
+OC64RHEB9Z2QPYOOB3VVC0774L5BLC,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,indefinite,couch,A couch is where I take my naps.,2245,1,4766,5,target
+K8J9MRWRZVK5H1BMRCMZ2EP9F0NIHJ,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,indefinite,mouse,A mouse lives in my house.,2245,2,8393,2,example
+ACOV3BZC55B1PT4XTMYCHBVSEI0E28,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,indefinite,sword,Swords are weapons.,2245,1,5748,3,example
+NLOISJVD5BGEEFA3X9V48F8HAOGACF,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,definite,bus,The buses were blocking traffic.,2245,2,9002,1,example
+QKUXB08H1AK01RMPQ5EB9XQBNVIRI5,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,definite,trumpet,The trumpets hurt my ears.,3856,2,3105,8,target
+JS8JX35YZ6IMORLDULUAFCYCUWM7VM,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,turtle,The turtles move slow,1655,2,8235,9,target
+AQ1SE16ZGP72THKO2ISCOAV8VDBBBQ,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,definite,chair,The chair creaked with age.,167,2,4692,14,target
+BLEZ99092DFKI2BYBEY37V1QYWWM6D,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,definite,piano,The piano sounds beautifully.,3812,2,2438,15,target
+1FWIHUOUAJQAISXI4RL6HXFDNTKL1E,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,gorilla,The gorillas are big,1402,1,2203,16,target
+UOVJDAVFHX79SZJVOP298E8DCMO27S,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,owl,The owls landed on our chimney every night for months.,1744,2,3762,17,target
+DXVEIFE7SL4SX24RVIUNQF3639AA0G,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,indefinite,gorilla,Gorillas are huge.,1833,1,2492,10,target
+FUMZ6D2J477TP7L2M1DJR6U5NKIB1G,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,definite,elephant,The elephant sucked water through his trunk.,3506,2,3443,11,target
+62KH8JDQ2VUY3E5PCSSH9Z0BCAL1Z9,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,peacock,The peacocks was walking around the zoo today.,4155,2,3284,12,target
+Y9685937S1872BKKKNBX7ETXXYA2BM,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,definite,skunk,The skunk stank up the house,2744,2,3234,13,target
+Q1SN135L2OSNOL2MVXT5LTGARGKLSB,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,singular,indefinite,cow,A cow is delicious,4238,1,4734,36,target
+PZPNQY1M5BEZXJ4BXRBE1LKICBEFVX,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,camel,The camels are big,1379,2,5364,37,target
+LWIWHYYFS2ZV9SWLODPJWMJ1KJLLGG,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,shark,The sharks will bite a swimmer,294,2,6005,34,target
+L70M7QEEW1ZO29CDU8I48L71LOXOWD,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,indefinite,towel,A towel is used after a shower.,773,1,4543,35,target
+RQCZQZA6PNRLI9ZKP38T9X4SS5JFPL,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,indefinite,cow,Cows ate their cud.,2181,2,5201,18,target
+ALJIBKIC2J9KVQDAFDXBNMXUGA490T,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,indefinite,kite,Kites are hard to fly.,1001,1,8274,19,target
+5T6YWVIIVJ4A7FMGGUBR6O1DIKFPWW,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,definite,bed,The beds were lined up in the prison galley.,939,2,4504,30,target
+WOCY8NRK82NZLG4C3KONZE4L0NHOIX,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,indefinite,knife,Knives cut things.,2101,1,2548,31,target
+YC66WBBQ9U83KB83V6461XUVOBV06E,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,gorilla,The gorillas were old.,2432,2,3734,38,target
+SRUW88K6JP1VGYC1RNZAMUE5F5EY31,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,singular,indefinite,marble,A marble rolled under the sofa. ,4269,2,4032,51,target
+URD8D5JN0P52BB5ZF9YR3JEA8PDS3O,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",animate,plural,definite,penguin,The penguins wobbled home,2761,2,5011,32,target
+MEIMM7XUT2E0DVUQI5WDLUVCOVQNJ6,Wed May 20 10:29:00 PDT 2015,"""english""","""Many sentences were not grammatically correct and thus impossible to answer the question correctly""",inanimate,plural,definite,car,The cars involved in the accident were totaled. ,1256,2,3976,52,target
+KYEZJV6NQS221QNXCFRNHHSOQSA7G9,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,definite,kite,The kites soared high in the sky. ,3932,2,1687,53,target
+UD7CCVUTR1MSWE9VUYUDV3IV44A9LS,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,definite,dolphin,The dolphin aided the stranded fisherman,1763,2,1729,54,target
+IKRO9B23H8E2JQ4NR8B0S9BI89NJ32,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,plural,definite,pigeon,The pigeons eat seeds.,606,2,1604,50,target
+WDXGN2W7M5LKYOSN9GCQ7SR8C8ZOO6,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,singular,indefinite,trumpet,A trumpet is a loud instrument.,787,1,1746,33,target
+48913F966SKDWLPN9SNBJE9W8BYP38,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,plural,indefinite,dolphin,Dolphins act funny,3344,1,1986,39,target
+JDA1LCP88XUBW8J231ZQ457XOMJ7ZJ,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,computer,Computers required maintenance for optimal performance.,2846,1,8344,29,target
+9G7MB68DXQTJD3ZF7AU2JKWPRU5LYB,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles are made of glass.,493,1,2140,28,target
+XJ5GUK5V8SB49K18WL37S27YV0YBGG,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,dog,A dog was running wild in our neighborhood.,908,2,2728,25,target
+ICCZK8E6WU1VKNWTWIMGX6GHVECVI5,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,owl,An owl lived in the oak tree in the back yard.,220,2,10259,24,target
+YTIU6VEY7S1BIFV5ABGHW58TQBWK1L,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,plural,indefinite,pigeon,Pigeons flew over our heads.,1817,2,1796,27,target
+DEFZ9R5AFFI9H16Z6Z5KYUQ9H2Z9O8,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,butterfly,A butterfly landed on the flower.,3881,2,1921,26,target
+U5LK76G7L0A4PF6ULVLFUZ8B7LO8WY,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,singular,indefinite,bicycle,A bicycle can be a healthy way to commute to work.,2330,1,2092,21,target
+YG4FT3XKI7B0TCP81LECJELLX2TB21,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,television,Televisions are entertaining,1423,1,1750,20,target
+S8OYL06UZ40GP5NZXKLRM1JANL81JT,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,plural,definite,dog,The dogs like to bark.,774,2,2377,23,target
+81VV2LMRXFFDIAEOS0AFGRDSRG2V3N,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,singular,indefinite,zipper,A zipper will often break before the pants wear out.,862,1,2160,22,target
+M3CUY4QVKC5E2ODKOT9LGSB95MFRBQ,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,elephant,An elephant is very large.,3070,1,1800,47,target
+FLPYO3TVHDCXU0CHRJMGKS1WNDAHJD,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,lion,A lion is the king of the jungle and its roar is feared through its kingdom,4072,1,2671,46,target
+QG9S09X6QKNHJ5P008LGBQ0K8HSH88,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,piano,Pianos can produce beautiful music is played properly. ,2277,1,3822,45,target
+J0QX082ELOPWD4US05R4CENHQTM1LA,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,singular,definite,bicycle,The bicycle has sat in the garage for two years.,4192,2,2116,44,target
+XSXZGAI0LYIIKVKPFLRLTZVE4IX9SJ,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,singular,definite,towel,The towel is wet.,1915,2,1683,43,target
+A1AEF1UT1PGBM0ZZEWA5XJO1WT9VZP,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,bicycle,Bicycles can be dangerous.,4020,1,2482,42,target
+SZIIM1Z7I9LQWMUB7C9MUO96HQ2HP4,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,definite,toilet,The toilets are clogged,4206,2,3473,41,target
+MITIR0E5VPXI04PJXR27EOVZH4WPVQ,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,plural,definite,elephant,The elephants ran from the hunters who came in noisy jeeps.,2319,2,2835,40,target
+RG2BTEBJF6UW89EK1F6PTMG06WMRWK,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,definite,toilet,The toilets overflowed and made a big mess.,2592,2,2259,49,target
+ZUSUKYCPUV956CIQ9SF96FRLWPXQDU,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,definite,light bulb,The light bulbs needed to be replaced.,721,2,2434,48,target
+2CEV5A1WFUCM0S4951LJPKOG9HIZ4B,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,plural,definite,rabbit,The rabbits multiply frequently.,853,1,8496,6,target
+SYZZ92JYPN46OV8BA54LAMBWYFCWIX,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,definite,shirt,The shirts were ironed.,4331,2,2379,7,target
+2471BMVAQRO0T9MEQZGDDQMQC4F2BW,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,sword,Swords are weapons.,4331,1,3679,4,example
+19YZEXVK8K24X4FNMNB8OJOLT6O8NB,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,knife,Knives were thrown by the performer at the apple on his assistant's head.,1742,2,3109,5,target
+OAW1P87S3YZ3FCNC2ODQZKJDF0TOOO,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,definite,bus,The buses were blocking traffic.,1742,2,2740,2,example
+0YZBXBW06WNX6PJO0WW3AOFH9702E4,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,mouse,A mouse lives in my house.,1742,2,6701,3,example
+UJBW4V5YTTPS8TLE8AYLJLQB67MMF6,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,definite,zebra,The zebra is not extinct.,1742,1,5662,1,example
+QBFJWJASRKINAQA8ZB8PW4ZXUZ9V9N,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,definite,skunk,The skunk stinks real bad,292,1,2643,8,target
+VL4DGCQ75LU7L2J6FGI1795JKBXHK5,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,guitar,Guitars have a unique sound.,610,1,1935,9,target
+1AMHGC780R39DDZSD56EEECGW8XR7V,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,definite,kite,The kites were flying along the beach. ,4279,2,2068,14,target
+O89MKPG5R9P3OWE2E5HMS2BFC2IYJ3,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles rolled across the floor.,2079,2,3000,15,target
+1LLQNC7S70OZF68XMKVLZ9GIXDQAO6,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,definite,panda,The panda is a very rare bare in the jungle,668,2,2930,16,target
+B3W1TUKZF9S6FRC2KZZWY6AUPMBM4Y,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,singular,definite,computer,The computer is on the desk.,3316,2,1765,17,target
+2E5GGSVITU93QGX9AQFW7KWVMFBI2X,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,computer,Computers are helpful for completing tasks.,740,1,2259,10,target
+OSQ4L63SPSCOBVT4UL7L5RE6DFKOMQ,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,definite,butterfly,The butterfly landed on the flower.,4287,2,2173,11,target
+ZLZW7BE3UJRT7O1BNQN6QYGGTP528D,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,plural,indefinite,cheetah,Cheetahs are very fast cats.,2815,1,2130,12,target
+KCFU8QBOJQQQREEI4A8EZAPT20EC4U,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,boat,Boats are a lot of fun.,3791,2,2601,13,target
+5FF2D2ODXFD99MAGSWIG1UW83V8QID,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,singular,indefinite,trumpet,A trumpet is an instrument.,1658,1,2065,36,target
+BARUOYSAIRXGFHG2UOWK90L0J121VU,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,cheetah,A cheetah killed the rabbit. ,3926,2,1602,37,target
+KM8OBAS31R455B8K72QQ42NZ2BN15J,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,light bulb,Light bulbs need to be replaced when they burn out.,2651,1,2931,34,target
+LXE65R9YUM9QSEHEK80NOZGGV8S6WM,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,lion,A lion roared.,4142,2,2032,35,target
+VUNANU7SL0RYB4XMHUWXHD1ZRLRRWV,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,definite,owl,The owl kept watch through the night.,3860,2,1778,18,target
+JSLCNR34WFC2O9FPTBY57MINB8OM8Y,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,singular,definite,car,The car was stopped by the police officer.,159,2,1593,19,target
+LDVB7H0ZSVP6ATLR8RQ8I3PHQGAFVW,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,skunk,A skunk is one of the worst animals to encounter.,878,1,2158,30,target
+BQFA1VTVE0O34Y0CPDPCMM5ZPVNHKT,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles are made of glass.,2211,1,2771,31,target
+Q9N9VVNSXO4GQQBR58232VCM3L1JWI,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,definite,bed,The beds were identical.,2709,2,2574,38,target
+Z51FQFKTOVEMQAY9LZIP7ROLOM6GR8,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,singular,indefinite,squirrel,A squirrel is climbing up the tree.,3294,2,1538,51,target
+D1AAWBBXH37TTMFRYDD511VE32365D,Wed May 20 10:30:26 PDT 2015,"""English""","""""",animate,plural,indefinite,pig,Pigs were rolling in the mud.,552,2,1764,32,target
+K83CUTPY643SRL4SIMUEB30DGX98QC,Wed May 20 10:30:26 PDT 2015,"""English""","""""",inanimate,plural,indefinite,chair,Chairs and desks are what make up the classroom.,2371,1,2770,52,target
+H2CKDEQHJ88I791D9BUMFYWXJDNAQ4,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,definite,skunk,The skunk sprayed the dog. ,1614,2,2560,33,target
+P0TCDRBCMXRQ1A4WLEH79R5IZBL6YC,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,indefinite,couch,Couches filled the furniture store showroom.,1979,2,10775,39,target
+JX6QZW7RQ7NFTY5RAKGIIXFK2MQ5AK,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,indefinite,peacock,A peacock struts around his cage.,991,1,9368,29,target
+CVPX3WHZJ9X950O5LVTTXWKJY1RFG9,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,definite,squirrel,The squirrels are eating,1417,2,3920,28,target
+YYWK8CUC4PZZ1IDDYJKSPK7YN5YJI4,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,definite,marble,The marble is rolling.,474,2,2184,25,target
+T38J1H7GR8F5E99JQPKP4W8TQ23CEJ,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,indefinite,turtle,Turtles have a hard shell for protection,1698,1,2928,24,target
+EPTDY703GH6RXOY39RHJ70MC4VCIX8,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,indefinite,cat,Cats make excellent pets.,367,1,2504,27,target
+FL5OP16E55AGZ1INM5CVTMIQPFA4SI,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,indefinite,bicycle,A bicycle is for sale at the yard sale down the road. ,1267,2,3184,26,target
+QC7QQFR0TR9QJHJSO0MEMM1G3HT93T,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,indefinite,dog,Dogs are comforting animals.,3003,1,2679,21,target
+8UVNGNKC9XMSCSVEQHV903EYWHCEQA,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,indefinite,cat,A cat always lands on its feet,1705,1,7744,20,target
+4BDCGYHMLJF9DH0IK5KRBJ1I0RN3EN,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,definite,fence,The fence needs to be repainted.,3297,2,3448,23,target
+WC0114976KES2RIBDS4Z7ZFXELL9A9,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,definite,football,The footballs were stored neatly in the closet.,3834,2,4104,22,target
+1Q1CTSBBYVKMCMB0RF3VRTKAMTNG83,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,definite,butterfly,The butterflies are out on this sunny day.,413,2,2848,47,target
+AF565J476MF5NUDO4WV3P5TLA5U5GC,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,definite,zipper,The zippers were always getting stuck.,1484,2,4152,46,target
+9QP7MLLLXMCVFONF11P6LVNTIR1O86,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,definite,couch,The couches made of leather were cold in the winter.,1754,1,2920,45,target
+6NJF641LA21YPXQZ8NJB7WKP9CCKQE,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,definite,toilet,The toilet would not flush.,2465,2,2240,44,target
+L5CVUE73DMH6CAM4NKRCT571FV6W9V,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,indefinite,couch,Couches have cushions,3695,1,6992,43,target
+61LRSE6ATD5RLDE3AZOHE39EDHN2B1,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,indefinite,kangaroo,Kangaroos have strong back legs,4244,1,2024,42,target
+2X19YE7FBB489UTL6ELJWVX686XJXB,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,definite,lamp,The lamps sat in the corner.,3708,2,1992,41,target
+D10C9G45HR7P8694L40U13J44OQQN0,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,definite,camel,The camels don't need as much water.,3447,2,6920,40,target
+HLNYQONUFLILDDOXOXSAVXL3UGURQ4,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,definite,cow,The cows will come home,959,2,2560,49,target
+F6OHH3SIBQD375GZFG721KQ0VS9QVC,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,indefinite,clock,Clocks tick loudly on the wall.,1468,1,4640,48,target
+ENEHNWPD9A4QJL8JNYV0DVSLPOJEKH,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,indefinite,bear,A bear hibernates during the winter.,518,2,3583,6,target
+E5Z9OHQ9IQIFFTKULAS0MPIUWWI3HV,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,definite,skunk,The skunk is smelly,1115,1,4048,7,target
+KMEK4P4P5ORFVZKFIFRTLQN5FC9YVR,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,indefinite,sword,Swords are weapons.,1115,1,3008,4,example
+29PN8KC8FN62OY136DX8C5SWC5FOAY,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,definite,clock,The clock chimed at midnight and woke everyone up. ,3938,2,6424,5,target
+RVDJNK1L8ZUEC27EEPT7ECO44T82KO,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,indefinite,mouse,A mouse lives in my house.,3938,2,8079,2,example
+DM7KD3KOHWA3FRG4KGCFC8I5UA8JTV,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,definite,zebra,The zebra is not extinct.,3938,1,4352,3,example
+I9POKR860M00QCC2BMMJKH703Z7HQF,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,definite,bus,The buses were blocking traffic.,3938,1,19624,1,example
+CFGYW6MR9K7ZRO71T6Y7XEPEP022JB,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,indefinite,lamp,Lamps can be turned on.,770,1,4824,8,target
+ZE2OOKA88294H1ZW4M0N2BVIMXE6OM,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,definite,pig,The pigs are wallowing in the mud.,2785,2,2496,9,target
+2LV0860W4IXVISFKS4A6ET24RFC4GF,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,indefinite,marble,Marbles come in various colors.,3650,1,5448,14,target
+IKCKR2ERZ9F0M9DLHL6CTJEA43VFHD,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,indefinite,couch,A couch sits on the curb awaiting garbage pickup.,925,2,4504,15,target
+FH11L57R93CYQ75Z180SGP11GH54WD,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,definite,fence,The fence is standing tall.,1633,2,3352,16,target
+R6FQAW86YVGLTF99MB1M8QZPZZNIO7,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,indefinite,light bulb,A light bulb needs to be replaced.,1171,2,1960,17,target
+C5PR87QICD9PZ0WOUEZ1NYS2YP7RIU,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,definite,car,The car won't start.,3065,2,2416,10,target
+GSWNJO1CY8G49DGKRH6VEHEJY2AF9I,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,definite,dolphin,The dolphin was circling us in the water.,1709,2,2896,11,target
+8NJNRJMOQGR8GHEHRPW6ZWUTOZKWOW,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,definite,light bulb,The light bulbs burnt out at the same time.,1950,2,7248,12,target
+KJNBH83MKF8HL3WJZ4Z5QMDQT3BZV0,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,indefinite,light bulb,A light bulb needs replaced,452,2,2544,13,target
+OMBY5FS7YWKL79SRBFFYCR1XFJ60KJ,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,indefinite,tire,Tires have gotten expensive. ,1272,1,3392,36,target
+N19EX7P09HJLFYFY7CS1W3JP45UD6Q,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,indefinite,chair,Chairs are made for sitting.,4300,1,4992,37,target
+ZLBW8LF48QF830UNXOXJJ2I5MCWIQE,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,definite,bed,The beds were rough.,4336,2,4400,34,target
+ALSXTNXYOJYTPVOKSNHH03M02JUSNG,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,definite,computer,The computer is useful.,3090,1,3888,35,target
+U58HWPV9DBXHT3HJSC2X2LMT0J2ZBC,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,definite,elephant,The elephant sprays himself.,796,2,2584,18,target
+28EF6V2PQK5MIXBDGUNALNRFGAKTDQ,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,definite,skunk,The skunks stinks.,2430,1,5024,19,target
+663XGOLPKLUHUQPPJIP8KAN8OYUZZN,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,plural,definite,chair,The chairs are at the table.,3912,2,3008,30,target
+U6JVMZ6Y1S52LE6Y2KCZG49E76AINN,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,singular,definite,camel,The camel is in the desert.,43,2,3152,31,target
+32LUUOTKJ2FFJWUL3MNSWWDA456BMS,Wed May 20 10:31:08 PDT 2015,"""English""","""""",animate,plural,indefinite,cat,Cats raom the neighborhood at night.,2141,2,8184,38,target
+7YLSP5R6IGT59ISS206ZO6SV4LPPSF,Wed May 20 10:31:08 PDT 2015,"""English""","""""",inanimate,singular,indefinite,fence,A fence is needed to protect our house.,1165,2,3648,32,target
+6XA970JAIE8V8K4947T87XR2F5WQCW,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,indefinite,bed,Beds are too soft,1870,2,1367,53,target
+MAAYEJ52JQ89OEU4XIDWDBW71SO11G,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,indefinite,bed,A bed is a comfortable piece of furniture to lay down and sleep in.,4191,1,2288,54,target
+26ASNVEU4NM6E21G3CDV6JGMA7ZYDD,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,boat,The boats in the ocean won't sink.,705,2,2487,50,target
+HTBHYQZRGE74KBYMF0VKEMTQDYJAE8,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,couch,The couches were imported.,1229,2,2798,33,target
+G4T1K1EMPKVGDO66GSMH9WIVRQXILV,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,indefinite,kite,A kite is up in the air very high.,694,2,2200,39,target
+0GLEMB96VTDCOITAPI3O6D6AAR4QOQ,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,lion,The lion slashed at the cheetah.,4328,2,1592,29,target
+BDK8EYV9F4MWCKFZSZBQVAV3Y3CC87,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,indefinite,kangaroo,A kangaroo can jump very high,1687,1,1687,28,target
+BWCTOCKNCIC9417E4YHEIFNNLV19Z0,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,indefinite,fox,Foxes are sly,2966,1,1664,25,target
+0Q32AQA18AXLEYGJ5NGI01SC81RS49,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,definite,elephant,The elephants were stomping around happily for the children at the zoo.,2605,2,2064,24,target
+6BQ9L1995PND1SXB0C6N1YDKG3G1B8,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,penguin,The penguin lived in a cold climate.,2684,2,3015,27,target
+7F1J5A0LESLPXWJA926G1UJRHYAVBY,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,indefinite,owl,An owl can see at night,3668,1,1431,26,target
+OCQOKEI2ZJ11P0K6GZQXIOSRE9FPEU,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,cheetah,The cheetah is very fast.,479,2,3464,21,target
+7ZLWMTAVX9SWHWL30MPQQXUHQ3N2C1,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,indefinite,pigeon,Pigeons gathered around the benches in the park.,2857,2,1566,20,target
+P0JX4GXKNNF1SLBBDNC0ZBP2N8DLO5,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,rabbit,The rabbit ran away swiftly.,2481,2,1551,23,target
+XIP63IOEL48XCPV4HWDMRQ6LZYA6F1,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,definite,squirrel,The squirrels live in the tree.,2259,2,3063,22,target
+OKF0EF5OCHO09BF8Q5YEP38U6ZETZN,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,definite,chair,The chair was hard,2741,2,1903,47,target
+URIU5ISB5KISVPGJBVCDHT7NXXU0ER,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,definite,car,The car was stuck at the malfunctioning traffic light.,235,2,1807,46,target
+VF1QWFDOLBRLMVCHXV5003D9P3X3RG,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,definite,computer,"The computer sat quietly, collecting dust.",3831,2,1648,45,target
+MRBOPECMJ47YD9USQSCFJGODTSIM0F,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,indefinite,peacock,Peacocks have very pretty tails. ,1260,1,2383,44,target
+VTNDXHRDTFBQ5ZN4LVNJOMS8YFV5V3,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,clock,The clocks in the store were striking one.,4153,2,1864,43,target
+S14X6OUZ61690S6I947G24PV2ZRB5I,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,indefinite,gorilla,Gorillas are very territorial.,4233,1,1671,42,target
+GUZI6YPPY3NS2AEUJPF3JHDZYP5UQY,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,definite,car,The car was parked in the drive.,2452,2,1680,41,target
+5VQISMYWHVTM20X63KKJAC3JWJ7BK1,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,cow,The cow slowly left the barn.,3393,2,1247,40,target
+8DSP60XF8W8JZZ7CH0VM0OTPRMODIV,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,cow,The cow ate grass.,1829,2,1408,49,target
+HRRVX78HXUFVBUDNVLDSS5JINZLY0H,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,indefinite,zipper,A zipper can often get stuck. ,4284,1,1943,48,target
+D2CFN5XP7TXEZIHCLIWQJAXZUGA8PU,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,indefinite,television,Televisions are used to entertain people.,884,1,2740,6,target
+GB4DUCDDRXNZTANCACOWNC2XV2KNXW,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,cat,The cat ran for the mouse.,4330,2,2183,7,target
+2ZKOD5PE0UUDBEJ0GMLP6SFZIOX69I,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,bus,The buses were blocking traffic.,4330,2,3664,4,example
+AZUPPY7FW7GO7C2UG1LHWYHQ8RIH3K,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,definite,towel,The towel is wet.,2886,2,2538,5,target
+KK1EB8EYT2SCSBDA54XYQ3EVMDM317,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,zebra,The zebra is not extinct.,2886,1,2653,2,example
+2BYW5ZUF67UFGOP7OO9T4US0A779B1,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,indefinite,mouse,A mouse lives in my house.,2886,2,2981,3,example
+BC11L7BTRBWXSDA7KQIYH4U2A7JX97,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,indefinite,sword,Swords are weapons.,2886,1,4023,1,example
+KCSCU9CUCIJ3Q9UHZBFCDJ6FF9PBZ8,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,definite,couch,The couch was overstuffed.,2687,2,2583,8,target
+IDVYUY8HB33QHURJNABR78WELB2SAR,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,indefinite,computer,A computer was turned on and downloading software.,165,2,2263,9,target
+FODMPUEGW41NOPLWX3XZBX6FWSFQ24,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,indefinite,bed,Beds are for sleeping,3238,1,1471,14,target
+3RK9KMP7VGNMZ5TNCACGX371A2Q5HO,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,lamp,The lamps are on the table ,2513,2,1319,15,target
+2WAVPPUZ2RLPUWYKCQK6HNAH4GS656,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,definite,squirrel,The squirrels love to eat nuts,1706,1,1839,16,target
+PA5G4UHFI7O49CLZRFGA21UWT2N607,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,chair,The chairs are dirty,471,2,1559,17,target
+BB5XZM0B2B923FAFK8JTP5IHCQU3BQ,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,indefinite,lamp,Lamps are turned off.,3882,2,1735,10,target
+C6S5HSSJL1P16XS76H8X4IJ939M726,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,indefinite,fence,A fence is around the house.,3917,2,2024,11,target
+YID8LQ2LHRO53S4RXR65OLNRDLSZ8I,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,definite,dolphin,The dolphin Jumped out of the water,1350,2,2494,12,target
+OR13BUXQGWHURN3SRYRUPV8NIS4HJV,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,computer,The computers have a virus.,1441,2,2191,13,target
+AWPDJ68U5038C17KQEC93BIZQQS5VC,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,definite,penguin,The penguins were at the zoo today.,4171,2,2984,36,target
+8GKW10KOMODXA02HOVK0R75JIUCG0L,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,definite,computer,The computer only responded with a whir and a blue screen of death.,3971,2,1895,37,target
+EVHGU3ZFHEOO3E4XC5ON58J11GNW1G,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,indefinite,elephant,An elephant walked along with a newborn baby by its side.,3873,2,2391,34,target
+H8SUMAB6420Y5LT4CECUNC2D8ALAUL,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,definite,butterfly,"The butterflies danced around the puppy's head, as he swatted at them playfully.",1725,2,2031,35,target
+4JWPPR46WGB936B0YGVJVHVVLNA2US,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,indefinite,chair,A chair can be comfortable.,820,1,1527,18,target
+YJA6GWEN8INZ66HQ1PRX4P652OVJHQ,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,definite,panda,The pandas climbed trees.,254,2,2025,19,target
+T65LZY93TSFV5CPG3V23ODDJMFEBQV,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,computer,The computers tend to overheat,1053,2,2063,30,target
+GNKZMGSC2R0NNZ05DZHIY32MRWQEZL,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,plural,definite,turtle,The turtles MOVED SLOWLY ACROSS THE ROAD. ,3100,2,3007,31,target
+1NABPMM14KC3A7WSRPO4GCI9E5Z90Q,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,definite,couch,The couch is very comfortable.,492,2,1607,38,target
+4L4X7U60ROBHE5MSWUJUM4CCK68T0J,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,singular,indefinite,car,A car needs gas,379,1,2023,51,target
+GGF7O9T754VJ46JLJEL37DX2T2BJQI,Wed May 20 10:45:22 PDT 2015,"""english""","""""",inanimate,plural,definite,bicycle,The bicycles should be locked to the rack.,267,2,3136,32,target
+6B9OKE4Z5G2DZI7TH8G30JILNB235D,Wed May 20 10:45:22 PDT 2015,"""english""","""""",animate,singular,indefinite,pig,A pig rolls in the mud.,614,1,2895,52,target
+EPA3T2I21WU6NL43FRCWW8E6W40DDV,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,fox,"""The fox said, """"Gering-ding-ding-ding-dingeringeding!""""""",3717,2,7130,53,target
+HPO4GUYVL3JM4XPMSSRGVBTN1DZC96,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,indefinite,piano,Pianos do not do well falling down stairs.,3991,1,8496,54,target
+CT7HJ0OYHD4COBT807PD5DTXMY313W,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,shirt,The shirts are clean.,482,2,2518,50,target
+Z03F70Q8V9N2TQ0CZFF957S5W9VHLP,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,bed,The beds were covered in colorful quilts.,2800,2,13721,33,target
+LDCQCCTS9JRSTQ2UNW0I9331IH6534,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,definite,bicycle,The bicycle needed to be repaired.,1152,2,14417,39,target
+4SLHO9RYOXASKT4F0EGOC1S3917BWB,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,lion,The lions at the zoo were playful. ,3941,2,4655,29,target
+B7PEHGYTO2MBD0BMIGZCXLD7Z57XHR,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,towel,The towels were too wet,2759,2,3879,28,target
+SR3W0RF83AF30NHM0SY7GSL2OQ042G,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,indefinite,light bulb,A light bulb can burn out if they're being used a lot.,677,1,6878,25,target
+CGB5JS3J96K4MIL2T5CBKZN4N3NF62,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,indefinite,kite,A kite flew high,2956,2,5091,24,target
+08WRNMXGB416TDU060Q7WSIIEOUYE3,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,shark,The shark is a great white.,2863,2,3503,27,target
+32CIYF1VJ8IRVIA3KDN5UFE4DRQ427,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,cow,The cow grazed on the grass in the field.,1958,2,3856,26,target
+Z98MG7QV4EMV97VH88V3ZIUKANRS1Q,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,cheetah,The cheetahs had brown and black spots on their bodies.,4199,2,8433,21,target
+UNI33EDW58UE1VQJ0EWWI5JKFYNBH1,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,definite,television,The television is loud.,2876,2,3364,20,target
+12PI3MKFWFKEG2ZR0G0C23JCMWREZP,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,cow,The cows came home early.,2572,2,4765,23,target
+6U3RDJCNJGPC4398RCS103VEEOM8HO,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,indefinite,cheetah,Cheetahs are funny,979,1,2604,22,target
+43E3KRCWZ4OYGZWT9I1YVFII36OI0U,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,indefinite,gorilla,Gorillas swung from branches.,336,2,4338,47,target
+93QSECG86WAP44JW1D0537GR52YJY2,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,chair,The chairs are stack up against the wall.,404,2,4213,46,target
+R5R924MR1MFYXCE50WWWNJNWOKCBQ8,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,pigeon,The pigeon hunts for seeds.,1454,2,4307,45,target
+KK1A2QFBI49GOKHHW1J5LEC3BKC4ST,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,shirt,The shirts were buttoned up and folded.,3377,2,3421,44,target
+COJ3YXA9KV5FS8U883L5HG0I50HO2Y,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,indefinite,boat,A boat is useful for viewing whales and dolphins.,233,1,5945,43,target
+AYRDV1XK5VPF1WW1VHPZKPY7Z4QLV0,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,indefinite,fence,Fences are sometimes white,1126,1,2695,42,target
+0LDUW3C0U94H3IZ7DEWNBHS783G3ID,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,definite,guitar,The guitar is one of the instruments.,1465,2,6783,41,target
+H610PXWC68TG2QYRGED776ONGC4P9D,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,indefinite,bed,Beds are made to sleep on.,446,1,2550,40,target
+HE766SXWZICFHBA9FHS303UF3DUJPG,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,indefinite,cheetah,Cheetahs are very fast.,2453,1,2772,49,target
+RN8LW6K60F4A83HA8E38XG8OC9D3SC,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,football,The footballs WERE WIPED DRY WITH A TOWEL. ,3108,2,5082,48,target
+IIRZ1O060LMNFI5QK44MLFJCPY9HMQ,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,indefinite,zipper,Zippers often break or get stuck.,3308,1,4100,6,target
+IQJWWMMGSCWUUNHH8Q2UTBGQ02QF5D,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,penguin,The penguin  can not fly,310,1,5822,7,target
+0K4XT043DI83WX64IHC8RKOB9PZTV8,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,zebra,The zebra is not extinct.,310,1,6175,4,example
+JISNJYCUIMXHL8MPXFRZCWZOMQD3FL,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,elephant,The elephants continued their journey deeper into the jungle.,3227,2,8986,5,target
+TFCXMSN3V2WMB9Z1QRBW5I3LQXEBAP,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,bus,The buses were blocking traffic.,3227,2,6929,2,example
+W5OA11KCSYZF2K6HY51T9VEREB1LNH,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,indefinite,sword,Swords are weapons.,3227,1,5051,3,example
+8QOIWDW8YFI35POECUZA22LVMVMST7,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,indefinite,mouse,A mouse lives in my house.,3227,2,13526,1,example
+LXBW0NU7JBL3CDXZDF1Q30VXP2A2E7,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,fence,The fences kept out ll the unwanted neighbors.,2142,2,5617,8,target
+1MKLQIN5AAEB42OI9NB91CRT9V30DV,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,indefinite,cow,A cow mooed early in the morning and woke us up.,2318,2,3583,9,target
+E12MEAX1LUIJ6YNWFG4KLT54MGMM1G,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,gorilla,The gorillas are at the zoo,1113,2,6828,14,target
+VPGL8SAMK3UTF796VYIT3RL66CV9OP,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,squirrel,The squirrels used to run in large herds in the U.S.,203,1,6325,15,target
+JI8CTX1WTUQ3IEX8HFOHPTCPFR771M,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,definite,lamp,The lamps were on in the room.,1972,2,4403,16,target
+SYMQLPH7WP26W8CE3WSV4NNCYWEGLW,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,rabbit,The rabbit can really hop,3679,1,11140,17,target
+DB9RLB7PX0P6QZZBM3RPQL2PBGD38A,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,dog,The dogs barked and played,1138,2,4064,10,target
+0CUUITEOX8XVAQEDW24UIQCPLB9A3E,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,indefinite,gorilla,Gorillas growled at each other.,3404,2,2938,11,target
+AB2B60YS7OSHYAWF1A0796KWBHPFWA,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,kangaroo,The kangaroos are mean,1062,2,3943,12,target
+D7N2873QP3L9SCU5PKTV3RCQMKAHHJ,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,cow,The cows provide milk and meat.,514,1,4292,13,target
+7A6NYWL1EBWY01L9N2459LO713O9TP,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,cat,The cats are catching mice.,3880,2,3035,36,target
+05S2Q3589L9CZECPH0C3RYKA2GD09Y,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,indefinite,lion,A lion is roaring at the antelope.,2255,2,2501,37,target
+44NOMRGGXJ7KQFOPG9PCVAYPY8II3X,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,definite,chair,The chair needed to be fixed,1686,2,2584,34,target
+9D9FOAIMVP690TG6GFL4QJZ7Q8BLZP,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,squirrel,The squirrel is gathering nuts.,3806,2,2537,35,target
+TK143W6ITD2NEZ2JXPW1PF3LY9YW17,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,singular,definite,skunk,The skunk was smelling pretty funky today.,2064,2,5107,18,target
+N5M1GYJ5KK199WV4M3WEMQVBDE5GED,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,indefinite,kangaroo,Kangaroos are located in Australia.,1494,1,4864,19,target
+5ODRFZLSGJ5A677M0KXLEB75HD946Q,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,definite,fox,The foxes are hiding from the hunters.,19,2,4637,30,target
+6T9NPUK4TYFXYJ6BTRU6XHVHQA46ZJ,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,indefinite,kite,A kite flies high in the sky on a windy day,4210,2,4591,31,target
+YELRD74NUBAGUF9CSXSIKITUO3ZIFT,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,singular,definite,knife,The knife cut through the meat,1128,2,3429,38,target
+MLTVNN4ATSE7CL5KWEPXIDCLY7BPB8,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,indefinite,light bulb,Light bulbs snapped on in my head as I realized the answer had been there all along.,3982,2,12051,51,target
+YYO93CIUWCF03OZ1PKHGOE543TJJ8K,Wed May 20 10:51:38 PDT 2015,"""english""","""""",inanimate,plural,indefinite,piano,Pianos have black and white keys.,2154,1,3277,32,target
+Y5SL02UFUXDIBUZ0G5VR0BLDY7YMVR,Wed May 20 10:51:38 PDT 2015,"""english""","""""",animate,plural,indefinite,panda,Pandas are now in our local zoo.,1505,2,3856,52,target
